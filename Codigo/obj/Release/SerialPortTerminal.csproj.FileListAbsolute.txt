@@ -1,0 +1,192 @@
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\PUBLICACION\AnnarComYUMIZEN.exe.config
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\PUBLICACION\AnnarComYUMIZEN.exe.manifest
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\PUBLICACION\AnnarComYUMIZEN.application
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\PUBLICACION\AnnarComYUMIZEN.exe
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\PUBLICACION\AnnarComYUMIZEN.pdb
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Release\SerialPortTerminal.frmAbout.resources
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Release\AnnarComm.Config.resources
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Release\SerialPortTerminal.frmTerminal.resources
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Release\AnnarComYUMIZEN.Properties.Resources.resources
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Release\SerialPortTerminal.csproj.GenerateResource.cache
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Release\SerialPortTerminal.csproj.CoreCompileInputs.cache
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Release\AnnarComYUMIZEN.exe.manifest
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Release\AnnarComYUMIZEN.application
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Release\SerialPortTerminal.csproj.CopyComplete
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Release\AnnarComYUMIZEN.exe
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Release\AnnarComYUMIZEN.pdb
+D:\APPS_ANNAR\Repository\DM\yumizen\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Release\SerialPortTerminal.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\PUBLICACION\AnnarComYUMIZEN.exe.config
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\PUBLICACION\AnnarComYUMIZEN.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\PUBLICACION\AnnarComYUMIZEN.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\PUBLICACION\AnnarComYUMIZEN.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\PUBLICACION\AnnarComYUMIZEN.pdb
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Release\SerialPortTerminal.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Release\SerialPortTerminal.frmAbout.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Release\AnnarComm.Config.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Release\SerialPortTerminal.frmTerminal.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Release\AnnarComYUMIZEN.Properties.Resources.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Release\SerialPortTerminal.csproj.GenerateResource.cache
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Release\AnnarComYUMIZEN.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Release\AnnarComYUMIZEN.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Release\SerialPortTerminal.csproj.CopyComplete
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Release\AnnarComYUMIZEN.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Release\AnnarComYUMIZEN.pdb
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\PUBLICACION\AnnarComWLCounter.exe.config
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\PUBLICACION\AnnarComWLCounter.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\PUBLICACION\AnnarComWLCounter.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\PUBLICACION\AnnarComWLCounter.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\PUBLICACION\AnnarComWLCounter.pdb
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\PUBLICACION\AnnarComWLCounter.exe.config
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\PUBLICACION\AnnarComWLCounter.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\PUBLICACION\AnnarComWLCounter.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\PUBLICACION\AnnarComWLCounter.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\PUBLICACION\AnnarComWLCounter.pdb
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\PUBLICACION\AnnarComWLCounter.exe.config
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\PUBLICACION\AnnarComWLCounter.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\PUBLICACION\AnnarComWLCounter.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\PUBLICACION\AnnarComWLCounter.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\PUBLICACION\AnnarComWLCounter.pdb
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\Codigo\obj\Release\SerialPortTerminal.frmAbout.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\Codigo\obj\Release\AnnarComm.Config.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\Codigo\obj\Release\SerialPortTerminal.frmTerminal.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\Codigo\obj\Release\AnnarComWLCounter.Properties.Resources.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\Codigo\obj\Release\SerialPortTerminal.csproj.GenerateResource.cache
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\Codigo\obj\Release\AnnarComWLCounter.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\Codigo\obj\Release\AnnarComWLCounter.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\Codigo\obj\Release\SerialPortTerminal.csproj.CopyComplete
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\Codigo\obj\Release\AnnarComWLCounter.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\Codigo\obj\Release\AnnarComWLCounter.pdb
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\PUBLICACION\AnnarComBC2800.exe.config
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\PUBLICACION\AnnarComBC2800.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\PUBLICACION\AnnarComBC2800.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\PUBLICACION\AnnarComBC2800.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\PUBLICACION\AnnarComBC2800.pdb
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Release\SerialPortTerminal.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Release\SerialPortTerminal.frmAbout.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Release\AnnarComm.Config.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Release\SerialPortTerminal.frmTerminal.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Release\AnnarComBC2800.Properties.Resources.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Release\SerialPortTerminal.csproj.GenerateResource.cache
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Release\AnnarComBC2800.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Release\AnnarComBC2800.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Release\SerialPortTerminal.csproj.CopyComplete
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Release\AnnarComBC2800.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Release\AnnarComBC2800.pdb
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.exe.config
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.pdb
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800_hematologia\Codigo\obj\Release\SerialPortTerminal.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800_hematologia\Codigo\obj\Release\SerialPortTerminal.frmAbout.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800_hematologia\Codigo\obj\Release\AnnarComm.Config.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800_hematologia\Codigo\obj\Release\SerialPortTerminal.frmTerminal.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800_hematologia\Codigo\obj\Release\AnnarComBC2800.Properties.Resources.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800_hematologia\Codigo\obj\Release\SerialPortTerminal.csproj.GenerateResource.cache
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800_hematologia\Codigo\obj\Release\AnnarComBC2800.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800_hematologia\Codigo\obj\Release\AnnarComBC2800.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800_hematologia\Codigo\obj\Release\SerialPortTerminal.csproj.CopyComplete
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800_hematologia\Codigo\obj\Release\AnnarComBC2800.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800_hematologia\Codigo\obj\Release\AnnarComBC2800.pdb
+D:\APPS_ANNAR\Repository\DM\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.exe.config
+D:\APPS_ANNAR\Repository\DM\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.exe.manifest
+D:\APPS_ANNAR\Repository\DM\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.application
+D:\APPS_ANNAR\Repository\DM\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.exe
+D:\APPS_ANNAR\Repository\DM\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.pdb
+D:\APPS_ANNAR\Repository\DM\bc_2800_hematologia\Codigo\obj\Release\SerialPortTerminal.frmAbout.resources
+D:\APPS_ANNAR\Repository\DM\bc_2800_hematologia\Codigo\obj\Release\AnnarComm.Config.resources
+D:\APPS_ANNAR\Repository\DM\bc_2800_hematologia\Codigo\obj\Release\SerialPortTerminal.frmTerminal.resources
+D:\APPS_ANNAR\Repository\DM\bc_2800_hematologia\Codigo\obj\Release\AnnarComBC2800.Properties.Resources.resources
+D:\APPS_ANNAR\Repository\DM\bc_2800_hematologia\Codigo\obj\Release\SerialPortTerminal.csproj.GenerateResource.cache
+D:\APPS_ANNAR\Repository\DM\bc_2800_hematologia\Codigo\obj\Release\SerialPortTerminal.csproj.CoreCompileInputs.cache
+D:\APPS_ANNAR\Repository\DM\bc_2800_hematologia\Codigo\obj\Release\AnnarComBC2800.exe.manifest
+D:\APPS_ANNAR\Repository\DM\bc_2800_hematologia\Codigo\obj\Release\AnnarComBC2800.application
+D:\APPS_ANNAR\Repository\DM\bc_2800_hematologia\Codigo\obj\Release\SerialPortTerminal.csproj.CopyComplete
+D:\APPS_ANNAR\Repository\DM\bc_2800_hematologia\Codigo\obj\Release\AnnarComBC2800.exe
+D:\APPS_ANNAR\Repository\DM\bc_2800_hematologia\Codigo\obj\Release\AnnarComBC2800.pdb
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.exe.config
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.exe.manifest
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.application
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.exe
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.pdb
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Release\SerialPortTerminal.csprojAssemblyReference.cache
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Release\SerialPortTerminal.frmAbout.resources
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Release\AnnarComm.Config.resources
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Release\SerialPortTerminal.frmTerminal.resources
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Release\AnnarComBC2800.Properties.Resources.resources
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Release\SerialPortTerminal.csproj.GenerateResource.cache
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Release\SerialPortTerminal.csproj.CoreCompileInputs.cache
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Release\AnnarComBC2800.exe.manifest
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Release\AnnarComBC2800.application
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Release\SerialPortTerminal.csproj.CopyComplete
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Release\AnnarComBC2800.exe
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Release\AnnarComBC2800.pdb
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\PUBLICACION\AnnarComBC2800.exe.config
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\PUBLICACION\AnnarComBC2800.exe.manifest
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\PUBLICACION\AnnarComBC2800.application
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\PUBLICACION\AnnarComBC2800.exe
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\PUBLICACION\AnnarComBC2800.pdb
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Release\SerialPortTerminal.csprojAssemblyReference.cache
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Release\SerialPortTerminal.frmAbout.resources
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Release\AnnarComm.Config.resources
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Release\SerialPortTerminal.frmTerminal.resources
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Release\AnnarComBC2800.Properties.Resources.resources
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Release\SerialPortTerminal.csproj.GenerateResource.cache
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Release\SerialPortTerminal.csproj.CoreCompileInputs.cache
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Release\AnnarComBC2800.exe.manifest
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Release\AnnarComBC2800.application
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Release\SerialPortTerminal.csproj.CopyComplete
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Release\AnnarComBC2800.exe
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Release\AnnarComBC2800.pdb
+D:\APPS_ANNAR\Repository\DM\bc-2800\PUBLICACION\AnnarComBC2800.exe.config
+D:\APPS_ANNAR\Repository\DM\bc-2800\PUBLICACION\AnnarComBC2800.exe.manifest
+D:\APPS_ANNAR\Repository\DM\bc-2800\PUBLICACION\AnnarComBC2800.application
+D:\APPS_ANNAR\Repository\DM\bc-2800\PUBLICACION\AnnarComBC2800.exe
+D:\APPS_ANNAR\Repository\DM\bc-2800\PUBLICACION\AnnarComBC2800.pdb
+D:\APPS_ANNAR\Repository\DM\bc-2800\Codigo\obj\Release\SerialPortTerminal.csprojAssemblyReference.cache
+D:\APPS_ANNAR\Repository\DM\bc-2800\Codigo\obj\Release\SerialPortTerminal.frmAbout.resources
+D:\APPS_ANNAR\Repository\DM\bc-2800\Codigo\obj\Release\AnnarComm.Config.resources
+D:\APPS_ANNAR\Repository\DM\bc-2800\Codigo\obj\Release\SerialPortTerminal.frmTerminal.resources
+D:\APPS_ANNAR\Repository\DM\bc-2800\Codigo\obj\Release\AnnarComBC2800.Properties.Resources.resources
+D:\APPS_ANNAR\Repository\DM\bc-2800\Codigo\obj\Release\SerialPortTerminal.csproj.GenerateResource.cache
+D:\APPS_ANNAR\Repository\DM\bc-2800\Codigo\obj\Release\SerialPortTerminal.csproj.CoreCompileInputs.cache
+D:\APPS_ANNAR\Repository\DM\bc-2800\Codigo\obj\Release\AnnarComBC2800.exe.manifest
+D:\APPS_ANNAR\Repository\DM\bc-2800\Codigo\obj\Release\AnnarComBC2800.application
+D:\APPS_ANNAR\Repository\DM\bc-2800\Codigo\obj\Release\SerialPortTerminal.csproj.CopyComplete
+D:\APPS_ANNAR\Repository\DM\bc-2800\Codigo\obj\Release\AnnarComBC2800.exe
+D:\APPS_ANNAR\Repository\DM\bc-2800\Codigo\obj\Release\AnnarComBC2800.pdb
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\PUBLICACION\AnnarComBC2800.exe.config
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\PUBLICACION\AnnarComBC2800.exe.manifest
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\PUBLICACION\AnnarComBC2800.application
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\PUBLICACION\AnnarComBC2800.exe
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\PUBLICACION\AnnarComBC2800.pdb
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Release\SerialPortTerminal.frmAbout.resources
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Release\AnnarComm.Config.resources
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Release\SerialPortTerminal.frmTerminal.resources
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Release\AnnarComBC2800.Properties.Resources.resources
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Release\SerialPortTerminal.csproj.GenerateResource.cache
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Release\SerialPortTerminal.csproj.CoreCompileInputs.cache
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Release\AnnarComBC2800.exe.manifest
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Release\AnnarComBC2800.application
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Release\SerialPortTerminal.csproj.CopyComplete
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Release\AnnarComBC2800.exe
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Release\AnnarComBC2800.pdb
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Release\SerialPortTerminal.csproj.AssemblyReference.cache
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Release\SerialPortTerminal.csproj.AssemblyReference.cache
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Release\SerialPortTerminal.csproj.SuggestedBindingRedirects.cache
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Release\SerialPortTerminal.frmAbout.resources
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Release\AnnarComm.Config.resources
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Release\SerialPortTerminal.frmTerminal.resources
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Release\AnnarComMICROSESV60.Properties.Resources.resources
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Release\SerialPortTerminal.csproj.GenerateResource.cache
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Release\SerialPortTerminal.csproj.CoreCompileInputs.cache
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\PUBLICACION\AnnarComMICROSESV60.exe.config
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\PUBLICACION\AnnarComMICROSESV60.exe.manifest
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\PUBLICACION\AnnarComMICROSESV60.application
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\PUBLICACION\AnnarComMICROSESV60.exe
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\PUBLICACION\AnnarComMICROSESV60.pdb
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Release\AnnarComMICROSESV60.exe.manifest
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Release\AnnarComMICROSESV60.application
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Release\SerialPortTerminal.csproj.CopyComplete
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Release\AnnarComMICROSESV60.exe
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Release\AnnarComMICROSESV60.pdb

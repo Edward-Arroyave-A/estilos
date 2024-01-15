@@ -1,0 +1,392 @@
+D:\APPS\UrilyzerSED_SmartCom\bin\Debug\AnnarComm.exe.config
+D:\APPS\UrilyzerSED_SmartCom\bin\Debug\AnnarComm.exe.manifest
+D:\APPS\UrilyzerSED_SmartCom\bin\Debug\AnnarComm.application
+D:\APPS\UrilyzerSED_SmartCom\bin\Debug\AnnarComm.exe
+D:\APPS\UrilyzerSED_SmartCom\bin\Debug\AnnarComm.pdb
+D:\APPS\UrilyzerSED_SmartCom\bin\Debug\Npgsql.dll
+D:\APPS\UrilyzerSED_SmartCom\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\APPS\UrilyzerSED_SmartCom\bin\Debug\Npgsql.xml
+D:\APPS\UrilyzerSED_SmartCom\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\APPS\UrilyzerSED_SmartCom\obj\Debug\SerialPortTerminal.frmAbout.resources
+D:\APPS\UrilyzerSED_SmartCom\obj\Debug\SerialPortTerminal.frmTerminal.resources
+D:\APPS\UrilyzerSED_SmartCom\obj\Debug\AnnarComm.Properties.Resources.resources
+D:\APPS\UrilyzerSED_SmartCom\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+D:\APPS\UrilyzerSED_SmartCom\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+D:\APPS\UrilyzerSED_SmartCom\obj\Debug\AnnarComm.exe.manifest
+D:\APPS\UrilyzerSED_SmartCom\obj\Debug\AnnarComm.application
+D:\APPS\UrilyzerSED_SmartCom\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+D:\APPS\UrilyzerSED_SmartCom\obj\Debug\AnnarComm.exe
+D:\APPS\UrilyzerSED_SmartCom\obj\Debug\AnnarComm.pdb
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\obj\Debug\SerialPortTerminal.frmAbout.resources
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\obj\Debug\SerialPortTerminal.frmTerminal.resources
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\obj\Debug\AnnarComm.Properties.Resources.resources
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\bin\Debug\AnnarComm.exe.config
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\bin\Debug\AnnarComm.exe.manifest
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\bin\Debug\AnnarComm.application
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\bin\Debug\AnnarComm.exe
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\bin\Debug\AnnarComm.pdb
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\bin\Debug\Npgsql.dll
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\bin\Debug\Npgsql.xml
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\obj\Debug\AnnarComm.exe.manifest
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\obj\Debug\AnnarComm.application
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\obj\Debug\AnnarComm.exe
+D:\APPS\Urilyzer_SmartCom_ASTM_VIVA\obj\Debug\AnnarComm.pdb
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\bin\Debug\AnnarComm.exe.config
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\bin\Debug\AnnarComm.exe.manifest
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\bin\Debug\AnnarComm.application
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\bin\Debug\AnnarComm.exe
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\bin\Debug\AnnarComm.pdb
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\bin\Debug\Npgsql.dll
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\bin\Debug\Npgsql.xml
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\obj\Debug\SerialPortTerminal.frmAbout.resources
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\obj\Debug\SerialPortTerminal.frmTerminal.resources
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\obj\Debug\AnnarComm.Properties.Resources.resources
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\obj\Debug\AnnarComm.exe.manifest
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\obj\Debug\AnnarComm.application
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\obj\Debug\AnnarComm.exe
+D:\APPS\Liaison_Convencional_SmartCom_ASTM_VIVA\obj\Debug\AnnarComm.pdb
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\bin\Debug\AnnarComm.exe.config
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\bin\Debug\AnnarComm.exe.manifest
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\bin\Debug\AnnarComm.application
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\bin\Debug\AnnarComm.exe
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\bin\Debug\AnnarComm.pdb
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\bin\Debug\Npgsql.dll
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\bin\Debug\Npgsql.xml
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\bin\Debug\System.Threading.Tasks.Extensions.xml
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\obj\Debug\SerialPortTerminal.frmAbout.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\obj\Debug\SerialPortTerminal.frmTerminal.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\obj\Debug\AnnarComm.Properties.Resources.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\obj\Debug\AnnarComm.exe.manifest
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\obj\Debug\AnnarComm.application
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\obj\Debug\AnnarComm.exe
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\obj\Debug\AnnarComm.pdb
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DSX - ASTM - SERIAL\obj\Debug\AnnarComm.Config.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\bin\Debug\AnnarCommDS2.exe.config
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\bin\Debug\AnnarCommDS2.exe.manifest
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\bin\Debug\AnnarCommDS2.application
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\bin\Debug\AnnarCommDS2.exe
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\bin\Debug\AnnarCommDS2.pdb
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\bin\Debug\Npgsql.dll
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\bin\Debug\Npgsql.xml
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\bin\Debug\System.Threading.Tasks.Extensions.xml
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\obj\Debug\SerialPortTerminal.frmAbout.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\obj\Debug\AnnarComm.Config.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\obj\Debug\SerialPortTerminal.frmTerminal.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\obj\Debug\AnnarCommDS2.Properties.Resources.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\obj\Debug\AnnarCommDS2.exe.manifest
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\obj\Debug\AnnarCommDS2.application
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\obj\Debug\AnnarCommDS2.exe
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\obj\Debug\AnnarCommDS2.pdb
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\DS2 - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csprojAssemblyReference.cache
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\bin\Debug\AnnarCommDSX.exe.config
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\bin\Debug\AnnarCommDSX.exe.manifest
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\bin\Debug\AnnarCommDSX.application
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\bin\Debug\AnnarCommDSX.exe
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\bin\Debug\AnnarCommDSX.pdb
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\bin\Debug\Npgsql.dll
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\bin\Debug\Npgsql.xml
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\bin\Debug\System.Threading.Tasks.Extensions.xml
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\obj\Debug\SerialPortTerminal.frmAbout.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\obj\Debug\AnnarComm.Config.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\obj\Debug\SerialPortTerminal.frmTerminal.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\obj\Debug\AnnarCommDSX.Properties.Resources.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\obj\Debug\AnnarCommDSX.exe.manifest
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\obj\Debug\AnnarCommDSX.application
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\obj\Debug\AnnarCommDSX.exe
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\DSX - ASTM - SERIAL\obj\Debug\AnnarCommDSX.pdb
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csprojAssemblyReference.cache
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\obj\Debug\SerialPortTerminal.frmAbout.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\obj\Debug\AnnarComm.Config.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\obj\Debug\SerialPortTerminal.frmTerminal.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\obj\Debug\AnnarComCL1000.Properties.Resources.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\bin\Debug\AnnarComCL1000.exe.config
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\bin\Debug\AnnarComCL1000.exe.manifest
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\bin\Debug\AnnarComCL1000.application
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\bin\Debug\AnnarComCL1000.exe
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\bin\Debug\AnnarComCL1000.pdb
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\bin\Debug\Npgsql.dll
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\bin\Debug\Npgsql.xml
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\bin\Debug\System.Threading.Tasks.Extensions.xml
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\obj\Debug\AnnarComCL1000.exe.manifest
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\obj\Debug\AnnarComCL1000.application
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\obj\Debug\AnnarComCL1000.exe
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1000 - ASTM - SERIAL\obj\Debug\AnnarComCL1000.pdb
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csprojAssemblyReference.cache
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.frmAbout.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\obj\Debug\AnnarComm.Config.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.frmTerminal.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\obj\Debug\AnnarComCL1200.Properties.Resources.resources
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\bin\Debug\AnnarComCL1200.exe.config
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\bin\Debug\AnnarComCL1200.exe.manifest
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\bin\Debug\AnnarComCL1200.application
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\bin\Debug\AnnarComCL1200.exe
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\bin\Debug\AnnarComCL1200.pdb
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\bin\Debug\Npgsql.dll
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\bin\Debug\Npgsql.xml
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\bin\Debug\System.Threading.Tasks.Extensions.xml
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\obj\Debug\AnnarComCL1200.exe.manifest
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\obj\Debug\AnnarComCL1200.application
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\obj\Debug\AnnarComCL1200.exe
+K:\Codigos\Entregables\Interfaces\DM - Policia - Sisap\AJUSTADAS\CL1200i - ASTM - SERIAL\obj\Debug\AnnarComCL1200.pdb
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\bin\Debug\AnnarComCL1200.exe.config
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\bin\Debug\AnnarComCL1200.exe.manifest
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\bin\Debug\AnnarComCL1200.application
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\bin\Debug\AnnarComCL1200.exe
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\bin\Debug\AnnarComCL1200.pdb
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\bin\Debug\Npgsql.dll
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\bin\Debug\Npgsql.xml
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\bin\Debug\System.Threading.Tasks.Extensions.xml
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csprojAssemblyReference.cache
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.frmAbout.resources
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\obj\Debug\AnnarComm.Config.resources
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.frmTerminal.resources
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\obj\Debug\AnnarComCL1200.Properties.Resources.resources
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\obj\Debug\AnnarComCL1200.exe.manifest
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\obj\Debug\AnnarComCL1200.application
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\obj\Debug\AnnarComCL1200.exe
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1200i\CL1200i - ASTM - SERIAL\obj\Debug\AnnarComCL1200.pdb
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\bin\Debug\AnnarComCL1000.exe.config
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\bin\Debug\AnnarComCL1000.exe.manifest
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\bin\Debug\AnnarComCL1000.application
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\bin\Debug\AnnarComCL1000.exe
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\bin\Debug\AnnarComCL1000.pdb
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\bin\Debug\Npgsql.dll
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\bin\Debug\Npgsql.xml
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\bin\Debug\System.Threading.Tasks.Extensions.xml
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csprojAssemblyReference.cache
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.frmAbout.resources
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\obj\Debug\AnnarComm.Config.resources
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.frmTerminal.resources
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\obj\Debug\AnnarComCL1000.Properties.Resources.resources
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\obj\Debug\AnnarComCL1000.exe.manifest
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\obj\Debug\AnnarComCL1000.application
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\obj\Debug\AnnarComCL1000.exe
+K:\Codigos\Entregables\Interfaces\DM - Mindray CL-1000i\CL1000i - ASTM - SERIAL\obj\Debug\AnnarComCL1000.pdb
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Debug\SerialPortTerminal.frmAbout.resources
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Debug\AnnarComm.Config.resources
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Debug\SerialPortTerminal.frmTerminal.resources
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Debug\AnnarComYUMIZEN.Properties.Resources.resources
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\bin\Debug\AnnarComYUMIZEN.exe.config
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\bin\Debug\AnnarComYUMIZEN.exe.manifest
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\bin\Debug\AnnarComYUMIZEN.application
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\bin\Debug\AnnarComYUMIZEN.exe
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\bin\Debug\AnnarComYUMIZEN.pdb
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\bin\Debug\Npgsql.dll
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\bin\Debug\Npgsql.xml
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Debug\AnnarComYUMIZEN.exe.manifest
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Debug\AnnarComYUMIZEN.application
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Debug\AnnarComYUMIZEN.exe
+D:\APPS_ANNAR\Repository\DM\YUMIZEN\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Debug\AnnarComYUMIZEN.pdb
+D:\APPS_ANNAR\Repository\DM\yumizen\DM_Yumizen_Horiba\YUMIZEN_ASTM_SERIAL\obj\Debug\SerialPortTerminal.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Debug\SerialPortTerminal.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Debug\SerialPortTerminal.frmAbout.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Debug\AnnarComm.Config.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Debug\SerialPortTerminal.frmTerminal.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\bin\Debug\AnnarComMNCHIP.exe.config
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\bin\Debug\AnnarComMNCHIP.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\bin\Debug\AnnarComMNCHIP.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\bin\Debug\AnnarComMNCHIP.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\bin\Debug\AnnarComMNCHIP.pdb
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\bin\Debug\Npgsql.dll
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\bin\Debug\Npgsql.xml
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Debug\AnnarComMNCHIP.Properties.Resources.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Debug\AnnarComMNCHIP.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Debug\AnnarComMNCHIP.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Debug\AnnarComMNCHIP.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\MNCHIP\V1.0.0.1\FUENTES\obj\Debug\AnnarComMNCHIP.pdb
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\obj\Debug\SerialPortTerminal.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\obj\Debug\SerialPortTerminal.frmAbout.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\obj\Debug\AnnarComm.Config.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\obj\Debug\SerialPortTerminal.frmTerminal.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\obj\Debug\AnnarComWlCounter.Properties.Resources.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\bin\Debug\AnnarComWLCounter.exe.config
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\bin\Debug\AnnarComWLCounter.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\bin\Debug\AnnarComWLCounter.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\bin\Debug\AnnarComWLCounter.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\bin\Debug\AnnarComWLCounter.pdb
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\bin\Debug\Npgsql.dll
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\bin\Debug\Npgsql.xml
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\obj\Debug\AnnarComWLCounter.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\obj\Debug\AnnarComWLCounter.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\obj\Debug\AnnarComWLCounter.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\WL COUNTER\FUENTES\wlcounter\obj\Debug\AnnarComWLCounter.pdb
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\bin\Debug\AnnarComBC2800.exe.config
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\bin\Debug\AnnarComBC2800.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\bin\Debug\AnnarComBC2800.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\bin\Debug\AnnarComBC2800.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\bin\Debug\AnnarComBC2800.pdb
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\bin\Debug\Npgsql.dll
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\bin\Debug\Npgsql.xml
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\PUBLICACION\AnnarComBC2800.exe.config
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\PUBLICACION\AnnarComBC2800.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\PUBLICACION\AnnarComBC2800.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\PUBLICACION\AnnarComBC2800.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\PUBLICACION\AnnarComBC2800.pdb
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Debug\SerialPortTerminal.frmAbout.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Debug\AnnarComm.Config.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Debug\SerialPortTerminal.frmTerminal.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Debug\AnnarComBC2800.Properties.Resources.resources
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Debug\AnnarComBC2800.exe.manifest
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Debug\AnnarComBC2800.application
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Debug\AnnarComBC2800.exe
+C:\Users\Administrador\Documents\ANNAR\LIS\INTERFACES\BC2800\FUENTES\bc_2800\Codigo\obj\Debug\AnnarComBC2800.pdb
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.exe.config
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.exe.manifest
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.application
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.exe
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\PUBLICACION\AnnarComBC2800.pdb
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Debug\SerialPortTerminal.frmAbout.resources
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Debug\AnnarComm.Config.resources
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Debug\SerialPortTerminal.frmTerminal.resources
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Debug\AnnarComBC2800.Properties.Resources.resources
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Debug\AnnarComBC2800.exe.manifest
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Debug\AnnarComBC2800.application
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Debug\AnnarComBC2800.exe
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Debug\AnnarComBC2800.pdb
+C:\Users\alzate.juan\OneDrive - ANNAR DIAGNOSTICA IMPORT SAS\Imágenes\bc_2800_hematologia\Codigo\obj\Debug\SerialPortTerminal.csprojAssemblyReference.cache
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\PUBLICACION\AnnarComBC2800.exe.config
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\PUBLICACION\AnnarComBC2800.exe.manifest
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\PUBLICACION\AnnarComBC2800.application
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\PUBLICACION\AnnarComBC2800.exe
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\PUBLICACION\AnnarComBC2800.pdb
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Debug\SerialPortTerminal.csprojAssemblyReference.cache
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Debug\SerialPortTerminal.frmAbout.resources
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Debug\AnnarComm.Config.resources
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Debug\SerialPortTerminal.frmTerminal.resources
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Debug\AnnarComBC2800.Properties.Resources.resources
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Debug\AnnarComBC2800.exe.manifest
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Debug\AnnarComBC2800.application
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Debug\AnnarComBC2800.exe
+C:\REPOSITORIO\Development_DM_Veterinary\bc-2800\Codigo\obj\Debug\AnnarComBC2800.pdb
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\PUBLICACION\AnnarComBC2800.exe.config
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\PUBLICACION\AnnarComBC2800.exe.manifest
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\PUBLICACION\AnnarComBC2800.application
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\PUBLICACION\AnnarComBC2800.exe
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\PUBLICACION\AnnarComBC2800.pdb
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Debug\SerialPortTerminal.frmAbout.resources
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Debug\AnnarComm.Config.resources
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Debug\SerialPortTerminal.frmTerminal.resources
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Debug\AnnarComBC2800.Properties.Resources.resources
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Debug\AnnarComBC2800.exe.manifest
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Debug\AnnarComBC2800.application
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Debug\AnnarComBC2800.exe
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Debug\AnnarComBC2800.pdb
+C:\ANNAR\DESARROLLO\LIS\INTERFACES\bc-2800\Codigo\obj\Debug\SerialPortTerminal.csproj.AssemblyReference.cache
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\PUBLICACION\AnnarComMICROSESV60.exe.config
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\PUBLICACION\AnnarComMICROSESV60.exe.manifest
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\PUBLICACION\AnnarComMICROSESV60.application
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\PUBLICACION\AnnarComMICROSESV60.exe
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\PUBLICACION\AnnarComMICROSESV60.pdb
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Debug\SerialPortTerminal.csproj.AssemblyReference.cache
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Debug\SerialPortTerminal.csproj.SuggestedBindingRedirects.cache
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Debug\SerialPortTerminal.frmAbout.resources
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Debug\AnnarComm.Config.resources
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Debug\SerialPortTerminal.frmTerminal.resources
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Debug\AnnarComMICROSESV60.Properties.Resources.resources
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Debug\AnnarComMICROSESV60.exe.manifest
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Debug\AnnarComMICROSESV60.application
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Debug\AnnarComMICROSESV60.exe
+C:\ANNAR\DESARROLLO Prueba\DM_VETERINARIA_BC-2800\Codigo\obj\Debug\AnnarComMICROSESV60.pdb
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\PUBLICACION\AnnarComMICROSESV60.exe.config
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\PUBLICACION\AnnarComMICROSESV60.exe.manifest
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\PUBLICACION\AnnarComMICROSESV60.application
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\PUBLICACION\AnnarComMICROSESV60.exe
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\PUBLICACION\AnnarComMICROSESV60.pdb
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\Codigo\obj\Debug\SerialPortTerminal.csproj.AssemblyReference.cache
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\Codigo\obj\Debug\SerialPortTerminal.csproj.SuggestedBindingRedirects.cache
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\Codigo\obj\Debug\SerialPortTerminal.frmAbout.resources
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\Codigo\obj\Debug\AnnarComm.Config.resources
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\Codigo\obj\Debug\SerialPortTerminal.frmTerminal.resources
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.Properties.Resources.resources
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\Codigo\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\Codigo\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.exe.manifest
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.application
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\Codigo\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.exe
+C:\ANNAR\DESARROLLO\LIS\INTERFACES DM VETRINARIA\DM_VETERINARIA_MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.pdb
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\PUBLICACION\AnnarComMICROSESV60.exe.config
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\PUBLICACION\AnnarComMICROSESV60.exe.manifest
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\PUBLICACION\AnnarComMICROSESV60.application
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\PUBLICACION\AnnarComMICROSESV60.exe
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\PUBLICACION\AnnarComMICROSESV60.pdb
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\Codigo\obj\Debug\SerialPortTerminal.csproj.AssemblyReference.cache
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\Codigo\obj\Debug\SerialPortTerminal.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\Codigo\obj\Debug\SerialPortTerminal.frmAbout.resources
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\Codigo\obj\Debug\AnnarComm.Config.resources
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\Codigo\obj\Debug\SerialPortTerminal.frmTerminal.resources
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\Codigo\obj\Debug\AnnarComMICROSESV60.Properties.Resources.resources
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\Codigo\obj\Debug\SerialPortTerminal.csproj.GenerateResource.cache
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\Codigo\obj\Debug\SerialPortTerminal.csproj.CoreCompileInputs.cache
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\Codigo\obj\Debug\AnnarComMICROSESV60.exe.manifest
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\Codigo\obj\Debug\AnnarComMICROSESV60.application
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\Codigo\obj\Debug\SerialPortTerminal.csproj.CopyComplete
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\Codigo\obj\Debug\AnnarComMICROSESV60.exe
+C:\Users\Hgonzalez\Desktop\DM_VETERINARIA_MICROSESV60 - ultima version error log\Codigo\obj\Debug\AnnarComMICROSESV60.pdb
