@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AnnarComMICROSESV60.exe" size="3703296">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AnnarComMICROSESV60.exe" size="3704832">
       <assemblyIdentity name="AnnarComMICROSESV60" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0MKp9Vv+3MeWPuwe90UkrwUzzqH6i+csMMDnT8kNZx4=</dsig:DigestValue>
+        <dsig:DigestValue>HCZlDyEXa2ANIyXGNxdo+K5VyouQk8e9xSpqk5Aw/vc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
