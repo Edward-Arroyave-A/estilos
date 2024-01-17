@@ -33,8 +33,6 @@
             this.timerIntervalos = new System.Windows.Forms.Timer(this.components);
             this.lblIntervalos = new System.Windows.Forms.Label();
             this.flpContenedorResul = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnOpenPort = new System.Windows.Forms.Button();
-            this.btnPuerto = new System.Windows.Forms.Button();
             this.pnlSubMenu = new System.Windows.Forms.Panel();
             this.lblComPort = new System.Windows.Forms.Label();
             this.lblBaudRate = new System.Windows.Forms.Label();
@@ -45,7 +43,16 @@
             this.cmbDataBits = new System.Windows.Forms.ComboBox();
             this.cmbParity = new System.Windows.Forms.ComboBox();
             this.cmbBaudRate = new System.Windows.Forms.ComboBox();
-            this.cmbPortName = new System.Windows.Forms.ComboBox();
+            this.chkDSR = new System.Windows.Forms.CheckBox();
+            this.chkCD = new System.Windows.Forms.CheckBox();
+            this.chkCTS = new System.Windows.Forms.CheckBox();
+            this.rbText = new System.Windows.Forms.RadioButton();
+            this.rbHex = new System.Windows.Forms.RadioButton();
+            this.chkClearWithDTR = new System.Windows.Forms.CheckBox();
+            this.chkClearOnOpen = new System.Windows.Forms.CheckBox();
+            this.chkRTS = new System.Windows.Forms.CheckBox();
+            this.chkDTR = new System.Windows.Forms.CheckBox();
+            this.tmrCheckComPorts = new System.Windows.Forms.Timer(this.components);
             this.pbStop = new System.Windows.Forms.PictureBox();
             this.pbData = new System.Windows.Forms.PictureBox();
             this.pbParity = new System.Windows.Forms.PictureBox();
@@ -57,16 +64,9 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.chkDSR = new System.Windows.Forms.CheckBox();
-            this.chkCD = new System.Windows.Forms.CheckBox();
-            this.chkCTS = new System.Windows.Forms.CheckBox();
-            this.rbText = new System.Windows.Forms.RadioButton();
-            this.rbHex = new System.Windows.Forms.RadioButton();
-            this.chkClearWithDTR = new System.Windows.Forms.CheckBox();
-            this.chkClearOnOpen = new System.Windows.Forms.CheckBox();
-            this.chkRTS = new System.Windows.Forms.CheckBox();
-            this.chkDTR = new System.Windows.Forms.CheckBox();
-            this.tmrCheckComPorts = new System.Windows.Forms.Timer(this.components);
+            this.btnOpenPort = new System.Windows.Forms.Button();
+            this.btnPuerto = new System.Windows.Forms.Button();
+            this.cmbPortName = new System.Windows.Forms.ComboBox();
             this.pnlSubMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbData)).BeginInit();
@@ -98,68 +98,22 @@
             // 
             // flpContenedorResul
             // 
-            this.flpContenedorResul.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.flpContenedorResul.AutoScroll = true;
             this.flpContenedorResul.BackColor = System.Drawing.Color.White;
             this.flpContenedorResul.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flpContenedorResul.Font = new System.Drawing.Font("Century Gothic", 9.25F, System.Drawing.FontStyle.Bold);
             this.flpContenedorResul.Location = new System.Drawing.Point(24, 315);
             this.flpContenedorResul.Name = "flpContenedorResul";
-            this.flpContenedorResul.Size = new System.Drawing.Size(709, 265);
+            this.flpContenedorResul.Size = new System.Drawing.Size(748, 265);
             this.flpContenedorResul.TabIndex = 16;
             this.flpContenedorResul.WrapContents = false;
             this.flpContenedorResul.Paint += new System.Windows.Forms.PaintEventHandler(this.flpContenedorResul_Paint);
             // 
-            // btnOpenPort
-            // 
-            this.btnOpenPort.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnOpenPort.BackColor = System.Drawing.Color.Transparent;
-            this.btnOpenPort.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOpenPort.BackgroundImage")));
-            this.btnOpenPort.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnOpenPort.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnOpenPort.FlatAppearance.BorderSize = 0;
-            this.btnOpenPort.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.btnOpenPort.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.btnOpenPort.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOpenPort.ForeColor = System.Drawing.Color.Transparent;
-            this.btnOpenPort.Location = new System.Drawing.Point(548, 14);
-            this.btnOpenPort.Name = "btnOpenPort";
-            this.btnOpenPort.Size = new System.Drawing.Size(185, 50);
-            this.btnOpenPort.TabIndex = 18;
-            this.btnOpenPort.UseVisualStyleBackColor = false;
-            this.btnOpenPort.Click += new System.EventHandler(this.btnOpenPort_Click);
-            // 
-            // btnPuerto
-            // 
-            this.btnPuerto.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnPuerto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.btnPuerto.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPuerto.BackgroundImage")));
-            this.btnPuerto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnPuerto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPuerto.FlatAppearance.BorderSize = 0;
-            this.btnPuerto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.btnPuerto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.btnPuerto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPuerto.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPuerto.ForeColor = System.Drawing.Color.White;
-            this.btnPuerto.Image = ((System.Drawing.Image)(resources.GetObject("btnPuerto.Image")));
-            this.btnPuerto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPuerto.Location = new System.Drawing.Point(24, 12);
-            this.btnPuerto.Name = "btnPuerto";
-            this.btnPuerto.Size = new System.Drawing.Size(502, 50);
-            this.btnPuerto.TabIndex = 17;
-            this.btnPuerto.Text = "Carga de resultados";
-            this.btnPuerto.UseVisualStyleBackColor = false;
-            this.btnPuerto.Click += new System.EventHandler(this.btnPuerto_Click);
-            // 
             // pnlSubMenu
             // 
             this.pnlSubMenu.AutoScroll = true;
-            this.pnlSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(239)))), ((int)(((byte)(230)))));
+            this.pnlSubMenu.BackColor = System.Drawing.Color.White;
+            this.pnlSubMenu.Controls.Add(this.cmbPortName);
             this.pnlSubMenu.Controls.Add(this.lblComPort);
             this.pnlSubMenu.Controls.Add(this.lblBaudRate);
             this.pnlSubMenu.Controls.Add(this.lblParity);
@@ -169,7 +123,6 @@
             this.pnlSubMenu.Controls.Add(this.cmbDataBits);
             this.pnlSubMenu.Controls.Add(this.cmbParity);
             this.pnlSubMenu.Controls.Add(this.cmbBaudRate);
-            this.pnlSubMenu.Controls.Add(this.cmbPortName);
             this.pnlSubMenu.Controls.Add(this.pbStop);
             this.pnlSubMenu.Controls.Add(this.pbData);
             this.pnlSubMenu.Controls.Add(this.pbParity);
@@ -182,9 +135,9 @@
             this.pnlSubMenu.Controls.Add(this.pictureBox2);
             this.pnlSubMenu.Controls.Add(this.pictureBox1);
             this.pnlSubMenu.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnlSubMenu.Location = new System.Drawing.Point(24, 67);
+            this.pnlSubMenu.Location = new System.Drawing.Point(24, 100);
             this.pnlSubMenu.Name = "pnlSubMenu";
-            this.pnlSubMenu.Size = new System.Drawing.Size(581, 152);
+            this.pnlSubMenu.Size = new System.Drawing.Size(748, 152);
             this.pnlSubMenu.TabIndex = 27;
             this.pnlSubMenu.Visible = false;
             this.pnlSubMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlSubMenu_Paint);
@@ -192,10 +145,10 @@
             // lblComPort
             // 
             this.lblComPort.AutoSize = true;
-            this.lblComPort.BackColor = System.Drawing.Color.White;
+            this.lblComPort.BackColor = System.Drawing.Color.Transparent;
             this.lblComPort.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblComPort.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(104)))), ((int)(((byte)(79)))));
-            this.lblComPort.Location = new System.Drawing.Point(81, 20);
+            this.lblComPort.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lblComPort.Location = new System.Drawing.Point(93, 9);
             this.lblComPort.Name = "lblComPort";
             this.lblComPort.Size = new System.Drawing.Size(62, 16);
             this.lblComPort.TabIndex = 11;
@@ -206,8 +159,8 @@
             this.lblBaudRate.AutoSize = true;
             this.lblBaudRate.BackColor = System.Drawing.Color.White;
             this.lblBaudRate.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBaudRate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(104)))), ((int)(((byte)(79)))));
-            this.lblBaudRate.Location = new System.Drawing.Point(262, 20);
+            this.lblBaudRate.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lblBaudRate.Location = new System.Drawing.Point(319, 9);
             this.lblBaudRate.Name = "lblBaudRate";
             this.lblBaudRate.Size = new System.Drawing.Size(63, 16);
             this.lblBaudRate.TabIndex = 17;
@@ -218,8 +171,8 @@
             this.lblParity.AutoSize = true;
             this.lblParity.BackColor = System.Drawing.Color.White;
             this.lblParity.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblParity.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(104)))), ((int)(((byte)(79)))));
-            this.lblParity.Location = new System.Drawing.Point(457, 20);
+            this.lblParity.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lblParity.Location = new System.Drawing.Point(561, 9);
             this.lblParity.Name = "lblParity";
             this.lblParity.Size = new System.Drawing.Size(40, 16);
             this.lblParity.TabIndex = 18;
@@ -230,8 +183,8 @@
             this.lblStopBits.AutoSize = true;
             this.lblStopBits.BackColor = System.Drawing.Color.White;
             this.lblStopBits.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStopBits.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(104)))), ((int)(((byte)(79)))));
-            this.lblStopBits.Location = new System.Drawing.Point(262, 85);
+            this.lblStopBits.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lblStopBits.Location = new System.Drawing.Point(319, 74);
             this.lblStopBits.Name = "lblStopBits";
             this.lblStopBits.Size = new System.Drawing.Size(56, 16);
             this.lblStopBits.TabIndex = 20;
@@ -242,8 +195,8 @@
             this.lblDataBits.AutoSize = true;
             this.lblDataBits.BackColor = System.Drawing.Color.White;
             this.lblDataBits.Font = new System.Drawing.Font("Microsoft YaHei", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDataBits.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(104)))), ((int)(((byte)(79)))));
-            this.lblDataBits.Location = new System.Drawing.Point(80, 85);
+            this.lblDataBits.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lblDataBits.Location = new System.Drawing.Point(93, 74);
             this.lblDataBits.Name = "lblDataBits";
             this.lblDataBits.Size = new System.Drawing.Size(56, 16);
             this.lblDataBits.TabIndex = 19;
@@ -257,9 +210,9 @@
             "1",
             "2",
             "3"});
-            this.cmbStopBits.Location = new System.Drawing.Point(259, 105);
+            this.cmbStopBits.Location = new System.Drawing.Point(316, 95);
             this.cmbStopBits.Name = "cmbStopBits";
-            this.cmbStopBits.Size = new System.Drawing.Size(90, 24);
+            this.cmbStopBits.Size = new System.Drawing.Size(141, 24);
             this.cmbStopBits.TabIndex = 12;
             // 
             // cmbDataBits
@@ -270,9 +223,9 @@
             "7",
             "8",
             "9"});
-            this.cmbDataBits.Location = new System.Drawing.Point(70, 105);
+            this.cmbDataBits.Location = new System.Drawing.Point(83, 95);
             this.cmbDataBits.Name = "cmbDataBits";
-            this.cmbDataBits.Size = new System.Drawing.Size(90, 24);
+            this.cmbDataBits.Size = new System.Drawing.Size(143, 24);
             this.cmbDataBits.TabIndex = 13;
             // 
             // cmbParity
@@ -283,9 +236,9 @@
             "None",
             "Even",
             "Odd"});
-            this.cmbParity.Location = new System.Drawing.Point(446, 40);
+            this.cmbParity.Location = new System.Drawing.Point(550, 30);
             this.cmbParity.Name = "cmbParity";
-            this.cmbParity.Size = new System.Drawing.Size(90, 24);
+            this.cmbParity.Size = new System.Drawing.Size(143, 24);
             this.cmbParity.TabIndex = 14;
             // 
             // cmbBaudRate
@@ -301,141 +254,17 @@
             "38400",
             "57600",
             "115200"});
-            this.cmbBaudRate.Location = new System.Drawing.Point(259, 40);
+            this.cmbBaudRate.Location = new System.Drawing.Point(316, 30);
             this.cmbBaudRate.Name = "cmbBaudRate";
-            this.cmbBaudRate.Size = new System.Drawing.Size(90, 24);
+            this.cmbBaudRate.Size = new System.Drawing.Size(141, 24);
             this.cmbBaudRate.TabIndex = 15;
-            // 
-            // cmbPortName
-            // 
-            this.cmbPortName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbPortName.FormattingEnabled = true;
-            this.cmbPortName.Items.AddRange(new object[] {
-            "COM1",
-            "COM2",
-            "COM3",
-            "COM4",
-            "COM5",
-            "COM6"});
-            this.cmbPortName.Location = new System.Drawing.Point(70, 40);
-            this.cmbPortName.Name = "cmbPortName";
-            this.cmbPortName.Size = new System.Drawing.Size(90, 24);
-            this.cmbPortName.TabIndex = 16;
-            // 
-            // pbStop
-            // 
-            this.pbStop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(104)))), ((int)(((byte)(79)))));
-            this.pbStop.Location = new System.Drawing.Point(257, 104);
-            this.pbStop.Name = "pbStop";
-            this.pbStop.Size = new System.Drawing.Size(94, 26);
-            this.pbStop.TabIndex = 21;
-            this.pbStop.TabStop = false;
-            // 
-            // pbData
-            // 
-            this.pbData.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(104)))), ((int)(((byte)(79)))));
-            this.pbData.Location = new System.Drawing.Point(68, 104);
-            this.pbData.Name = "pbData";
-            this.pbData.Size = new System.Drawing.Size(94, 26);
-            this.pbData.TabIndex = 22;
-            this.pbData.TabStop = false;
-            // 
-            // pbParity
-            // 
-            this.pbParity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(104)))), ((int)(((byte)(79)))));
-            this.pbParity.Location = new System.Drawing.Point(444, 39);
-            this.pbParity.Name = "pbParity";
-            this.pbParity.Size = new System.Drawing.Size(94, 26);
-            this.pbParity.TabIndex = 23;
-            this.pbParity.TabStop = false;
-            // 
-            // pbBaud
-            // 
-            this.pbBaud.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(104)))), ((int)(((byte)(79)))));
-            this.pbBaud.Location = new System.Drawing.Point(257, 39);
-            this.pbBaud.Name = "pbBaud";
-            this.pbBaud.Size = new System.Drawing.Size(94, 26);
-            this.pbBaud.TabIndex = 24;
-            this.pbBaud.TabStop = false;
-            // 
-            // pbPuerto
-            // 
-            this.pbPuerto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(104)))), ((int)(((byte)(79)))));
-            this.pbPuerto.Location = new System.Drawing.Point(68, 39);
-            this.pbPuerto.Name = "pbPuerto";
-            this.pbPuerto.Size = new System.Drawing.Size(94, 26);
-            this.pbPuerto.TabIndex = 25;
-            this.pbPuerto.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.White;
-            this.pictureBox6.Location = new System.Drawing.Point(385, 85);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(170, 50);
-            this.pictureBox6.TabIndex = 28;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.White;
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(199, 85);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(170, 50);
-            this.pictureBox5.TabIndex = 28;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.White;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(10, 85);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(170, 50);
-            this.pictureBox4.TabIndex = 28;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.White;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(385, 20);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(170, 50);
-            this.pictureBox3.TabIndex = 28;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.White;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(199, 20);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(170, 50);
-            this.pictureBox2.TabIndex = 28;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(10, 20);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(170, 50);
-            this.pictureBox1.TabIndex = 28;
-            this.pictureBox1.TabStop = false;
+            this.cmbBaudRate.SelectedIndexChanged += new System.EventHandler(this.cmbBaudRate_SelectedIndexChanged);
             // 
             // chkDSR
             // 
             this.chkDSR.AutoSize = true;
             this.chkDSR.Enabled = false;
-            this.chkDSR.Location = new System.Drawing.Point(667, 168);
+            this.chkDSR.Location = new System.Drawing.Point(464, 295);
             this.chkDSR.Name = "chkDSR";
             this.chkDSR.Size = new System.Drawing.Size(47, 19);
             this.chkDSR.TabIndex = 29;
@@ -447,7 +276,7 @@
             // 
             this.chkCD.AutoSize = true;
             this.chkCD.Enabled = false;
-            this.chkCD.Location = new System.Drawing.Point(613, 168);
+            this.chkCD.Location = new System.Drawing.Point(410, 295);
             this.chkCD.Name = "chkCD";
             this.chkCD.Size = new System.Drawing.Size(42, 19);
             this.chkCD.TabIndex = 30;
@@ -459,7 +288,7 @@
             // 
             this.chkCTS.AutoSize = true;
             this.chkCTS.Enabled = false;
-            this.chkCTS.Location = new System.Drawing.Point(614, 193);
+            this.chkCTS.Location = new System.Drawing.Point(514, 245);
             this.chkCTS.Name = "chkCTS";
             this.chkCTS.Size = new System.Drawing.Size(45, 19);
             this.chkCTS.TabIndex = 28;
@@ -470,7 +299,7 @@
             // rbText
             // 
             this.rbText.AutoSize = true;
-            this.rbText.Location = new System.Drawing.Point(667, 143);
+            this.rbText.Location = new System.Drawing.Point(464, 270);
             this.rbText.Name = "rbText";
             this.rbText.Size = new System.Drawing.Size(46, 19);
             this.rbText.TabIndex = 31;
@@ -480,7 +309,7 @@
             // rbHex
             // 
             this.rbHex.AutoSize = true;
-            this.rbHex.Location = new System.Drawing.Point(613, 143);
+            this.rbHex.Location = new System.Drawing.Point(410, 270);
             this.rbHex.Name = "rbHex";
             this.rbHex.Size = new System.Drawing.Size(46, 19);
             this.rbHex.TabIndex = 32;
@@ -514,7 +343,7 @@
             // chkRTS
             // 
             this.chkRTS.AutoSize = true;
-            this.chkRTS.Location = new System.Drawing.Point(667, 118);
+            this.chkRTS.Location = new System.Drawing.Point(464, 245);
             this.chkRTS.Name = "chkRTS";
             this.chkRTS.Size = new System.Drawing.Size(44, 19);
             this.chkRTS.TabIndex = 36;
@@ -525,7 +354,7 @@
             // chkDTR
             // 
             this.chkDTR.AutoSize = true;
-            this.chkDTR.Location = new System.Drawing.Point(613, 118);
+            this.chkDTR.Location = new System.Drawing.Point(410, 245);
             this.chkDTR.Name = "chkDTR";
             this.chkDTR.Size = new System.Drawing.Size(46, 19);
             this.chkDTR.TabIndex = 35;
@@ -538,13 +367,180 @@
             this.tmrCheckComPorts.Interval = 580;
             this.tmrCheckComPorts.Tick += new System.EventHandler(this.tmrCheckComPorts_Tick);
             // 
+            // pbStop
+            // 
+            this.pbStop.BackColor = System.Drawing.Color.DodgerBlue;
+            this.pbStop.Location = new System.Drawing.Point(314, 93);
+            this.pbStop.Name = "pbStop";
+            this.pbStop.Size = new System.Drawing.Size(145, 28);
+            this.pbStop.TabIndex = 21;
+            this.pbStop.TabStop = false;
+            // 
+            // pbData
+            // 
+            this.pbData.BackColor = System.Drawing.Color.DodgerBlue;
+            this.pbData.Location = new System.Drawing.Point(81, 93);
+            this.pbData.Name = "pbData";
+            this.pbData.Size = new System.Drawing.Size(147, 28);
+            this.pbData.TabIndex = 22;
+            this.pbData.TabStop = false;
+            // 
+            // pbParity
+            // 
+            this.pbParity.BackColor = System.Drawing.Color.DodgerBlue;
+            this.pbParity.Location = new System.Drawing.Point(548, 28);
+            this.pbParity.Name = "pbParity";
+            this.pbParity.Size = new System.Drawing.Size(147, 28);
+            this.pbParity.TabIndex = 23;
+            this.pbParity.TabStop = false;
+            // 
+            // pbBaud
+            // 
+            this.pbBaud.BackColor = System.Drawing.Color.DodgerBlue;
+            this.pbBaud.Location = new System.Drawing.Point(314, 28);
+            this.pbBaud.Name = "pbBaud";
+            this.pbBaud.Size = new System.Drawing.Size(145, 28);
+            this.pbBaud.TabIndex = 24;
+            this.pbBaud.TabStop = false;
+            // 
+            // pbPuerto
+            // 
+            this.pbPuerto.BackColor = System.Drawing.Color.DodgerBlue;
+            this.pbPuerto.Location = new System.Drawing.Point(81, 28);
+            this.pbPuerto.Name = "pbPuerto";
+            this.pbPuerto.Size = new System.Drawing.Size(147, 28);
+            this.pbPuerto.TabIndex = 25;
+            this.pbPuerto.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.White;
+            this.pictureBox6.Location = new System.Drawing.Point(488, 85);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(170, 50);
+            this.pictureBox6.TabIndex = 28;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.White;
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(256, 85);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(221, 50);
+            this.pictureBox5.TabIndex = 28;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.White;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(23, 85);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(223, 50);
+            this.pictureBox4.TabIndex = 28;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.White;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(489, 19);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(223, 50);
+            this.pictureBox3.TabIndex = 28;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.White;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(256, 19);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(221, 50);
+            this.pictureBox2.TabIndex = 28;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(23, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(223, 50);
+            this.pictureBox1.TabIndex = 28;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnOpenPort
+            // 
+            this.btnOpenPort.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnOpenPort.BackColor = System.Drawing.Color.Transparent;
+            this.btnOpenPort.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOpenPort.BackgroundImage")));
+            this.btnOpenPort.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnOpenPort.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOpenPort.FlatAppearance.BorderSize = 0;
+            this.btnOpenPort.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.btnOpenPort.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.btnOpenPort.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOpenPort.ForeColor = System.Drawing.Color.Transparent;
+            this.btnOpenPort.Location = new System.Drawing.Point(614, 14);
+            this.btnOpenPort.Name = "btnOpenPort";
+            this.btnOpenPort.Size = new System.Drawing.Size(167, 50);
+            this.btnOpenPort.TabIndex = 18;
+            this.btnOpenPort.UseVisualStyleBackColor = false;
+            this.btnOpenPort.Click += new System.EventHandler(this.btnOpenPort_Click);
+            // 
+            // btnPuerto
+            // 
+            this.btnPuerto.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPuerto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.btnPuerto.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPuerto.BackgroundImage")));
+            this.btnPuerto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnPuerto.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPuerto.FlatAppearance.BorderSize = 0;
+            this.btnPuerto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.btnPuerto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.btnPuerto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPuerto.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPuerto.ForeColor = System.Drawing.Color.White;
+            this.btnPuerto.Image = ((System.Drawing.Image)(resources.GetObject("btnPuerto.Image")));
+            this.btnPuerto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPuerto.Location = new System.Drawing.Point(12, 12);
+            this.btnPuerto.Name = "btnPuerto";
+            this.btnPuerto.Size = new System.Drawing.Size(596, 50);
+            this.btnPuerto.TabIndex = 17;
+            this.btnPuerto.Text = "Carga de resultados";
+            this.btnPuerto.UseVisualStyleBackColor = false;
+            this.btnPuerto.Click += new System.EventHandler(this.btnPuerto_Click);
+            // 
+            // cmbPortName
+            // 
+            this.cmbPortName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbPortName.FormattingEnabled = true;
+            this.cmbPortName.Items.AddRange(new object[] {
+            "7",
+            "8",
+            "9"});
+            this.cmbPortName.Location = new System.Drawing.Point(83, 30);
+            this.cmbPortName.Name = "cmbPortName";
+            this.cmbPortName.Size = new System.Drawing.Size(143, 24);
+            this.cmbPortName.TabIndex = 29;
+            // 
             // Resultados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.ClientSize = new System.Drawing.Size(758, 606);
+            this.ClientSize = new System.Drawing.Size(797, 606);
             this.Controls.Add(this.chkRTS);
             this.Controls.Add(this.chkDTR);
             this.Controls.Add(this.chkClearWithDTR);
@@ -602,7 +598,6 @@
         private System.Windows.Forms.ComboBox cmbDataBits;
         private System.Windows.Forms.ComboBox cmbParity;
         private System.Windows.Forms.ComboBox cmbBaudRate;
-        private System.Windows.Forms.ComboBox cmbPortName;
         private System.Windows.Forms.PictureBox pbStop;
         private System.Windows.Forms.PictureBox pbData;
         private System.Windows.Forms.PictureBox pbBaud;
@@ -624,5 +619,6 @@
         private System.Windows.Forms.CheckBox chkRTS;
         private System.Windows.Forms.CheckBox chkDTR;
         private System.Windows.Forms.Timer tmrCheckComPorts;
+        private System.Windows.Forms.ComboBox cmbPortName;
     }
 }

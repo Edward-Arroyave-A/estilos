@@ -246,5 +246,10 @@ namespace AnnarComMICROSESV60.Forms
         {
             Close();
         }
+
+        private void panelDashContenedor_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

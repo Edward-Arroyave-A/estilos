@@ -21,6 +21,7 @@ using System.Configuration;
 using System.Windows.Forms.DataVisualization.Charting;
 using Application = System.Windows.Forms.Application;
 using System.Data;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace AnnarComMICROSESV60.Forms
 {
@@ -178,6 +179,9 @@ namespace AnnarComMICROSESV60.Forms
             }
         }
 
+
+
+
         private void Terminal_Load(object sender, EventArgs e)
         {
             tmrCheckComPorts.Interval = Convert.ToInt32(settings.VelocidadBuffer);
@@ -190,18 +194,22 @@ namespace AnnarComMICROSESV60.Forms
 
             MensajesFlowLP($"Interfaz iniciada", EnumEstados.Ok);
 
-
-            RedondearBordes(pnlSubMenu, 35);
+            RedondearBordes(flpContenedorResul, 17);
+            RedondearBordes(pnlSubMenu, 17);
             RedondearBordes(pictureBox1, 20);
             RedondearBordes(pictureBox2, 20);
             RedondearBordes(pictureBox3, 20);
             RedondearBordes(pictureBox4, 20);
             RedondearBordes(pictureBox5, 20);
-            RedondearBordes(pictureBox6, 20);
 
+            RedondearBordes(pictureBox6, 15); 
 
-           
-                VariablesGlobal.Resultados = true;
+            //RedondearBordes(cmbPortName, 10); 
+            //RedondearBordes(pbPuerto, 10);
+
+            //CustomizeComboBoxBorder(cmbPortName, Color.Red);
+
+            VariablesGlobal.Resultados = true;
              
 
         }
@@ -246,20 +254,24 @@ namespace AnnarComMICROSESV60.Forms
             {
                 EsconderSubmenu();
                 panel.Visible = true;
-                flpContenedorResul.Location = new Point(15, 247);
+                flpContenedorResul.Location = new Point(24, 270);
+               
+ 
+                flpContenedorResul.Size = new Size(748, 330);
             }
             else
             {
                 panel.Visible = false;
-                flpContenedorResul.Location = new Point(15, 100);
-
+                flpContenedorResul.Location = new Point(24, 100);
+                flpContenedorResul.Size = new Size(748, 500);
             }
         }
 
         private void EsconderSubmenu()
         {
             if (pnlSubMenu.Visible == true) pnlSubMenu.Visible = false;
-            flpContenedorResul.Location = new Point(15, 73);
+            flpContenedorResul.Location = new Point(24, 100);
+            flpContenedorResul.Size = new Size(748, 500);
 
         }
 
@@ -267,7 +279,7 @@ namespace AnnarComMICROSESV60.Forms
         //Metodo para mostrar los mensajes en el FlowLayoutPanel
         public void MensajesFlowLP(string msg, EnumEstados estado)
         {
-            Button nuevoButton = new Button();
+            System.Windows.Forms.Button nuevoButton = new System.Windows.Forms.Button();
             string fechaActual = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
 
             //nuevoButton.Dock = DockStyle.Top;
@@ -943,6 +955,7 @@ namespace AnnarComMICROSESV60.Forms
             var arrayTubos = new List<string>();
             //int index = 0;
 
+
             log.RegistraEnLog("Paquete recibido: " + Convert.ToString(PaqueteResultado.Length), InterfaceConfig.nombreLog);
             //log.RegistraEnLog("TipoResultado configurado: " + tipoResultado, nombreLog);
             consecutive = 0;
@@ -1155,6 +1168,16 @@ namespace AnnarComMICROSESV60.Forms
         private void Resultados_Shown(object sender, EventArgs e)
         {
             Log(LogMsgType.Normal, String.Format("Interfaz Iniciada {0}\n", DateTime.Now));
+        }
+
+        private void cmbPortName_DrawItem(object sender, DrawItemEventArgs e)
+        {
+         
+        }
+
+        private void cmbBaudRate_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.IO;
 using System.Windows.Forms;
 using System.Xml;
@@ -54,59 +55,61 @@ namespace AnnarComMICROSESV60.Forms
             #region Proceso para cargar la primera ventana
             //Color
             btnConexion.ForeColor = Color.FromArgb(64, 81, 252);
-            panelConexion.BackColor = Color.FromArgb(64, 81, 252);
+            //panelConexion.BackColor = Color.FromArgb(64, 81, 252);
 
             btnParametrizacion.ForeColor = Color.Gray;
-            panelParametrizacion.BackColor = Color.Gray;
+            //panelParametrizacion.BackColor = Color.Gray;
 
             btnRuta.ForeColor = Color.Gray;
-            panelRuta.BackColor = Color.Gray;
+            //panelRuta.BackColor = Color.Gray;
 
             //Comportamiento
             panelConexion2.Visible = true;
             panelConexion2.Dock = DockStyle.Fill;
 
-            panelParametrizacion2.Visible = false;
+            //panelParametrizacion2.Visible = false;
             panelRuta2.Visible = false;
             #endregion
         }
 
+
         private void Config_Load(object sender, EventArgs e)
         {
 
-        }
+            btnConexion.BackColor = Color.FromArgb(64, 81, 252);
+            btnConexion.ForeColor = Color.White;
 
-        private void btnConexion_Click(object sender, EventArgs e)
+                RedondearBordesSuperior(btnParametrizacion, 5);
+            RedondearBordesSuperior(btnConexion, 5);
+            RedondearBordesSuperior(btnRuta, 5);
+        }
+        private void RedondearBordesSuperior(Control control, int radio)
         {
-            //Color
-            btnConexion.ForeColor = Color.FromArgb(64, 81, 252);
-            panelConexion.BackColor = Color.FromArgb(64, 81, 252);
-
-            btnParametrizacion.ForeColor = Color.Gray;
-            panelParametrizacion.BackColor = Color.Gray;
-
-            btnRuta.ForeColor = Color.Gray;
-            panelRuta.BackColor = Color.Gray;
-
-            //Comportamiento
-            panelConexion2.Visible = true;
-            panelConexion2.Dock = DockStyle.Fill;
-
-            panelParametrizacion2.Visible = false;
-            panelRuta2.Visible = false;
+            GraphicsPath path = new GraphicsPath();
+            path.AddArc(0, 0, radio * 2, radio * 2, 180, 90); // Esquina superior izquierda
+            path.AddArc(control.Width - radio * 2, 0, radio * 2, radio * 2, 270, 90); // Esquina superior derecha
+            path.AddArc(control.Width - radio * 2, control.Height - radio * 2, radio * 2, radio * 2, 0, 90); // Esquina inferior derecha
+            path.AddArc(0, control.Height - radio * 2, radio * 2, radio * 2, 90, 90); // Esquina inferior izquierda
+            control.Region = new Region(path);
         }
+ 
 
         private void btnParametrizacion_Click(object sender, EventArgs e)
         {
             //Color
-            btnParametrizacion.ForeColor = Color.FromArgb(64, 81, 252);
-            panelParametrizacion.BackColor = Color.FromArgb(64, 81, 252);
+            btnParametrizacion.BackColor = Color.SteelBlue;
+            btnParametrizacion.ForeColor = Color.White;
 
+            //panelParametrizacion.BackColor = Color.FromArgb(64, 81, 252);
+
+
+            btnConexion.BackColor = Color.White;
             btnConexion.ForeColor = Color.Gray;
-            panelConexion.BackColor = Color.Gray;
+            //panelConexion.BackColor = Color.Gray;
 
+            btnRuta.BackColor = Color.White;
             btnRuta.ForeColor = Color.Gray;
-            panelRuta.BackColor = Color.Gray;
+            //panelRuta.BackColor = Color.Gray;
 
 
             //Comportamiento
@@ -120,14 +123,17 @@ namespace AnnarComMICROSESV60.Forms
         private void btnRuta_Click(object sender, EventArgs e)
         {
             //Color
-            btnRuta.ForeColor = Color.FromArgb(64, 81, 252);
-            panelRuta.BackColor = Color.FromArgb(64, 81, 252);
+            btnRuta.ForeColor = Color.White;
+            btnRuta.BackColor = Color.SteelBlue;
+            //panelRuta.BackColor = Color.FromArgb(64, 81, 252);
 
+            btnConexion.BackColor = Color.White;
             btnConexion.ForeColor = Color.Gray;
-            panelConexion.BackColor = Color.Gray;
+            //panelConexion.BackColor = Color.Gray;
 
+            btnParametrizacion.BackColor = Color.White;
             btnParametrizacion.ForeColor = Color.Gray;
-            panelParametrizacion.BackColor = Color.Gray;
+            //panelParametrizacion.BackColor = Color.Gray;
 
             //Comportamiento
             panelRuta2.Visible = true;
@@ -377,6 +383,47 @@ namespace AnnarComMICROSESV60.Forms
         private void panelIntervalo_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void panelContenedor_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panelParametrizacion2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtNombreEquipo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnConexion_Click(object sender, EventArgs e)
+        {
+
+            //Color
+            btnConexion.BackColor = Color.SteelBlue;
+            btnConexion.ForeColor = Color.White;
+
+            //panelConexion.BackColor = Color.FromArgb(64, 81, 252);
+
+            btnParametrizacion.BackColor = Color.White;
+            btnParametrizacion.ForeColor = Color.Gray;
+
+            //panelParametrizacion.BackColor = Color.Gray;
+
+            btnRuta.BackColor = Color.White;
+            btnRuta.ForeColor = Color.Gray;
+            //panelRuta.BackColor = Color.Gray;
+
+            //Comportamiento
+            panelConexion2.Visible = true;
+            panelConexion2.Dock = DockStyle.Fill;
+
+            panelParametrizacion2.Visible = false;
+            panelRuta2.Visible = false;
         }
     }
 }
