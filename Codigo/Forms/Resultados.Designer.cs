@@ -67,7 +67,6 @@
             this.tmrCheckComPorts = new System.Windows.Forms.Timer(this.components);
             this.btnOpenPort = new System.Windows.Forms.Button();
             this.rjButton1 = new CustomControls.RJControls.RJButton();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pnlSubMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbData)).BeginInit();
@@ -80,7 +79,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // timerIntervalos
@@ -515,6 +513,8 @@
             // 
             this.rjButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
             this.rjButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjButton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("rjButton1.BackgroundImage")));
+            this.rjButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.rjButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.rjButton1.BorderRadius = 10;
             this.rjButton1.BorderSize = 0;
@@ -528,21 +528,9 @@
             this.rjButton1.Name = "rjButton1";
             this.rjButton1.Size = new System.Drawing.Size(596, 57);
             this.rjButton1.TabIndex = 37;
-            this.rjButton1.Text = "Cargar resultados";
             this.rjButton1.TextColor = System.Drawing.Color.White;
             this.rjButton1.UseVisualStyleBackColor = false;
             this.rjButton1.Click += new System.EventHandler(this.rjButton1_Click);
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.pictureBox7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox7.BackgroundImage")));
-            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Location = new System.Drawing.Point(93, 24);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(86, 38);
-            this.pictureBox7.TabIndex = 38;
-            this.pictureBox7.TabStop = false;
             // 
             // Resultados
             // 
@@ -551,7 +539,6 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.ClientSize = new System.Drawing.Size(797, 606);
-            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.rjButton1);
             this.Controls.Add(this.chkRTS);
             this.Controls.Add(this.chkDTR);
@@ -587,7 +574,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -632,6 +618,5 @@
         private System.Windows.Forms.Timer tmrCheckComPorts;
         private System.Windows.Forms.ComboBox cmbPortName;
         private CustomControls.RJControls.RJButton rjButton1;
-        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }
