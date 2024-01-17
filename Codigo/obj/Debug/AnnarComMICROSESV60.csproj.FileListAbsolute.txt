@@ -1,20 +1,20 @@
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\PUBLICACION\AnnarComMICROSESV60.exe.config
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\PUBLICACION\AnnarComMICROSESV60.exe.manifest
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\PUBLICACION\AnnarComMICROSESV60.application
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\PUBLICACION\AnnarComMICROSESV60.exe
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\PUBLICACION\AnnarComMICROSESV60.pdb
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.csproj.AssemblyReference.cache
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.csproj.SuggestedBindingRedirects.cache
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.Forms.Config.resources
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.Forms.Dashboard.resources
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.Forms.FormMessageBox.resources
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.Forms.Resultados.resources
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.Forms.RJTextBox.resources
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.Properties.Resources.resources
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.csproj.GenerateResource.cache
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.csproj.CoreCompileInputs.cache
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.exe.manifest
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.application
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.csproj.CopyComplete
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.exe
-C:\ANNAR\DESARROLLO\LIS\INTERFACES DM\MICROSESV60\Codigo\obj\Debug\AnnarComMICROSESV60.pdb
+D:\learning\estilos\PUBLICACION\AnnarComMICROSESV60.exe.config
+D:\learning\estilos\PUBLICACION\AnnarComMICROSESV60.exe.manifest
+D:\learning\estilos\PUBLICACION\AnnarComMICROSESV60.application
+D:\learning\estilos\PUBLICACION\AnnarComMICROSESV60.exe
+D:\learning\estilos\PUBLICACION\AnnarComMICROSESV60.pdb
+D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.csproj.AssemblyReference.cache
+D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.csproj.SuggestedBindingRedirects.cache
+D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.Forms.Config.resources
+D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.Forms.Dashboard.resources
+D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.Forms.FormMessageBox.resources
+D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.Forms.Resultados.resources
+D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.Forms.RJTextBox.resources
+D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.Properties.Resources.resources
+D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.csproj.GenerateResource.cache
+D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.csproj.CoreCompileInputs.cache
+D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.exe.manifest
+D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.application
+D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.csproj.CopyComplete
+D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.exe
+D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.pdb

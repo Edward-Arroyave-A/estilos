@@ -1179,6 +1179,13 @@ namespace AnnarComMICROSESV60.Forms
         {
 
         }
+
+        private void rjButton1_Click(object sender, EventArgs e)
+        {
+           
+                mostrarSubmenu(pnlSubMenu);
+            
+        }
     }
 
 

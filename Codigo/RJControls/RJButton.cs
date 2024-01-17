@@ -1,23 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.ComponentModel;
+using System;
 
 namespace CustomControls.RJControls
 {
     public class RJButton : Button
     {
-        //Campos
+        //Fields
         private int borderSize = 0;
-        private int borderRadius = 0;
+        private int borderRadius = 20;
         private Color borderColor = Color.PaleVioletRed;
+        private Image _buttonImage;
+        private float fontSize = 18.00f;
 
-        //Propiedades
+        //Properties
         [Category("RJ Code Advance")]
         public int BorderSize
         {
@@ -25,6 +23,23 @@ namespace CustomControls.RJControls
             set
             {
                 borderSize = value;
+                this.Invalidate();
+            }
+        }
+
+
+
+
+
+        [Category("RJ Code Advance")]
+        [DisplayName("Font Size")]
+        [Description("The size of the button text.")]
+        public float FontSize
+        {
+            get { return fontSize; }
+            set
+            {
+                fontSize = value;
                 this.Invalidate();
             }
         }
@@ -50,7 +65,6 @@ namespace CustomControls.RJControls
                 this.Invalidate();
             }
         }
-
         [Category("RJ Code Advance")]
         public Color BackgroundColor
         {
@@ -65,19 +79,28 @@ namespace CustomControls.RJControls
             set { this.ForeColor = value; }
         }
 
+
         //Constructor
         public RJButton()
         {
             this.FlatStyle = FlatStyle.Flat;
             this.FlatAppearance.BorderSize = 0;
+            this.FlatAppearance.MouseOverBackColor = Color.FromArgb(46, 189, 255);
             this.Size = new Size(150, 40);
             this.BackColor = Color.MediumSlateBlue;
             this.ForeColor = Color.White;
             this.Resize += new EventHandler(Button_Resize);
+
         }
 
-        //Metodos
-        private GraphicsPath GetFigurePath(Rectangle rect, int radius)
+        private void Button_Resize(object sender, EventArgs e)
+        {
+            if (borderRadius > this.Height)
+                borderRadius = this.Height;
+        }
+
+        //Methods
+        private GraphicsPath GetFigurePath(Rectangle rect, float radius)
         {
             GraphicsPath path = new GraphicsPath();
             float curveSize = radius * 2F;
@@ -94,15 +117,15 @@ namespace CustomControls.RJControls
         protected override void OnPaint(PaintEventArgs pevent)
         {
             base.OnPaint(pevent);
-           
-
+            this.Font = new Font(this.Font.FontFamily, fontSize, this.Font.Style);
             Rectangle rectSurface = this.ClientRectangle;
             Rectangle rectBorder = Rectangle.Inflate(rectSurface, -borderSize, -borderSize);
             int smoothSize = 2;
             if (borderSize > 0)
                 smoothSize = borderSize;
+            // Dibuja la imagen si está configurada
 
-            if (borderRadius > 2) //Botón redondeado
+            if (borderRadius > 2) //Rounded button
             {
                 using (GraphicsPath pathSurface = GetFigurePath(rectSurface, borderRadius))
                 using (GraphicsPath pathBorder = GetFigurePath(rectBorder, borderRadius - borderSize))
@@ -110,23 +133,23 @@ namespace CustomControls.RJControls
                 using (Pen penBorder = new Pen(borderColor, borderSize))
                 {
                     pevent.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
-                    //Superficie de los botones
+                    //Button surface
                     this.Region = new Region(pathSurface);
-                    //Dibujar el borde de la superficie para un resultado HD
+                    //Draw surface border for HD result
                     pevent.Graphics.DrawPath(penSurface, pathSurface);
 
-                    //Borde del botón                    
+                    //Button border                    
                     if (borderSize >= 1)
-                        //Dibujar borde de control
+                        //Draw control border
                         pevent.Graphics.DrawPath(penBorder, pathBorder);
                 }
             }
-            else //Botón normal
+            else //Normal button
             {
                 pevent.Graphics.SmoothingMode = SmoothingMode.None;
-                //Superficie de los botones
+                //Button surface
                 this.Region = new Region(rectSurface);
-                //Borde del botón
+                //Button border
                 if (borderSize >= 1)
                 {
                     using (Pen penBorder = new Pen(borderColor, borderSize))
@@ -136,6 +159,7 @@ namespace CustomControls.RJControls
                     }
                 }
             }
+
         }
 
         protected override void OnHandleCreated(EventArgs e)
@@ -147,12 +171,6 @@ namespace CustomControls.RJControls
         private void Container_BackColorChanged(object sender, EventArgs e)
         {
             this.Invalidate();
-        }
-
-        private void Button_Resize(object sender, EventArgs e)
-        {
-            if (borderRadius > this.Height)
-                borderRadius = this.Height;
         }
     }
 }

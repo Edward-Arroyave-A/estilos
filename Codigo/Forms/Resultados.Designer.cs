@@ -34,6 +34,7 @@
             this.lblIntervalos = new System.Windows.Forms.Label();
             this.flpContenedorResul = new System.Windows.Forms.FlowLayoutPanel();
             this.pnlSubMenu = new System.Windows.Forms.Panel();
+            this.cmbPortName = new System.Windows.Forms.ComboBox();
             this.lblComPort = new System.Windows.Forms.Label();
             this.lblBaudRate = new System.Windows.Forms.Label();
             this.lblParity = new System.Windows.Forms.Label();
@@ -43,16 +44,6 @@
             this.cmbDataBits = new System.Windows.Forms.ComboBox();
             this.cmbParity = new System.Windows.Forms.ComboBox();
             this.cmbBaudRate = new System.Windows.Forms.ComboBox();
-            this.chkDSR = new System.Windows.Forms.CheckBox();
-            this.chkCD = new System.Windows.Forms.CheckBox();
-            this.chkCTS = new System.Windows.Forms.CheckBox();
-            this.rbText = new System.Windows.Forms.RadioButton();
-            this.rbHex = new System.Windows.Forms.RadioButton();
-            this.chkClearWithDTR = new System.Windows.Forms.CheckBox();
-            this.chkClearOnOpen = new System.Windows.Forms.CheckBox();
-            this.chkRTS = new System.Windows.Forms.CheckBox();
-            this.chkDTR = new System.Windows.Forms.CheckBox();
-            this.tmrCheckComPorts = new System.Windows.Forms.Timer(this.components);
             this.pbStop = new System.Windows.Forms.PictureBox();
             this.pbData = new System.Windows.Forms.PictureBox();
             this.pbParity = new System.Windows.Forms.PictureBox();
@@ -64,9 +55,19 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.chkDSR = new System.Windows.Forms.CheckBox();
+            this.chkCD = new System.Windows.Forms.CheckBox();
+            this.chkCTS = new System.Windows.Forms.CheckBox();
+            this.rbText = new System.Windows.Forms.RadioButton();
+            this.rbHex = new System.Windows.Forms.RadioButton();
+            this.chkClearWithDTR = new System.Windows.Forms.CheckBox();
+            this.chkClearOnOpen = new System.Windows.Forms.CheckBox();
+            this.chkRTS = new System.Windows.Forms.CheckBox();
+            this.chkDTR = new System.Windows.Forms.CheckBox();
+            this.tmrCheckComPorts = new System.Windows.Forms.Timer(this.components);
             this.btnOpenPort = new System.Windows.Forms.Button();
             this.btnPuerto = new System.Windows.Forms.Button();
-            this.cmbPortName = new System.Windows.Forms.ComboBox();
+            this.rjButton1 = new CustomControls.RJControls.RJButton();
             this.pnlSubMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbData)).BeginInit();
@@ -141,6 +142,19 @@
             this.pnlSubMenu.TabIndex = 27;
             this.pnlSubMenu.Visible = false;
             this.pnlSubMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlSubMenu_Paint);
+            // 
+            // cmbPortName
+            // 
+            this.cmbPortName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbPortName.FormattingEnabled = true;
+            this.cmbPortName.Items.AddRange(new object[] {
+            "7",
+            "8",
+            "9"});
+            this.cmbPortName.Location = new System.Drawing.Point(83, 30);
+            this.cmbPortName.Name = "cmbPortName";
+            this.cmbPortName.Size = new System.Drawing.Size(143, 24);
+            this.cmbPortName.TabIndex = 29;
             // 
             // lblComPort
             // 
@@ -260,113 +274,6 @@
             this.cmbBaudRate.TabIndex = 15;
             this.cmbBaudRate.SelectedIndexChanged += new System.EventHandler(this.cmbBaudRate_SelectedIndexChanged);
             // 
-            // chkDSR
-            // 
-            this.chkDSR.AutoSize = true;
-            this.chkDSR.Enabled = false;
-            this.chkDSR.Location = new System.Drawing.Point(464, 295);
-            this.chkDSR.Name = "chkDSR";
-            this.chkDSR.Size = new System.Drawing.Size(47, 19);
-            this.chkDSR.TabIndex = 29;
-            this.chkDSR.Text = "DSR";
-            this.chkDSR.UseVisualStyleBackColor = true;
-            this.chkDSR.Visible = false;
-            // 
-            // chkCD
-            // 
-            this.chkCD.AutoSize = true;
-            this.chkCD.Enabled = false;
-            this.chkCD.Location = new System.Drawing.Point(410, 295);
-            this.chkCD.Name = "chkCD";
-            this.chkCD.Size = new System.Drawing.Size(42, 19);
-            this.chkCD.TabIndex = 30;
-            this.chkCD.Text = "CD";
-            this.chkCD.UseVisualStyleBackColor = true;
-            this.chkCD.Visible = false;
-            // 
-            // chkCTS
-            // 
-            this.chkCTS.AutoSize = true;
-            this.chkCTS.Enabled = false;
-            this.chkCTS.Location = new System.Drawing.Point(514, 245);
-            this.chkCTS.Name = "chkCTS";
-            this.chkCTS.Size = new System.Drawing.Size(45, 19);
-            this.chkCTS.TabIndex = 28;
-            this.chkCTS.Text = "CTS";
-            this.chkCTS.UseVisualStyleBackColor = true;
-            this.chkCTS.Visible = false;
-            // 
-            // rbText
-            // 
-            this.rbText.AutoSize = true;
-            this.rbText.Location = new System.Drawing.Point(464, 270);
-            this.rbText.Name = "rbText";
-            this.rbText.Size = new System.Drawing.Size(46, 19);
-            this.rbText.TabIndex = 31;
-            this.rbText.Text = "Text";
-            this.rbText.Visible = false;
-            // 
-            // rbHex
-            // 
-            this.rbHex.AutoSize = true;
-            this.rbHex.Location = new System.Drawing.Point(410, 270);
-            this.rbHex.Name = "rbHex";
-            this.rbHex.Size = new System.Drawing.Size(46, 19);
-            this.rbHex.TabIndex = 32;
-            this.rbHex.Text = "Hex";
-            this.rbHex.Visible = false;
-            // 
-            // chkClearWithDTR
-            // 
-            this.chkClearWithDTR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.chkClearWithDTR.AutoSize = true;
-            this.chkClearWithDTR.Location = new System.Drawing.Point(170, 267);
-            this.chkClearWithDTR.Name = "chkClearWithDTR";
-            this.chkClearWithDTR.Size = new System.Drawing.Size(103, 19);
-            this.chkClearWithDTR.TabIndex = 34;
-            this.chkClearWithDTR.Text = "Clear with DTR";
-            this.chkClearWithDTR.UseVisualStyleBackColor = true;
-            this.chkClearWithDTR.Visible = false;
-            // 
-            // chkClearOnOpen
-            // 
-            this.chkClearOnOpen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.chkClearOnOpen.AutoSize = true;
-            this.chkClearOnOpen.Location = new System.Drawing.Point(55, 267);
-            this.chkClearOnOpen.Name = "chkClearOnOpen";
-            this.chkClearOnOpen.Size = new System.Drawing.Size(105, 19);
-            this.chkClearOnOpen.TabIndex = 33;
-            this.chkClearOnOpen.Text = "Clear on Open";
-            this.chkClearOnOpen.UseVisualStyleBackColor = true;
-            this.chkClearOnOpen.Visible = false;
-            // 
-            // chkRTS
-            // 
-            this.chkRTS.AutoSize = true;
-            this.chkRTS.Location = new System.Drawing.Point(464, 245);
-            this.chkRTS.Name = "chkRTS";
-            this.chkRTS.Size = new System.Drawing.Size(44, 19);
-            this.chkRTS.TabIndex = 36;
-            this.chkRTS.Text = "RTS";
-            this.chkRTS.UseVisualStyleBackColor = true;
-            this.chkRTS.Visible = false;
-            // 
-            // chkDTR
-            // 
-            this.chkDTR.AutoSize = true;
-            this.chkDTR.Location = new System.Drawing.Point(410, 245);
-            this.chkDTR.Name = "chkDTR";
-            this.chkDTR.Size = new System.Drawing.Size(46, 19);
-            this.chkDTR.TabIndex = 35;
-            this.chkDTR.Text = "DTR";
-            this.chkDTR.UseVisualStyleBackColor = true;
-            this.chkDTR.Visible = false;
-            // 
-            // tmrCheckComPorts
-            // 
-            this.tmrCheckComPorts.Interval = 580;
-            this.tmrCheckComPorts.Tick += new System.EventHandler(this.tmrCheckComPorts_Tick);
-            // 
             // pbStop
             // 
             this.pbStop.BackColor = System.Drawing.Color.DodgerBlue;
@@ -476,6 +383,113 @@
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
             // 
+            // chkDSR
+            // 
+            this.chkDSR.AutoSize = true;
+            this.chkDSR.Enabled = false;
+            this.chkDSR.Location = new System.Drawing.Point(464, 295);
+            this.chkDSR.Name = "chkDSR";
+            this.chkDSR.Size = new System.Drawing.Size(47, 19);
+            this.chkDSR.TabIndex = 29;
+            this.chkDSR.Text = "DSR";
+            this.chkDSR.UseVisualStyleBackColor = true;
+            this.chkDSR.Visible = false;
+            // 
+            // chkCD
+            // 
+            this.chkCD.AutoSize = true;
+            this.chkCD.Enabled = false;
+            this.chkCD.Location = new System.Drawing.Point(410, 295);
+            this.chkCD.Name = "chkCD";
+            this.chkCD.Size = new System.Drawing.Size(42, 19);
+            this.chkCD.TabIndex = 30;
+            this.chkCD.Text = "CD";
+            this.chkCD.UseVisualStyleBackColor = true;
+            this.chkCD.Visible = false;
+            // 
+            // chkCTS
+            // 
+            this.chkCTS.AutoSize = true;
+            this.chkCTS.Enabled = false;
+            this.chkCTS.Location = new System.Drawing.Point(514, 245);
+            this.chkCTS.Name = "chkCTS";
+            this.chkCTS.Size = new System.Drawing.Size(45, 19);
+            this.chkCTS.TabIndex = 28;
+            this.chkCTS.Text = "CTS";
+            this.chkCTS.UseVisualStyleBackColor = true;
+            this.chkCTS.Visible = false;
+            // 
+            // rbText
+            // 
+            this.rbText.AutoSize = true;
+            this.rbText.Location = new System.Drawing.Point(464, 270);
+            this.rbText.Name = "rbText";
+            this.rbText.Size = new System.Drawing.Size(46, 19);
+            this.rbText.TabIndex = 31;
+            this.rbText.Text = "Text";
+            this.rbText.Visible = false;
+            // 
+            // rbHex
+            // 
+            this.rbHex.AutoSize = true;
+            this.rbHex.Location = new System.Drawing.Point(410, 270);
+            this.rbHex.Name = "rbHex";
+            this.rbHex.Size = new System.Drawing.Size(46, 19);
+            this.rbHex.TabIndex = 32;
+            this.rbHex.Text = "Hex";
+            this.rbHex.Visible = false;
+            // 
+            // chkClearWithDTR
+            // 
+            this.chkClearWithDTR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.chkClearWithDTR.AutoSize = true;
+            this.chkClearWithDTR.Location = new System.Drawing.Point(170, 267);
+            this.chkClearWithDTR.Name = "chkClearWithDTR";
+            this.chkClearWithDTR.Size = new System.Drawing.Size(103, 19);
+            this.chkClearWithDTR.TabIndex = 34;
+            this.chkClearWithDTR.Text = "Clear with DTR";
+            this.chkClearWithDTR.UseVisualStyleBackColor = true;
+            this.chkClearWithDTR.Visible = false;
+            // 
+            // chkClearOnOpen
+            // 
+            this.chkClearOnOpen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.chkClearOnOpen.AutoSize = true;
+            this.chkClearOnOpen.Location = new System.Drawing.Point(55, 267);
+            this.chkClearOnOpen.Name = "chkClearOnOpen";
+            this.chkClearOnOpen.Size = new System.Drawing.Size(105, 19);
+            this.chkClearOnOpen.TabIndex = 33;
+            this.chkClearOnOpen.Text = "Clear on Open";
+            this.chkClearOnOpen.UseVisualStyleBackColor = true;
+            this.chkClearOnOpen.Visible = false;
+            // 
+            // chkRTS
+            // 
+            this.chkRTS.AutoSize = true;
+            this.chkRTS.Location = new System.Drawing.Point(464, 245);
+            this.chkRTS.Name = "chkRTS";
+            this.chkRTS.Size = new System.Drawing.Size(44, 19);
+            this.chkRTS.TabIndex = 36;
+            this.chkRTS.Text = "RTS";
+            this.chkRTS.UseVisualStyleBackColor = true;
+            this.chkRTS.Visible = false;
+            // 
+            // chkDTR
+            // 
+            this.chkDTR.AutoSize = true;
+            this.chkDTR.Location = new System.Drawing.Point(410, 245);
+            this.chkDTR.Name = "chkDTR";
+            this.chkDTR.Size = new System.Drawing.Size(46, 19);
+            this.chkDTR.TabIndex = 35;
+            this.chkDTR.Text = "DTR";
+            this.chkDTR.UseVisualStyleBackColor = true;
+            this.chkDTR.Visible = false;
+            // 
+            // tmrCheckComPorts
+            // 
+            this.tmrCheckComPorts.Interval = 580;
+            this.tmrCheckComPorts.Tick += new System.EventHandler(this.tmrCheckComPorts_Tick);
+            // 
             // btnOpenPort
             // 
             this.btnOpenPort.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -521,18 +535,27 @@
             this.btnPuerto.UseVisualStyleBackColor = false;
             this.btnPuerto.Click += new System.EventHandler(this.btnPuerto_Click);
             // 
-            // cmbPortName
+            // rjButton1
             // 
-            this.cmbPortName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbPortName.FormattingEnabled = true;
-            this.cmbPortName.Items.AddRange(new object[] {
-            "7",
-            "8",
-            "9"});
-            this.cmbPortName.Location = new System.Drawing.Point(83, 30);
-            this.cmbPortName.Name = "cmbPortName";
-            this.cmbPortName.Size = new System.Drawing.Size(143, 24);
-            this.cmbPortName.TabIndex = 29;
+            this.rjButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton1.BorderRadius = 10;
+            this.rjButton1.BorderSize = 0;
+            this.rjButton1.FlatAppearance.BorderSize = 0;
+            this.rjButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold);
+            this.rjButton1.FontSize = 18F;
+            this.rjButton1.ForeColor = System.Drawing.Color.White;
+            this.rjButton1.Location = new System.Drawing.Point(12, 14);
+            this.rjButton1.Name = "rjButton1";
+            this.rjButton1.Size = new System.Drawing.Size(596, 57);
+            this.rjButton1.TabIndex = 37;
+            this.rjButton1.Text = "Cargar resultados";
+            this.rjButton1.TextColor = System.Drawing.Color.White;
+            this.rjButton1.UseVisualStyleBackColor = false;
+            this.rjButton1.Click += new System.EventHandler(this.rjButton1_Click);
             // 
             // Resultados
             // 
@@ -541,6 +564,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.ClientSize = new System.Drawing.Size(797, 606);
+            this.Controls.Add(this.rjButton1);
             this.Controls.Add(this.chkRTS);
             this.Controls.Add(this.chkDTR);
             this.Controls.Add(this.chkClearWithDTR);
@@ -620,5 +644,6 @@
         private System.Windows.Forms.CheckBox chkDTR;
         private System.Windows.Forms.Timer tmrCheckComPorts;
         private System.Windows.Forms.ComboBox cmbPortName;
+        private CustomControls.RJControls.RJButton rjButton1;
     }
 }
