@@ -29,11 +29,11 @@ namespace AnnarComMICROSESV60.Forms
             //Se muestra el formulario
             terminal.Show();
 
-            btnResultados.BackgroundImage = Properties.Resources.Resul_True;
-            btnResultados.BackgroundImageLayout = ImageLayout.Zoom;
+            //btnResultados.BackgroundImage = Properties.Resources.Resul_True;
+            //btnResultados.BackgroundImageLayout = ImageLayout.Zoom;
 
-            btnConfig.BackgroundImage = Properties.Resources.Config_False;
-            btnConfig.BackgroundImageLayout = ImageLayout.Zoom;
+            //btnConfig.BackgroundImage = Properties.Resources.Config_False;
+            //btnConfig.BackgroundImageLayout = ImageLayout.Zoom;
             #endregion
 
             this.Text = $"{InterfaceConfig.nombreEquipo} v{Application.ProductVersion}";
@@ -55,25 +55,25 @@ namespace AnnarComMICROSESV60.Forms
         {
             if (btnConfig.Enabled)
             {
-                btnConfig.BackgroundImage = Properties.Resources.Config_True;
-                btnConfig.BackgroundImageLayout = ImageLayout.Zoom;
+                //btnConfig.BackgroundImage = Properties.Resources.Config_True;
+                //btnConfig.BackgroundImageLayout = ImageLayout.Zoom;
 
-                btnResultados.BackgroundImage = Properties.Resources.Resul_False;
-                btnResultados.BackgroundImageLayout = ImageLayout.Zoom;
+                //btnResultados.BackgroundImage = Properties.Resources.Resul_False;
+                //btnResultados.BackgroundImageLayout = ImageLayout.Zoom;
             }
         }
 
         //Eventos al posicionar el mouse en config
         private void btnConfig_MouseLeave(object sender, EventArgs e)
         {
-            if (btnConfig.Enabled)
-            {
-                btnResultados.BackgroundImage = Properties.Resources.Resul_True;
-                btnResultados.BackgroundImageLayout = ImageLayout.Zoom;
+            //if (btnConfig.Enabled)
+            //{
+            //    //btnResultados.BackgroundImage = Properties.Resources.Resul_True;
+            //    //btnResultados.BackgroundImageLayout = ImageLayout.Zoom;
 
-                btnConfig.BackgroundImage = Properties.Resources.Config_False;
-                btnConfig.BackgroundImageLayout = ImageLayout.Zoom;
-            }
+            //    //btnConfig.BackgroundImage = Properties.Resources.Config_False;
+            //    //btnConfig.BackgroundImageLayout = ImageLayout.Zoom;
+            //}
         }
 
         //Eventos al posicionar el mouse en resultados
@@ -81,25 +81,25 @@ namespace AnnarComMICROSESV60.Forms
         {
             if (btnResultados.Enabled)
             {
-                btnResultados.BackgroundImage = Properties.Resources.Resul_True;
-                btnResultados.BackgroundImageLayout = ImageLayout.Zoom;
+                //btnResultados.BackgroundImage = Properties.Resources.Resul_True;
+                //btnResultados.BackgroundImageLayout = ImageLayout.Zoom;
 
-                btnConfig.BackgroundImage = Properties.Resources.Config_False;
-                btnConfig.BackgroundImageLayout = ImageLayout.Zoom;
+                //btnConfig.BackgroundImage = Properties.Resources.Config_False;
+                //btnConfig.BackgroundImageLayout = ImageLayout.Zoom;
             }
         }
 
         //Eventos al posicionar el mouse en resultados
         private void btnResultados_MouseLeave(object sender, EventArgs e)
         {
-            if (btnResultados.Enabled)
-            {
-                btnConfig.BackgroundImage = Properties.Resources.Config_True;
-                btnConfig.BackgroundImageLayout = ImageLayout.Zoom;
+            //if (btnResultados.Enabled)
+            //{
+            //    btnConfig.BackgroundImage = Properties.Resources.Config_True;
+            //    btnConfig.BackgroundImageLayout = ImageLayout.Zoom;
 
-                btnResultados.BackgroundImage = Properties.Resources.Resul_False;
-                btnResultados.BackgroundImageLayout = ImageLayout.Zoom;
-            }
+            //    btnResultados.BackgroundImage = Properties.Resources.Resul_False;
+            //    btnResultados.BackgroundImageLayout = ImageLayout.Zoom;
+            //}
         }
 
         private void btnResultados_Click(object sender, EventArgs e)
@@ -131,11 +131,11 @@ namespace AnnarComMICROSESV60.Forms
 
                 if (InterfaceConfig.banderaTerminal)
                 {
-                    btnResultados.BackgroundImage = Properties.Resources.Resul_True;
-                    btnResultados.BackgroundImageLayout = ImageLayout.Zoom;
+                    //btnResultados.BackgroundImage = Properties.Resources.Resul_True;
+                    //btnResultados.BackgroundImageLayout = ImageLayout.Zoom;
 
-                    btnConfig.BackgroundImage = Properties.Resources.Config_False;
-                    btnConfig.BackgroundImageLayout = ImageLayout.Zoom;
+                    //btnConfig.BackgroundImage = Properties.Resources.Config_False;
+                    //btnConfig.BackgroundImageLayout = ImageLayout.Zoom;
                 }
 
                 ///Cargue del form Terminal
@@ -184,11 +184,11 @@ namespace AnnarComMICROSESV60.Forms
 
                     if (InterfaceConfig.banderaConfig)
                     {
-                        btnConfig.BackgroundImage = Properties.Resources.Config_True;
-                        btnConfig.BackgroundImageLayout = ImageLayout.Zoom;
+                        //btnConfig.BackgroundImage = Properties.Resources.Config_True;
+                        //btnConfig.BackgroundImageLayout = ImageLayout.Zoom;
 
-                        btnResultados.BackgroundImage = Properties.Resources.Resul_False;
-                        btnResultados.BackgroundImageLayout = ImageLayout.Zoom;
+                        //btnResultados.BackgroundImage = Properties.Resources.Resul_False;
+                        //btnResultados.BackgroundImageLayout = ImageLayout.Zoom;
                     }
                     btnResultados.Enabled = true;
                     ///Cargue del form Config

@@ -93,6 +93,56 @@ namespace AnnarComMICROSESV60.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2024_01_17_132719 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2024-01-17 132719", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2024_01_17_132805 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2024-01-17 132805", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2024_01_17_132932 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2024-01-17 132932", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2024_01_17_133654 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2024-01-17 133654", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2024_01_17_134355 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2024-01-17 134355", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap conectado {
             get {
                 object obj = ResourceManager.GetObject("conectado", resourceCulture);
