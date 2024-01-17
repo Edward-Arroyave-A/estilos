@@ -66,7 +66,6 @@
             this.chkDTR = new System.Windows.Forms.CheckBox();
             this.tmrCheckComPorts = new System.Windows.Forms.Timer(this.components);
             this.btnOpenPort = new System.Windows.Forms.Button();
-            this.btnPuerto = new System.Windows.Forms.Button();
             this.rjButton1 = new CustomControls.RJControls.RJButton();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pnlSubMenu.SuspendLayout();
@@ -512,31 +511,6 @@
             this.btnOpenPort.UseVisualStyleBackColor = false;
             this.btnOpenPort.Click += new System.EventHandler(this.btnOpenPort_Click);
             // 
-            // btnPuerto
-            // 
-            this.btnPuerto.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnPuerto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.btnPuerto.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPuerto.BackgroundImage")));
-            this.btnPuerto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnPuerto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPuerto.FlatAppearance.BorderSize = 0;
-            this.btnPuerto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.btnPuerto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.btnPuerto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPuerto.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPuerto.ForeColor = System.Drawing.Color.White;
-            this.btnPuerto.Image = ((System.Drawing.Image)(resources.GetObject("btnPuerto.Image")));
-            this.btnPuerto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPuerto.Location = new System.Drawing.Point(12, 12);
-            this.btnPuerto.Name = "btnPuerto";
-            this.btnPuerto.Size = new System.Drawing.Size(596, 50);
-            this.btnPuerto.TabIndex = 17;
-            this.btnPuerto.Text = "Carga de resultados";
-            this.btnPuerto.UseVisualStyleBackColor = false;
-            this.btnPuerto.Click += new System.EventHandler(this.btnPuerto_Click);
-            // 
             // rjButton1
             // 
             this.rjButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
@@ -590,7 +564,6 @@
             this.Controls.Add(this.chkCTS);
             this.Controls.Add(this.pnlSubMenu);
             this.Controls.Add(this.btnOpenPort);
-            this.Controls.Add(this.btnPuerto);
             this.Controls.Add(this.lblIntervalos);
             this.Controls.Add(this.flpContenedorResul);
             this.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -625,7 +598,6 @@
         private System.Windows.Forms.Timer timerIntervalos;
         private System.Windows.Forms.Label lblIntervalos;
         private System.Windows.Forms.FlowLayoutPanel flpContenedorResul;
-        private System.Windows.Forms.Button btnPuerto;
         private System.Windows.Forms.Button btnOpenPort;
         private System.Windows.Forms.Panel pnlSubMenu;
         private System.Windows.Forms.Label lblComPort;

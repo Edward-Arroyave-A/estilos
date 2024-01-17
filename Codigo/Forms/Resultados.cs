@@ -480,10 +480,7 @@ namespace AnnarComMICROSESV60.Forms
             control.Region = new Region(path);
         }
 
-        private void btnPuerto_Click(object sender, EventArgs e)
-        {
-            mostrarSubmenu(pnlSubMenu);
-        }
+      
 
         void comport_PinChanged(object sender, SerialPinChangedEventArgs e)
         {
