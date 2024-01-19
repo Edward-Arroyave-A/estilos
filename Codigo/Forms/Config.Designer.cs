@@ -31,23 +31,20 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Config));
             this.panelContenedor = new System.Windows.Forms.Panel();
             this.panelConexion2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.rjTextBoxControl2 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl7 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl6 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl5 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl4 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl3 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
             this.rjTextBoxControl1 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.panelIntentosReCo = new System.Windows.Forms.Panel();
-            this.txtIntentosReCo = new System.Windows.Forms.TextBox();
-            this.lblIntentosReCo = new System.Windows.Forms.Label();
-            this.panelPass = new System.Windows.Forms.Panel();
-            this.txtPass = new System.Windows.Forms.TextBox();
-            this.lblPass = new System.Windows.Forms.Label();
-            this.panelUsuario = new System.Windows.Forms.Panel();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.lblUsuario = new System.Windows.Forms.Label();
-            this.panelNombreDB = new System.Windows.Forms.Panel();
-            this.txtNombreDB = new System.Windows.Forms.TextBox();
-            this.lblNombreDB = new System.Windows.Forms.Label();
-            this.panelPuerto = new System.Windows.Forms.Panel();
-            this.txtPuerto = new System.Windows.Forms.TextBox();
-            this.lblPuerto = new System.Windows.Forms.Label();
             this.panelRuta2 = new System.Windows.Forms.Panel();
             this.panelRutaArchivosERROR = new System.Windows.Forms.Panel();
             this.txtRutaArchivosERROR = new System.Windows.Forms.TextBox();
@@ -86,18 +83,8 @@
             this.btnGuardar = new CustomControls.RJControls.RJButton();
             this.btnConexion = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblDireccionIP = new System.Windows.Forms.Label();
-            this.panelDireccionIP = new System.Windows.Forms.Panel();
-            this.txtDireccionIP = new System.Windows.Forms.TextBox();
-            this.rjTextBoxControl2 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.label2 = new System.Windows.Forms.Label();
             this.panelContenedor.SuspendLayout();
             this.panelConexion2.SuspendLayout();
-            this.panelIntentosReCo.SuspendLayout();
-            this.panelPass.SuspendLayout();
-            this.panelUsuario.SuspendLayout();
-            this.panelNombreDB.SuspendLayout();
-            this.panelPuerto.SuspendLayout();
             this.panelRuta2.SuspendLayout();
             this.panelRutaArchivosERROR.SuspendLayout();
             this.panelRutaArchivosOK.SuspendLayout();
@@ -112,7 +99,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnelTopConfig.SuspendLayout();
             this.panelRight.SuspendLayout();
-            this.panelDireccionIP.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelContenedor
@@ -132,24 +118,96 @@
             this.panelConexion2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panelConexion2.BackColor = System.Drawing.Color.Transparent;
             this.panelConexion2.Controls.Add(this.label2);
+            this.panelConexion2.Controls.Add(this.label7);
+            this.panelConexion2.Controls.Add(this.label6);
+            this.panelConexion2.Controls.Add(this.label5);
+            this.panelConexion2.Controls.Add(this.label4);
+            this.panelConexion2.Controls.Add(this.label3);
             this.panelConexion2.Controls.Add(this.label1);
             this.panelConexion2.Controls.Add(this.rjTextBoxControl2);
+            this.panelConexion2.Controls.Add(this.rjTextBoxControl7);
+            this.panelConexion2.Controls.Add(this.rjTextBoxControl6);
+            this.panelConexion2.Controls.Add(this.rjTextBoxControl5);
+            this.panelConexion2.Controls.Add(this.rjTextBoxControl4);
+            this.panelConexion2.Controls.Add(this.rjTextBoxControl3);
             this.panelConexion2.Controls.Add(this.rjTextBoxControl1);
-            this.panelConexion2.Controls.Add(this.panelIntentosReCo);
-            this.panelConexion2.Controls.Add(this.lblIntentosReCo);
-            this.panelConexion2.Controls.Add(this.panelPass);
-            this.panelConexion2.Controls.Add(this.lblPass);
-            this.panelConexion2.Controls.Add(this.panelUsuario);
-            this.panelConexion2.Controls.Add(this.lblUsuario);
-            this.panelConexion2.Controls.Add(this.panelNombreDB);
-            this.panelConexion2.Controls.Add(this.lblNombreDB);
-            this.panelConexion2.Controls.Add(this.panelPuerto);
-            this.panelConexion2.Controls.Add(this.lblPuerto);
             this.panelConexion2.Location = new System.Drawing.Point(4, -1);
             this.panelConexion2.Name = "panelConexion2";
             this.panelConexion2.Size = new System.Drawing.Size(1013, 354);
             this.panelConexion2.TabIndex = 6;
             this.panelConexion2.Visible = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.label2.Location = new System.Drawing.Point(377, 20);
+            this.label2.Margin = new System.Windows.Forms.Padding(0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(122, 17);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Dispositivo médico";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.label7.Location = new System.Drawing.Point(377, 86);
+            this.label7.Margin = new System.Windows.Forms.Padding(0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(59, 17);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Reactivo";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.label6.Location = new System.Drawing.Point(41, 273);
+            this.label6.Margin = new System.Windows.Forms.Padding(0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(71, 17);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "URL Token";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.label5.Location = new System.Drawing.Point(41, 204);
+            this.label5.Margin = new System.Windows.Forms.Padding(0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(101, 17);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "URL Resultados";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.label4.Location = new System.Drawing.Point(41, 140);
+            this.label4.Margin = new System.Windows.Forms.Padding(0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(76, 17);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Contraseña";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.label3.Location = new System.Drawing.Point(41, 84);
+            this.label3.Margin = new System.Windows.Forms.Padding(0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(54, 17);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Usuario";
             // 
             // label1
             // 
@@ -163,197 +221,131 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Cabecera";
             // 
+            // rjTextBoxControl2
+            // 
+            this.rjTextBoxControl2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl2.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl2.BorderRadius = 5;
+            this.rjTextBoxControl2.BorderSize = 2;
+            this.rjTextBoxControl2.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
+            this.rjTextBoxControl2.Location = new System.Drawing.Point(356, 29);
+            this.rjTextBoxControl2.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl2.Multiline = false;
+            this.rjTextBoxControl2.Name = "rjTextBoxControl2";
+            this.rjTextBoxControl2.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl2.Size = new System.Drawing.Size(300, 37);
+            this.rjTextBoxControl2.TabIndex = 5;
+            this.rjTextBoxControl2.Texts = "";
+            this.rjTextBoxControl2.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl7
+            // 
+            this.rjTextBoxControl7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl7.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl7.BorderRadius = 5;
+            this.rjTextBoxControl7.BorderSize = 2;
+            this.rjTextBoxControl7.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
+            this.rjTextBoxControl7.Location = new System.Drawing.Point(356, 95);
+            this.rjTextBoxControl7.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl7.Multiline = false;
+            this.rjTextBoxControl7.Name = "rjTextBoxControl7";
+            this.rjTextBoxControl7.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl7.Size = new System.Drawing.Size(300, 37);
+            this.rjTextBoxControl7.TabIndex = 5;
+            this.rjTextBoxControl7.Texts = "";
+            this.rjTextBoxControl7.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl6
+            // 
+            this.rjTextBoxControl6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl6.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl6.BorderRadius = 5;
+            this.rjTextBoxControl6.BorderSize = 2;
+            this.rjTextBoxControl6.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
+            this.rjTextBoxControl6.Location = new System.Drawing.Point(20, 282);
+            this.rjTextBoxControl6.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl6.Multiline = false;
+            this.rjTextBoxControl6.Name = "rjTextBoxControl6";
+            this.rjTextBoxControl6.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl6.Size = new System.Drawing.Size(300, 37);
+            this.rjTextBoxControl6.TabIndex = 5;
+            this.rjTextBoxControl6.Texts = "";
+            this.rjTextBoxControl6.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl5
+            // 
+            this.rjTextBoxControl5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl5.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl5.BorderRadius = 5;
+            this.rjTextBoxControl5.BorderSize = 2;
+            this.rjTextBoxControl5.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
+            this.rjTextBoxControl5.Location = new System.Drawing.Point(20, 213);
+            this.rjTextBoxControl5.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl5.Multiline = false;
+            this.rjTextBoxControl5.Name = "rjTextBoxControl5";
+            this.rjTextBoxControl5.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl5.Size = new System.Drawing.Size(300, 37);
+            this.rjTextBoxControl5.TabIndex = 5;
+            this.rjTextBoxControl5.Texts = "";
+            this.rjTextBoxControl5.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl4
+            // 
+            this.rjTextBoxControl4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl4.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl4.BorderRadius = 5;
+            this.rjTextBoxControl4.BorderSize = 2;
+            this.rjTextBoxControl4.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
+            this.rjTextBoxControl4.Location = new System.Drawing.Point(20, 149);
+            this.rjTextBoxControl4.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl4.Multiline = false;
+            this.rjTextBoxControl4.Name = "rjTextBoxControl4";
+            this.rjTextBoxControl4.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl4.Size = new System.Drawing.Size(300, 37);
+            this.rjTextBoxControl4.TabIndex = 5;
+            this.rjTextBoxControl4.Texts = "";
+            this.rjTextBoxControl4.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl3
+            // 
+            this.rjTextBoxControl3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl3.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl3.BorderRadius = 5;
+            this.rjTextBoxControl3.BorderSize = 2;
+            this.rjTextBoxControl3.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
+            this.rjTextBoxControl3.Location = new System.Drawing.Point(20, 93);
+            this.rjTextBoxControl3.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl3.Multiline = false;
+            this.rjTextBoxControl3.Name = "rjTextBoxControl3";
+            this.rjTextBoxControl3.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl3.Size = new System.Drawing.Size(300, 37);
+            this.rjTextBoxControl3.TabIndex = 5;
+            this.rjTextBoxControl3.Texts = "";
+            this.rjTextBoxControl3.UnderlinedStyle = false;
+            // 
             // rjTextBoxControl1
             // 
             this.rjTextBoxControl1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
             this.rjTextBoxControl1.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
             this.rjTextBoxControl1.BorderRadius = 5;
             this.rjTextBoxControl1.BorderSize = 2;
-            this.rjTextBoxControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl1.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
             this.rjTextBoxControl1.Location = new System.Drawing.Point(20, 29);
             this.rjTextBoxControl1.Margin = new System.Windows.Forms.Padding(4);
             this.rjTextBoxControl1.Multiline = false;
             this.rjTextBoxControl1.Name = "rjTextBoxControl1";
             this.rjTextBoxControl1.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl1.Size = new System.Drawing.Size(300, 34);
+            this.rjTextBoxControl1.Size = new System.Drawing.Size(300, 37);
             this.rjTextBoxControl1.TabIndex = 5;
             this.rjTextBoxControl1.Texts = "";
             this.rjTextBoxControl1.UnderlinedStyle = false;
-            // 
-            // panelIntentosReCo
-            // 
-            this.panelIntentosReCo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelIntentosReCo.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panelIntentosReCo.Controls.Add(this.txtIntentosReCo);
-            this.panelIntentosReCo.Location = new System.Drawing.Point(18, 326);
-            this.panelIntentosReCo.Name = "panelIntentosReCo";
-            this.panelIntentosReCo.Size = new System.Drawing.Size(960, 21);
-            this.panelIntentosReCo.TabIndex = 4;
-            // 
-            // txtIntentosReCo
-            // 
-            this.txtIntentosReCo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtIntentosReCo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtIntentosReCo.Location = new System.Drawing.Point(2, 2);
-            this.txtIntentosReCo.Multiline = true;
-            this.txtIntentosReCo.Name = "txtIntentosReCo";
-            this.txtIntentosReCo.Size = new System.Drawing.Size(956, 17);
-            this.txtIntentosReCo.TabIndex = 1;
-            // 
-            // lblIntentosReCo
-            // 
-            this.lblIntentosReCo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblIntentosReCo.AutoSize = true;
-            this.lblIntentosReCo.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblIntentosReCo.Location = new System.Drawing.Point(15, 308);
-            this.lblIntentosReCo.Name = "lblIntentosReCo";
-            this.lblIntentosReCo.Size = new System.Drawing.Size(119, 15);
-            this.lblIntentosReCo.TabIndex = 3;
-            this.lblIntentosReCo.Text = "Intentos Reconexión:";
-            // 
-            // panelPass
-            // 
-            this.panelPass.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelPass.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panelPass.Controls.Add(this.txtPass);
-            this.panelPass.Location = new System.Drawing.Point(18, 269);
-            this.panelPass.Name = "panelPass";
-            this.panelPass.Size = new System.Drawing.Size(960, 21);
-            this.panelPass.TabIndex = 4;
-            // 
-            // txtPass
-            // 
-            this.txtPass.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPass.Location = new System.Drawing.Point(2, 2);
-            this.txtPass.Multiline = true;
-            this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(956, 17);
-            this.txtPass.TabIndex = 1;
-            // 
-            // lblPass
-            // 
-            this.lblPass.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblPass.AutoSize = true;
-            this.lblPass.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblPass.Location = new System.Drawing.Point(15, 251);
-            this.lblPass.Name = "lblPass";
-            this.lblPass.Size = new System.Drawing.Size(72, 15);
-            this.lblPass.TabIndex = 3;
-            this.lblPass.Text = "Contraseña:";
-            // 
-            // panelUsuario
-            // 
-            this.panelUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelUsuario.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panelUsuario.Controls.Add(this.txtUsuario);
-            this.panelUsuario.Location = new System.Drawing.Point(18, 211);
-            this.panelUsuario.Name = "panelUsuario";
-            this.panelUsuario.Size = new System.Drawing.Size(960, 21);
-            this.panelUsuario.TabIndex = 4;
-            // 
-            // txtUsuario
-            // 
-            this.txtUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtUsuario.Location = new System.Drawing.Point(2, 2);
-            this.txtUsuario.Multiline = true;
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(956, 17);
-            this.txtUsuario.TabIndex = 1;
-            // 
-            // lblUsuario
-            // 
-            this.lblUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblUsuario.AutoSize = true;
-            this.lblUsuario.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblUsuario.Location = new System.Drawing.Point(15, 193);
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(50, 15);
-            this.lblUsuario.TabIndex = 3;
-            this.lblUsuario.Text = "Usuario:";
-            // 
-            // panelNombreDB
-            // 
-            this.panelNombreDB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelNombreDB.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panelNombreDB.Controls.Add(this.txtNombreDB);
-            this.panelNombreDB.Location = new System.Drawing.Point(18, 150);
-            this.panelNombreDB.Name = "panelNombreDB";
-            this.panelNombreDB.Size = new System.Drawing.Size(960, 21);
-            this.panelNombreDB.TabIndex = 4;
-            // 
-            // txtNombreDB
-            // 
-            this.txtNombreDB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNombreDB.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNombreDB.Location = new System.Drawing.Point(2, 2);
-            this.txtNombreDB.Multiline = true;
-            this.txtNombreDB.Name = "txtNombreDB";
-            this.txtNombreDB.Size = new System.Drawing.Size(956, 17);
-            this.txtNombreDB.TabIndex = 1;
-            // 
-            // lblNombreDB
-            // 
-            this.lblNombreDB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblNombreDB.AutoSize = true;
-            this.lblNombreDB.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblNombreDB.Location = new System.Drawing.Point(15, 132);
-            this.lblNombreDB.Name = "lblNombreDB";
-            this.lblNombreDB.Size = new System.Drawing.Size(71, 15);
-            this.lblNombreDB.TabIndex = 3;
-            this.lblNombreDB.Text = "Nombre DB:";
-            // 
-            // panelPuerto
-            // 
-            this.panelPuerto.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelPuerto.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panelPuerto.Controls.Add(this.txtPuerto);
-            this.panelPuerto.Location = new System.Drawing.Point(18, 93);
-            this.panelPuerto.Name = "panelPuerto";
-            this.panelPuerto.Size = new System.Drawing.Size(960, 21);
-            this.panelPuerto.TabIndex = 4;
-            // 
-            // txtPuerto
-            // 
-            this.txtPuerto.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPuerto.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPuerto.Location = new System.Drawing.Point(2, 2);
-            this.txtPuerto.Multiline = true;
-            this.txtPuerto.Name = "txtPuerto";
-            this.txtPuerto.Size = new System.Drawing.Size(956, 17);
-            this.txtPuerto.TabIndex = 1;
-            // 
-            // lblPuerto
-            // 
-            this.lblPuerto.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblPuerto.AutoSize = true;
-            this.lblPuerto.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblPuerto.Location = new System.Drawing.Point(15, 75);
-            this.lblPuerto.Name = "lblPuerto";
-            this.lblPuerto.Size = new System.Drawing.Size(45, 15);
-            this.lblPuerto.TabIndex = 3;
-            this.lblPuerto.Text = "Puerto:";
             // 
             // panelRuta2
             // 
@@ -854,73 +846,6 @@
             this.panel1.Size = new System.Drawing.Size(739, 18);
             this.panel1.TabIndex = 12;
             // 
-            // lblDireccionIP
-            // 
-            this.lblDireccionIP.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblDireccionIP.AutoSize = true;
-            this.lblDireccionIP.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblDireccionIP.Location = new System.Drawing.Point(43, 555);
-            this.lblDireccionIP.Name = "lblDireccionIP";
-            this.lblDireccionIP.Size = new System.Drawing.Size(75, 15);
-            this.lblDireccionIP.TabIndex = 0;
-            this.lblDireccionIP.Text = "Dirección IP:";
-            this.lblDireccionIP.Visible = false;
-            // 
-            // panelDireccionIP
-            // 
-            this.panelDireccionIP.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelDireccionIP.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panelDireccionIP.Controls.Add(this.txtDireccionIP);
-            this.panelDireccionIP.Location = new System.Drawing.Point(46, 573);
-            this.panelDireccionIP.Name = "panelDireccionIP";
-            this.panelDireccionIP.Size = new System.Drawing.Size(99, 21);
-            this.panelDireccionIP.TabIndex = 2;
-            this.panelDireccionIP.Visible = false;
-            // 
-            // txtDireccionIP
-            // 
-            this.txtDireccionIP.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDireccionIP.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtDireccionIP.Location = new System.Drawing.Point(2, 2);
-            this.txtDireccionIP.Multiline = true;
-            this.txtDireccionIP.Name = "txtDireccionIP";
-            this.txtDireccionIP.Size = new System.Drawing.Size(95, 17);
-            this.txtDireccionIP.TabIndex = 1;
-            this.txtDireccionIP.Visible = false;
-            // 
-            // rjTextBoxControl2
-            // 
-            this.rjTextBoxControl2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl2.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl2.BorderRadius = 5;
-            this.rjTextBoxControl2.BorderSize = 2;
-            this.rjTextBoxControl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl2.Location = new System.Drawing.Point(356, 29);
-            this.rjTextBoxControl2.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl2.Multiline = false;
-            this.rjTextBoxControl2.Name = "rjTextBoxControl2";
-            this.rjTextBoxControl2.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl2.Size = new System.Drawing.Size(300, 34);
-            this.rjTextBoxControl2.TabIndex = 5;
-            this.rjTextBoxControl2.Texts = "";
-            this.rjTextBoxControl2.UnderlinedStyle = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.label2.Location = new System.Drawing.Point(377, 20);
-            this.label2.Margin = new System.Windows.Forms.Padding(0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 17);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Dispositivo médico";
-            // 
             // Config
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -934,8 +859,6 @@
             this.Controls.Add(this.btnRuta);
             this.Controls.Add(this.pnelTopConfig);
             this.Controls.Add(this.panelRight);
-            this.Controls.Add(this.panelDireccionIP);
-            this.Controls.Add(this.lblDireccionIP);
             this.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -946,16 +869,6 @@
             this.panelContenedor.ResumeLayout(false);
             this.panelConexion2.ResumeLayout(false);
             this.panelConexion2.PerformLayout();
-            this.panelIntentosReCo.ResumeLayout(false);
-            this.panelIntentosReCo.PerformLayout();
-            this.panelPass.ResumeLayout(false);
-            this.panelPass.PerformLayout();
-            this.panelUsuario.ResumeLayout(false);
-            this.panelUsuario.PerformLayout();
-            this.panelNombreDB.ResumeLayout(false);
-            this.panelNombreDB.PerformLayout();
-            this.panelPuerto.ResumeLayout(false);
-            this.panelPuerto.PerformLayout();
             this.panelRuta2.ResumeLayout(false);
             this.panelRuta2.PerformLayout();
             this.panelRutaArchivosERROR.ResumeLayout(false);
@@ -980,10 +893,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pnelTopConfig.ResumeLayout(false);
             this.panelRight.ResumeLayout(false);
-            this.panelDireccionIP.ResumeLayout(false);
-            this.panelDireccionIP.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1006,22 +916,6 @@
         private System.Windows.Forms.TextBox txtRutaLog;
         private System.Windows.Forms.Label lblRutaLog;
         private System.Windows.Forms.Panel panelParametrizacion2;
-        private System.Windows.Forms.Panel panelConexion2;
-        private System.Windows.Forms.Panel panelIntentosReCo;
-        private System.Windows.Forms.TextBox txtIntentosReCo;
-        private System.Windows.Forms.Label lblIntentosReCo;
-        private System.Windows.Forms.Panel panelPass;
-        private System.Windows.Forms.TextBox txtPass;
-        private System.Windows.Forms.Label lblPass;
-        private System.Windows.Forms.Panel panelUsuario;
-        private System.Windows.Forms.TextBox txtUsuario;
-        private System.Windows.Forms.Label lblUsuario;
-        private System.Windows.Forms.Panel panelNombreDB;
-        private System.Windows.Forms.TextBox txtNombreDB;
-        private System.Windows.Forms.Label lblNombreDB;
-        private System.Windows.Forms.Panel panelPuerto;
-        private System.Windows.Forms.TextBox txtPuerto;
-        private System.Windows.Forms.Label lblPuerto;
         private System.Windows.Forms.Label lblImpQuerys;
         private System.Windows.Forms.Panel panelNombreLog;
         private System.Windows.Forms.TextBox txtNombreLog;
@@ -1043,12 +937,20 @@
         private System.Windows.Forms.Button btnConexion;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblActivarLog;
-        private System.Windows.Forms.Label label1;
-        private RJControls.RJTextBoxControl rjTextBoxControl1;
-        private System.Windows.Forms.Label lblDireccionIP;
-        private System.Windows.Forms.Panel panelDireccionIP;
-        private System.Windows.Forms.TextBox txtDireccionIP;
+        private System.Windows.Forms.Panel panelConexion2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
         private RJControls.RJTextBoxControl rjTextBoxControl2;
+        private RJControls.RJTextBoxControl rjTextBoxControl1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private RJControls.RJTextBoxControl rjTextBoxControl7;
+        private RJControls.RJTextBoxControl rjTextBoxControl6;
+        private RJControls.RJTextBoxControl rjTextBoxControl5;
+        private RJControls.RJTextBoxControl rjTextBoxControl4;
+        private RJControls.RJTextBoxControl rjTextBoxControl3;
     }
 }

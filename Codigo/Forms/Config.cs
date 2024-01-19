@@ -26,12 +26,12 @@ namespace AnnarComMICROSESV60.Forms
             pathConfig = files[0];
             var datosConexion = conexion.Split(';');
 
-            txtDireccionIP.Text = datosConexion[0].Split('=')[1].ToString();
-            txtPuerto.Text = datosConexion[1].Split('=')[1].ToString();
-            txtNombreDB.Text = datosConexion[2].Split('=')[1].ToString();
-            txtUsuario.Text = datosConexion[3].Split('=')[1].ToString();
-            txtPass.Text = datosConexion[4].Split('=')[1].ToString();
-            txtIntentosReCo.Text = InterfaceConfig.intentosReconexionDB.ToString();
+            //txtDireccionIP.Text = datosConexion[0].Split('=')[1].ToString();
+            //txtPuerto.Text = datosConexion[1].Split('=')[1].ToString();
+            //txtNombreDB.Text = datosConexion[2].Split('=')[1].ToString();
+            //txtUsuario.Text = datosConexion[3].Split('=')[1].ToString();
+            //txtPass.Text = datosConexion[4].Split('=')[1].ToString();
+            //txtIntentosReCo.Text = InterfaceConfig.intentosReconexionDB.ToString();
 
             //Parametrización
             txtNombreEquipo.Text = InterfaceConfig.nombreEquipo.ToString();
@@ -145,111 +145,111 @@ namespace AnnarComMICROSESV60.Forms
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            //Proceso conexión
-            if (panelConexion2.Visible)
-            {
-                #region Conexión
-                if (!string.IsNullOrEmpty(txtDireccionIP.Text) &&
-                !string.IsNullOrEmpty(txtPuerto.Text) &&
-                !string.IsNullOrEmpty(txtNombreDB.Text) &&
-                !string.IsNullOrEmpty(txtUsuario.Text) &&
-                !string.IsNullOrEmpty(txtPass.Text) &&
-                !string.IsNullOrEmpty(txtIntentosReCo.Text)
-                )
-                {
-                    try
-                    {
-                        var cadenaNueva = $@"Server={txtDireccionIP.Text}; Port={txtPuerto.Text}; Database={txtNombreDB.Text}; User Id={txtUsuario.Text}; Password={txtPass.Text};";
-                        UpdateConfigKey("StrCadenaConeccion", cadenaNueva, 1);
-                        UpdateConfigKey("intentosReconexionDB", txtIntentosReCo.Text, 1);
+            ////Proceso conexión
+            //if (panelConexion2.Visible)
+            //{
+            //    #region Conexión
+            //    if (!string.IsNullOrEmpty(txtDireccionIP.Text) &&
+            //    !string.IsNullOrEmpty(txtPuerto.Text) &&
+            //    !string.IsNullOrEmpty(txtNombreDB.Text) &&
+            //    !string.IsNullOrEmpty(txtUsuario.Text) &&
+            //    !string.IsNullOrEmpty(txtPass.Text) &&
+            //    !string.IsNullOrEmpty(txtIntentosReCo.Text)
+            //    )
+            //    {
+            //        try
+            //        {
+            //            var cadenaNueva = $@"Server={txtDireccionIP.Text}; Port={txtPuerto.Text}; Database={txtNombreDB.Text}; User Id={txtUsuario.Text}; Password={txtPass.Text};";
+            //            UpdateConfigKey("StrCadenaConeccion", cadenaNueva, 1);
+            //            UpdateConfigKey("intentosReconexionDB", txtIntentosReCo.Text, 1);
 
-                        DialogResult result;
-                        using (var msFomr = new FormMessageBox("Conexion guardada correctamente. ", "OK", MessageBoxButtons.OK, MessageBoxIcon.None))
-                            result = msFomr.ShowDialog();
-                    }
-                    catch (Exception ex)
-                    {
-                        DialogResult result;
-                        using (var msFomr = new FormMessageBox($"No se puedo guardar correctamente. {ex}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error))
-                            result = msFomr.ShowDialog();
-                    }
-                }
-                else
-                {
-                    DialogResult result;
-                    using (var msFomr = new FormMessageBox($"No puede enviar campos vacios. ", "INFORMACIÓN", MessageBoxButtons.OK, MessageBoxIcon.Information))
-                        result = msFomr.ShowDialog();
-                }
-                #endregion
-            }
+            //            DialogResult result;
+            //            using (var msFomr = new FormMessageBox("Conexion guardada correctamente. ", "OK", MessageBoxButtons.OK, MessageBoxIcon.None))
+            //                result = msFomr.ShowDialog();
+            //        }
+            //        catch (Exception ex)
+            //        {
+            //            DialogResult result;
+            //            using (var msFomr = new FormMessageBox($"No se puedo guardar correctamente. {ex}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error))
+            //                result = msFomr.ShowDialog();
+            //        }
+            //    }
+            //    else
+            //    {
+            //        DialogResult result;
+            //        using (var msFomr = new FormMessageBox($"No puede enviar campos vacios. ", "INFORMACIÓN", MessageBoxButtons.OK, MessageBoxIcon.Information))
+            //            result = msFomr.ShowDialog();
+            //    }
+            //    #endregion
+            //}
 
-            //Proceso parametrización
-            if (panelParametrizacion2.Visible)
-            {
-                #region Parametrización
-                if (!string.IsNullOrEmpty(txtNombreEquipo.Text) &&
-                !string.IsNullOrEmpty(txtNombreLog.Text)
-                )
-                {
-                    try
-                    {
-                        UpdateConfigKey("nombreEquipo", txtNombreEquipo.Text, 2);
+            ////Proceso parametrización
+            //if (panelParametrizacion2.Visible)
+            //{
+            //    #region Parametrización
+            //    if (!string.IsNullOrEmpty(txtNombreEquipo.Text) &&
+            //    !string.IsNullOrEmpty(txtNombreLog.Text)
+            //    )
+            //    {
+            //        try
+            //        {
+            //            UpdateConfigKey("nombreEquipo", txtNombreEquipo.Text, 2);
                         
-                        UpdateConfigKey("nombreLog", txtNombreLog.Text, 2);
-                        UpdateConfigKey("logActivo", cbActivarLog.Checked == true ? "S" : "N", 2);
-                        UpdateConfigKey("imprimirQueriesDBLog", cbImpQuerys.Checked == true ? "S" : "N", 2);
+            //            UpdateConfigKey("nombreLog", txtNombreLog.Text, 2);
+            //            UpdateConfigKey("logActivo", cbActivarLog.Checked == true ? "S" : "N", 2);
+            //            UpdateConfigKey("imprimirQueriesDBLog", cbImpQuerys.Checked == true ? "S" : "N", 2);
 
-                        DialogResult result;
-                        using (var msFomr = new FormMessageBox("Parametros guardados correctamente. ", "OK", MessageBoxButtons.OK, MessageBoxIcon.None))
-                            result = msFomr.ShowDialog();
-                    }
-                    catch (Exception ex)
-                    {
-                        DialogResult result;
-                        using (var msFomr = new FormMessageBox($"No se puedo guardar correctamente. {ex}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error))
-                            result = msFomr.ShowDialog();
-                    }
-                }
-                else
-                {
-                    DialogResult result;
-                    using (var msFomr = new FormMessageBox($"No puede enviar campos vacios. ", "INFORMACIÓN", MessageBoxButtons.OK, MessageBoxIcon.Information))
-                        result = msFomr.ShowDialog();
-                }
-                #endregion
-            }
+            //            DialogResult result;
+            //            using (var msFomr = new FormMessageBox("Parametros guardados correctamente. ", "OK", MessageBoxButtons.OK, MessageBoxIcon.None))
+            //                result = msFomr.ShowDialog();
+            //        }
+            //        catch (Exception ex)
+            //        {
+            //            DialogResult result;
+            //            using (var msFomr = new FormMessageBox($"No se puedo guardar correctamente. {ex}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error))
+            //                result = msFomr.ShowDialog();
+            //        }
+            //    }
+            //    else
+            //    {
+            //        DialogResult result;
+            //        using (var msFomr = new FormMessageBox($"No puede enviar campos vacios. ", "INFORMACIÓN", MessageBoxButtons.OK, MessageBoxIcon.Information))
+            //            result = msFomr.ShowDialog();
+            //    }
+            //    #endregion
+            //}
 
-            //Proceso ruta
-            if (panelRuta2.Visible)
-            {
-                #region Rutas
-                if (
-                !string.IsNullOrEmpty(txtRutaLog.Text)
-                )
-                {
-                    try
-                    {
-                        UpdateConfigKey("Rutalog", txtRutaLog.Text, 2);
+            ////Proceso ruta
+            //if (panelRuta2.Visible)
+            //{
+            //    #region Rutas
+            //    if (
+            //    !string.IsNullOrEmpty(txtRutaLog.Text)
+            //    )
+            //    {
+            //        try
+            //        {
+            //            UpdateConfigKey("Rutalog", txtRutaLog.Text, 2);
 
-                        DialogResult result;
-                        using (var msFomr = new FormMessageBox("Parametros guardados correctamente. ", "OK", MessageBoxButtons.OK, MessageBoxIcon.None))
-                            result = msFomr.ShowDialog();
-                    }
-                    catch (Exception ex)
-                    {
-                        DialogResult result;
-                        using (var msFomr = new FormMessageBox($"No se puedo guardar correctamente. {ex}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error))
-                            result = msFomr.ShowDialog();
-                    }
-                }
-                else
-                {
-                    DialogResult result;
-                    using (var msFomr = new FormMessageBox($"No puede enviar campos vacios. ", "INFORMACIÓN", MessageBoxButtons.OK, MessageBoxIcon.Information))
-                        result = msFomr.ShowDialog();
-                }
-                #endregion
-            }
+            //            DialogResult result;
+            //            using (var msFomr = new FormMessageBox("Parametros guardados correctamente. ", "OK", MessageBoxButtons.OK, MessageBoxIcon.None))
+            //                result = msFomr.ShowDialog();
+            //        }
+            //        catch (Exception ex)
+            //        {
+            //            DialogResult result;
+            //            using (var msFomr = new FormMessageBox($"No se puedo guardar correctamente. {ex}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error))
+            //                result = msFomr.ShowDialog();
+            //        }
+            //    }
+            //    else
+            //    {
+            //        DialogResult result;
+            //        using (var msFomr = new FormMessageBox($"No puede enviar campos vacios. ", "INFORMACIÓN", MessageBoxButtons.OK, MessageBoxIcon.Information))
+            //            result = msFomr.ShowDialog();
+            //    }
+            //    #endregion
+            //}
         }
 
         public void UpdateConfigKey(string strKey, string newValue, int seccion) //Actuliza el valor de app.config por llave
@@ -425,5 +425,7 @@ namespace AnnarComMICROSESV60.Forms
             panelParametrizacion2.Visible = false;
             panelRuta2.Visible = false;
         }
+
+        
     }
 }
