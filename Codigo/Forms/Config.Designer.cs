@@ -36,12 +36,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.rjTextBoxControl11 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl10 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl9 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl8 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
             this.panelConexion2 = new System.Windows.Forms.Panel();
-            this.rjButton1 = new CustomControls.RJControls.RJButton();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -50,13 +45,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.rjTextBoxControl2 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl7 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl6 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl5 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl4 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl3 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl1 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
             this.panelRuta2 = new System.Windows.Forms.Panel();
             this.panelRutaArchivosERROR = new System.Windows.Forms.Panel();
             this.txtRutaArchivosERROR = new System.Windows.Forms.TextBox();
@@ -74,12 +62,22 @@
             this.btnParametrizacion = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelRight = new System.Windows.Forms.Panel();
-            this.btnGuardar = new CustomControls.RJControls.RJButton();
             this.btnConexion = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.rjButton1 = new CustomControls.RJControls.RJButton();
+            this.rjTextBoxControl2 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl7 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl6 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl5 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl4 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl3 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl1 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
             this.rjButton2 = new CustomControls.RJControls.RJButton();
-            this.rjToggleButton1 = new CustomControls.RJControls.RJToggleButton();
-            this.label12 = new System.Windows.Forms.Label();
+            this.rjTextBoxControl11 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl10 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl9 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl8 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.btnGuardar = new CustomControls.RJControls.RJButton();
             this.panelContenedor.SuspendLayout();
             this.panelParametrizacion2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -97,9 +95,9 @@
             // panelContenedor
             // 
             this.panelContenedor.BackColor = System.Drawing.Color.White;
+            this.panelContenedor.Controls.Add(this.panelRuta2);
             this.panelContenedor.Controls.Add(this.panelParametrizacion2);
             this.panelContenedor.Controls.Add(this.panelConexion2);
-            this.panelContenedor.Controls.Add(this.panelRuta2);
             this.panelContenedor.Location = new System.Drawing.Point(26, 161);
             this.panelContenedor.Name = "panelContenedor";
             this.panelContenedor.Size = new System.Drawing.Size(759, 433);
@@ -110,8 +108,6 @@
             // 
             this.panelParametrizacion2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panelParametrizacion2.BackColor = System.Drawing.Color.White;
-            this.panelParametrizacion2.Controls.Add(this.label12);
-            this.panelParametrizacion2.Controls.Add(this.rjToggleButton1);
             this.panelParametrizacion2.Controls.Add(this.rjButton2);
             this.panelParametrizacion2.Controls.Add(this.pictureBox2);
             this.panelParametrizacion2.Controls.Add(this.label11);
@@ -176,74 +172,6 @@
             this.label8.TabIndex = 1;
             this.label8.Text = "Nombre equipo";
             // 
-            // rjTextBoxControl11
-            // 
-            this.rjTextBoxControl11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl11.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl11.BorderRadius = 5;
-            this.rjTextBoxControl11.BorderSize = 2;
-            this.rjTextBoxControl11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl11.Location = new System.Drawing.Point(45, 244);
-            this.rjTextBoxControl11.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl11.Multiline = false;
-            this.rjTextBoxControl11.Name = "rjTextBoxControl11";
-            this.rjTextBoxControl11.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl11.Size = new System.Drawing.Size(400, 34);
-            this.rjTextBoxControl11.TabIndex = 0;
-            this.rjTextBoxControl11.Texts = "";
-            this.rjTextBoxControl11.UnderlinedStyle = false;
-            // 
-            // rjTextBoxControl10
-            // 
-            this.rjTextBoxControl10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl10.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl10.BorderRadius = 5;
-            this.rjTextBoxControl10.BorderSize = 2;
-            this.rjTextBoxControl10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl10.Location = new System.Drawing.Point(45, 180);
-            this.rjTextBoxControl10.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl10.Multiline = false;
-            this.rjTextBoxControl10.Name = "rjTextBoxControl10";
-            this.rjTextBoxControl10.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl10.Size = new System.Drawing.Size(400, 34);
-            this.rjTextBoxControl10.TabIndex = 0;
-            this.rjTextBoxControl10.Texts = "";
-            this.rjTextBoxControl10.UnderlinedStyle = false;
-            // 
-            // rjTextBoxControl9
-            // 
-            this.rjTextBoxControl9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl9.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl9.BorderRadius = 5;
-            this.rjTextBoxControl9.BorderSize = 2;
-            this.rjTextBoxControl9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl9.Location = new System.Drawing.Point(45, 124);
-            this.rjTextBoxControl9.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl9.Multiline = false;
-            this.rjTextBoxControl9.Name = "rjTextBoxControl9";
-            this.rjTextBoxControl9.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl9.Size = new System.Drawing.Size(400, 34);
-            this.rjTextBoxControl9.TabIndex = 0;
-            this.rjTextBoxControl9.Texts = "";
-            this.rjTextBoxControl9.UnderlinedStyle = false;
-            // 
-            // rjTextBoxControl8
-            // 
-            this.rjTextBoxControl8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl8.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl8.BorderRadius = 5;
-            this.rjTextBoxControl8.BorderSize = 2;
-            this.rjTextBoxControl8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl8.Location = new System.Drawing.Point(45, 60);
-            this.rjTextBoxControl8.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl8.Multiline = false;
-            this.rjTextBoxControl8.Name = "rjTextBoxControl8";
-            this.rjTextBoxControl8.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl8.Size = new System.Drawing.Size(400, 34);
-            this.rjTextBoxControl8.TabIndex = 0;
-            this.rjTextBoxControl8.Texts = "";
-            this.rjTextBoxControl8.UnderlinedStyle = false;
-            // 
             // panelConexion2
             // 
             this.panelConexion2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -267,30 +195,9 @@
             this.panelConexion2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panelConexion2.Location = new System.Drawing.Point(4, 28);
             this.panelConexion2.Name = "panelConexion2";
-            this.panelConexion2.Size = new System.Drawing.Size(1029, 402);
+            this.panelConexion2.Size = new System.Drawing.Size(1029, 354);
             this.panelConexion2.TabIndex = 6;
             this.panelConexion2.Visible = false;
-            // 
-            // rjButton1
-            // 
-            this.rjButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
-            this.rjButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
-            this.rjButton1.BorderColor = System.Drawing.Color.Transparent;
-            this.rjButton1.BorderRadius = 20;
-            this.rjButton1.BorderSize = 0;
-            this.rjButton1.FlatAppearance.BorderSize = 0;
-            this.rjButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
-            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
-            this.rjButton1.FontSize = 10F;
-            this.rjButton1.ForeColor = System.Drawing.Color.White;
-            this.rjButton1.Location = new System.Drawing.Point(621, 300);
-            this.rjButton1.Name = "rjButton1";
-            this.rjButton1.Size = new System.Drawing.Size(83, 37);
-            this.rjButton1.TabIndex = 8;
-            this.rjButton1.Text = "Guardar";
-            this.rjButton1.TextColor = System.Drawing.Color.White;
-            this.rjButton1.UseVisualStyleBackColor = false;
             // 
             // pictureBox3
             // 
@@ -385,139 +292,6 @@
             this.label1.Size = new System.Drawing.Size(63, 17);
             this.label1.TabIndex = 6;
             this.label1.Text = "Cabecera";
-            // 
-            // rjTextBoxControl2
-            // 
-            this.rjTextBoxControl2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl2.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl2.BorderRadius = 5;
-            this.rjTextBoxControl2.BorderSize = 2;
-            this.rjTextBoxControl2.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.rjTextBoxControl2.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
-            this.rjTextBoxControl2.Location = new System.Drawing.Point(356, 48);
-            this.rjTextBoxControl2.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl2.Multiline = false;
-            this.rjTextBoxControl2.Name = "rjTextBoxControl2";
-            this.rjTextBoxControl2.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl2.Size = new System.Drawing.Size(300, 37);
-            this.rjTextBoxControl2.TabIndex = 5;
-            this.rjTextBoxControl2.Texts = "";
-            this.rjTextBoxControl2.UnderlinedStyle = false;
-            // 
-            // rjTextBoxControl7
-            // 
-            this.rjTextBoxControl7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl7.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl7.BorderRadius = 5;
-            this.rjTextBoxControl7.BorderSize = 2;
-            this.rjTextBoxControl7.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.rjTextBoxControl7.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
-            this.rjTextBoxControl7.Location = new System.Drawing.Point(356, 114);
-            this.rjTextBoxControl7.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl7.Multiline = false;
-            this.rjTextBoxControl7.Name = "rjTextBoxControl7";
-            this.rjTextBoxControl7.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl7.Size = new System.Drawing.Size(300, 37);
-            this.rjTextBoxControl7.TabIndex = 5;
-            this.rjTextBoxControl7.Texts = "";
-            this.rjTextBoxControl7.UnderlinedStyle = false;
-            // 
-            // rjTextBoxControl6
-            // 
-            this.rjTextBoxControl6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl6.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl6.BorderRadius = 5;
-            this.rjTextBoxControl6.BorderSize = 2;
-            this.rjTextBoxControl6.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.rjTextBoxControl6.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
-            this.rjTextBoxControl6.Location = new System.Drawing.Point(25, 301);
-            this.rjTextBoxControl6.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl6.Multiline = false;
-            this.rjTextBoxControl6.Name = "rjTextBoxControl6";
-            this.rjTextBoxControl6.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl6.Size = new System.Drawing.Size(300, 37);
-            this.rjTextBoxControl6.TabIndex = 5;
-            this.rjTextBoxControl6.Texts = "";
-            this.rjTextBoxControl6.UnderlinedStyle = false;
-            // 
-            // rjTextBoxControl5
-            // 
-            this.rjTextBoxControl5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl5.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl5.BorderRadius = 5;
-            this.rjTextBoxControl5.BorderSize = 2;
-            this.rjTextBoxControl5.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.rjTextBoxControl5.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
-            this.rjTextBoxControl5.Location = new System.Drawing.Point(25, 232);
-            this.rjTextBoxControl5.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl5.Multiline = false;
-            this.rjTextBoxControl5.Name = "rjTextBoxControl5";
-            this.rjTextBoxControl5.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl5.Size = new System.Drawing.Size(300, 37);
-            this.rjTextBoxControl5.TabIndex = 5;
-            this.rjTextBoxControl5.Texts = "";
-            this.rjTextBoxControl5.UnderlinedStyle = false;
-            // 
-            // rjTextBoxControl4
-            // 
-            this.rjTextBoxControl4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl4.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl4.BorderRadius = 5;
-            this.rjTextBoxControl4.BorderSize = 2;
-            this.rjTextBoxControl4.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.rjTextBoxControl4.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
-            this.rjTextBoxControl4.Location = new System.Drawing.Point(25, 168);
-            this.rjTextBoxControl4.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl4.Multiline = false;
-            this.rjTextBoxControl4.Name = "rjTextBoxControl4";
-            this.rjTextBoxControl4.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl4.Size = new System.Drawing.Size(300, 37);
-            this.rjTextBoxControl4.TabIndex = 5;
-            this.rjTextBoxControl4.Texts = "";
-            this.rjTextBoxControl4.UnderlinedStyle = false;
-            // 
-            // rjTextBoxControl3
-            // 
-            this.rjTextBoxControl3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl3.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl3.BorderRadius = 5;
-            this.rjTextBoxControl3.BorderSize = 2;
-            this.rjTextBoxControl3.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.rjTextBoxControl3.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
-            this.rjTextBoxControl3.Location = new System.Drawing.Point(25, 112);
-            this.rjTextBoxControl3.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl3.Multiline = false;
-            this.rjTextBoxControl3.Name = "rjTextBoxControl3";
-            this.rjTextBoxControl3.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl3.Size = new System.Drawing.Size(300, 37);
-            this.rjTextBoxControl3.TabIndex = 5;
-            this.rjTextBoxControl3.Texts = "";
-            this.rjTextBoxControl3.UnderlinedStyle = false;
-            // 
-            // rjTextBoxControl1
-            // 
-            this.rjTextBoxControl1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl1.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl1.BorderRadius = 5;
-            this.rjTextBoxControl1.BorderSize = 2;
-            this.rjTextBoxControl1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.rjTextBoxControl1.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
-            this.rjTextBoxControl1.Location = new System.Drawing.Point(25, 48);
-            this.rjTextBoxControl1.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl1.Multiline = false;
-            this.rjTextBoxControl1.Name = "rjTextBoxControl1";
-            this.rjTextBoxControl1.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl1.Size = new System.Drawing.Size(300, 37);
-            this.rjTextBoxControl1.TabIndex = 5;
-            this.rjTextBoxControl1.Texts = "";
-            this.rjTextBoxControl1.UnderlinedStyle = false;
             // 
             // panelRuta2
             // 
@@ -739,29 +513,6 @@
             this.panelRight.Size = new System.Drawing.Size(262, 374);
             this.panelRight.TabIndex = 11;
             // 
-            // btnGuardar
-            // 
-            this.btnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnGuardar.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnGuardar.BackgroundColor = System.Drawing.Color.LightSeaGreen;
-            this.btnGuardar.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnGuardar.BorderRadius = 17;
-            this.btnGuardar.BorderSize = 0;
-            this.btnGuardar.FlatAppearance.BorderSize = 0;
-            this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuardar.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold);
-            this.btnGuardar.FontSize = 18F;
-            this.btnGuardar.ForeColor = System.Drawing.Color.White;
-            this.btnGuardar.Location = new System.Drawing.Point(74, 283);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(102, 39);
-            this.btnGuardar.TabIndex = 5;
-            this.btnGuardar.Text = "Guardar";
-            this.btnGuardar.TextColor = System.Drawing.Color.White;
-            this.btnGuardar.UseVisualStyleBackColor = false;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
-            // 
             // btnConexion
             // 
             this.btnConexion.BackColor = System.Drawing.Color.White;
@@ -787,6 +538,160 @@
             this.panel1.Size = new System.Drawing.Size(739, 18);
             this.panel1.TabIndex = 12;
             // 
+            // rjButton1
+            // 
+            this.rjButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton1.BorderColor = System.Drawing.Color.Transparent;
+            this.rjButton1.BorderRadius = 20;
+            this.rjButton1.BorderSize = 0;
+            this.rjButton1.FlatAppearance.BorderSize = 0;
+            this.rjButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
+            this.rjButton1.FontSize = 10F;
+            this.rjButton1.ForeColor = System.Drawing.Color.White;
+            this.rjButton1.Location = new System.Drawing.Point(621, 300);
+            this.rjButton1.Name = "rjButton1";
+            this.rjButton1.Size = new System.Drawing.Size(83, 37);
+            this.rjButton1.TabIndex = 8;
+            this.rjButton1.Text = "Guardar";
+            this.rjButton1.TextColor = System.Drawing.Color.White;
+            this.rjButton1.UseVisualStyleBackColor = false;
+            // 
+            // rjTextBoxControl2
+            // 
+            this.rjTextBoxControl2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl2.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl2.BorderRadius = 5;
+            this.rjTextBoxControl2.BorderSize = 2;
+            this.rjTextBoxControl2.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.rjTextBoxControl2.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
+            this.rjTextBoxControl2.Location = new System.Drawing.Point(356, 48);
+            this.rjTextBoxControl2.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl2.Multiline = false;
+            this.rjTextBoxControl2.Name = "rjTextBoxControl2";
+            this.rjTextBoxControl2.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl2.Size = new System.Drawing.Size(300, 37);
+            this.rjTextBoxControl2.TabIndex = 5;
+            this.rjTextBoxControl2.Texts = "";
+            this.rjTextBoxControl2.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl7
+            // 
+            this.rjTextBoxControl7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl7.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl7.BorderRadius = 5;
+            this.rjTextBoxControl7.BorderSize = 2;
+            this.rjTextBoxControl7.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.rjTextBoxControl7.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
+            this.rjTextBoxControl7.Location = new System.Drawing.Point(356, 114);
+            this.rjTextBoxControl7.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl7.Multiline = false;
+            this.rjTextBoxControl7.Name = "rjTextBoxControl7";
+            this.rjTextBoxControl7.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl7.Size = new System.Drawing.Size(300, 37);
+            this.rjTextBoxControl7.TabIndex = 5;
+            this.rjTextBoxControl7.Texts = "";
+            this.rjTextBoxControl7.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl6
+            // 
+            this.rjTextBoxControl6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl6.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl6.BorderRadius = 5;
+            this.rjTextBoxControl6.BorderSize = 2;
+            this.rjTextBoxControl6.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.rjTextBoxControl6.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
+            this.rjTextBoxControl6.Location = new System.Drawing.Point(25, 301);
+            this.rjTextBoxControl6.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl6.Multiline = false;
+            this.rjTextBoxControl6.Name = "rjTextBoxControl6";
+            this.rjTextBoxControl6.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl6.Size = new System.Drawing.Size(300, 37);
+            this.rjTextBoxControl6.TabIndex = 5;
+            this.rjTextBoxControl6.Texts = "";
+            this.rjTextBoxControl6.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl5
+            // 
+            this.rjTextBoxControl5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl5.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl5.BorderRadius = 5;
+            this.rjTextBoxControl5.BorderSize = 2;
+            this.rjTextBoxControl5.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.rjTextBoxControl5.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
+            this.rjTextBoxControl5.Location = new System.Drawing.Point(25, 232);
+            this.rjTextBoxControl5.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl5.Multiline = false;
+            this.rjTextBoxControl5.Name = "rjTextBoxControl5";
+            this.rjTextBoxControl5.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl5.Size = new System.Drawing.Size(300, 37);
+            this.rjTextBoxControl5.TabIndex = 5;
+            this.rjTextBoxControl5.Texts = "";
+            this.rjTextBoxControl5.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl4
+            // 
+            this.rjTextBoxControl4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl4.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl4.BorderRadius = 5;
+            this.rjTextBoxControl4.BorderSize = 2;
+            this.rjTextBoxControl4.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.rjTextBoxControl4.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
+            this.rjTextBoxControl4.Location = new System.Drawing.Point(25, 168);
+            this.rjTextBoxControl4.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl4.Multiline = false;
+            this.rjTextBoxControl4.Name = "rjTextBoxControl4";
+            this.rjTextBoxControl4.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl4.Size = new System.Drawing.Size(300, 37);
+            this.rjTextBoxControl4.TabIndex = 5;
+            this.rjTextBoxControl4.Texts = "";
+            this.rjTextBoxControl4.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl3
+            // 
+            this.rjTextBoxControl3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl3.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl3.BorderRadius = 5;
+            this.rjTextBoxControl3.BorderSize = 2;
+            this.rjTextBoxControl3.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.rjTextBoxControl3.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
+            this.rjTextBoxControl3.Location = new System.Drawing.Point(25, 112);
+            this.rjTextBoxControl3.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl3.Multiline = false;
+            this.rjTextBoxControl3.Name = "rjTextBoxControl3";
+            this.rjTextBoxControl3.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl3.Size = new System.Drawing.Size(300, 37);
+            this.rjTextBoxControl3.TabIndex = 5;
+            this.rjTextBoxControl3.Texts = "";
+            this.rjTextBoxControl3.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl1
+            // 
+            this.rjTextBoxControl1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl1.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl1.BorderRadius = 5;
+            this.rjTextBoxControl1.BorderSize = 2;
+            this.rjTextBoxControl1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.rjTextBoxControl1.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
+            this.rjTextBoxControl1.Location = new System.Drawing.Point(25, 48);
+            this.rjTextBoxControl1.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl1.Multiline = false;
+            this.rjTextBoxControl1.Name = "rjTextBoxControl1";
+            this.rjTextBoxControl1.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl1.Size = new System.Drawing.Size(300, 37);
+            this.rjTextBoxControl1.TabIndex = 5;
+            this.rjTextBoxControl1.Texts = "";
+            this.rjTextBoxControl1.UnderlinedStyle = false;
+            // 
             // rjButton2
             // 
             this.rjButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
@@ -808,29 +713,96 @@
             this.rjButton2.TextColor = System.Drawing.Color.White;
             this.rjButton2.UseVisualStyleBackColor = false;
             // 
-            // rjToggleButton1
+            // rjTextBoxControl11
             // 
-            this.rjToggleButton1.AutoSize = true;
-            this.rjToggleButton1.Location = new System.Drawing.Point(45, 301);
-            this.rjToggleButton1.MinimumSize = new System.Drawing.Size(45, 22);
-            this.rjToggleButton1.Name = "rjToggleButton1";
-            this.rjToggleButton1.OffBackColor = System.Drawing.Color.Gray;
-            this.rjToggleButton1.OffToggleColor = System.Drawing.Color.Gainsboro;
-            this.rjToggleButton1.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
-            this.rjToggleButton1.OnToggleColor = System.Drawing.Color.WhiteSmoke;
-            this.rjToggleButton1.Size = new System.Drawing.Size(45, 22);
-            this.rjToggleButton1.TabIndex = 4;
-            this.rjToggleButton1.UseVisualStyleBackColor = true;
+            this.rjTextBoxControl11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl11.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl11.BorderRadius = 5;
+            this.rjTextBoxControl11.BorderSize = 2;
+            this.rjTextBoxControl11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl11.Location = new System.Drawing.Point(45, 244);
+            this.rjTextBoxControl11.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl11.Multiline = false;
+            this.rjTextBoxControl11.Name = "rjTextBoxControl11";
+            this.rjTextBoxControl11.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl11.Size = new System.Drawing.Size(400, 34);
+            this.rjTextBoxControl11.TabIndex = 0;
+            this.rjTextBoxControl11.Texts = "";
+            this.rjTextBoxControl11.UnderlinedStyle = false;
             // 
-            // label12
+            // rjTextBoxControl10
             // 
-            this.label12.AutoSize = true;
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
-            this.label12.Location = new System.Drawing.Point(96, 306);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(68, 17);
-            this.label12.TabIndex = 5;
-            this.label12.Text = "Log activo";
+            this.rjTextBoxControl10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl10.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl10.BorderRadius = 5;
+            this.rjTextBoxControl10.BorderSize = 2;
+            this.rjTextBoxControl10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl10.Location = new System.Drawing.Point(45, 180);
+            this.rjTextBoxControl10.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl10.Multiline = false;
+            this.rjTextBoxControl10.Name = "rjTextBoxControl10";
+            this.rjTextBoxControl10.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl10.Size = new System.Drawing.Size(400, 34);
+            this.rjTextBoxControl10.TabIndex = 0;
+            this.rjTextBoxControl10.Texts = "";
+            this.rjTextBoxControl10.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl9
+            // 
+            this.rjTextBoxControl9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl9.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl9.BorderRadius = 5;
+            this.rjTextBoxControl9.BorderSize = 2;
+            this.rjTextBoxControl9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl9.Location = new System.Drawing.Point(45, 124);
+            this.rjTextBoxControl9.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl9.Multiline = false;
+            this.rjTextBoxControl9.Name = "rjTextBoxControl9";
+            this.rjTextBoxControl9.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl9.Size = new System.Drawing.Size(400, 34);
+            this.rjTextBoxControl9.TabIndex = 0;
+            this.rjTextBoxControl9.Texts = "";
+            this.rjTextBoxControl9.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl8
+            // 
+            this.rjTextBoxControl8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl8.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl8.BorderRadius = 5;
+            this.rjTextBoxControl8.BorderSize = 2;
+            this.rjTextBoxControl8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl8.Location = new System.Drawing.Point(45, 60);
+            this.rjTextBoxControl8.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl8.Multiline = false;
+            this.rjTextBoxControl8.Name = "rjTextBoxControl8";
+            this.rjTextBoxControl8.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl8.Size = new System.Drawing.Size(400, 34);
+            this.rjTextBoxControl8.TabIndex = 0;
+            this.rjTextBoxControl8.Texts = "";
+            this.rjTextBoxControl8.UnderlinedStyle = false;
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnGuardar.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btnGuardar.BackgroundColor = System.Drawing.Color.LightSeaGreen;
+            this.btnGuardar.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnGuardar.BorderRadius = 17;
+            this.btnGuardar.BorderSize = 0;
+            this.btnGuardar.FlatAppearance.BorderSize = 0;
+            this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuardar.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold);
+            this.btnGuardar.FontSize = 18F;
+            this.btnGuardar.ForeColor = System.Drawing.Color.White;
+            this.btnGuardar.Location = new System.Drawing.Point(74, 283);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(102, 39);
+            this.btnGuardar.TabIndex = 5;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.TextColor = System.Drawing.Color.White;
+            this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // Config
             // 
@@ -924,7 +896,5 @@
         private RJControls.RJTextBoxControl rjTextBoxControl11;
         private System.Windows.Forms.PictureBox pictureBox2;
         private CustomControls.RJControls.RJButton rjButton2;
-        private System.Windows.Forms.Label label12;
-        private CustomControls.RJControls.RJToggleButton rjToggleButton1;
     }
 }
