@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Config));
             this.panelContenedor = new System.Windows.Forms.Panel();
             this.panelParametrizacion2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -76,9 +77,12 @@
             this.btnGuardar = new CustomControls.RJControls.RJButton();
             this.btnConexion = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.rjButton2 = new CustomControls.RJControls.RJButton();
+            this.rjToggleButton1 = new CustomControls.RJControls.RJToggleButton();
+            this.label12 = new System.Windows.Forms.Label();
             this.panelContenedor.SuspendLayout();
             this.panelParametrizacion2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelConexion2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panelRuta2.SuspendLayout();
@@ -88,7 +92,6 @@
             this.panelRutaLog.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelRight.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panelContenedor
@@ -107,6 +110,9 @@
             // 
             this.panelParametrizacion2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panelParametrizacion2.BackColor = System.Drawing.Color.White;
+            this.panelParametrizacion2.Controls.Add(this.label12);
+            this.panelParametrizacion2.Controls.Add(this.rjToggleButton1);
+            this.panelParametrizacion2.Controls.Add(this.rjButton2);
             this.panelParametrizacion2.Controls.Add(this.pictureBox2);
             this.panelParametrizacion2.Controls.Add(this.label11);
             this.panelParametrizacion2.Controls.Add(this.label10);
@@ -124,6 +130,16 @@
             this.panelParametrizacion2.TabIndex = 7;
             this.panelParametrizacion2.Visible = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::AnnarComMICROSESV60.Properties.Resources.Imagen1;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(484, 64);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(189, 214);
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -136,7 +152,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(65, 180);
+            this.label10.Location = new System.Drawing.Point(65, 173);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(78, 17);
             this.label10.TabIndex = 1;
@@ -145,7 +161,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(65, 122);
+            this.label9.Location = new System.Drawing.Point(65, 117);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(107, 17);
             this.label9.TabIndex = 1;
@@ -184,7 +200,7 @@
             this.rjTextBoxControl10.BorderRadius = 5;
             this.rjTextBoxControl10.BorderSize = 2;
             this.rjTextBoxControl10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl10.Location = new System.Drawing.Point(45, 187);
+            this.rjTextBoxControl10.Location = new System.Drawing.Point(45, 180);
             this.rjTextBoxControl10.Margin = new System.Windows.Forms.Padding(4);
             this.rjTextBoxControl10.Multiline = false;
             this.rjTextBoxControl10.Name = "rjTextBoxControl10";
@@ -201,7 +217,7 @@
             this.rjTextBoxControl9.BorderRadius = 5;
             this.rjTextBoxControl9.BorderSize = 2;
             this.rjTextBoxControl9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl9.Location = new System.Drawing.Point(45, 129);
+            this.rjTextBoxControl9.Location = new System.Drawing.Point(45, 124);
             this.rjTextBoxControl9.Margin = new System.Windows.Forms.Padding(4);
             this.rjTextBoxControl9.Multiline = false;
             this.rjTextBoxControl9.Name = "rjTextBoxControl9";
@@ -771,14 +787,50 @@
             this.panel1.Size = new System.Drawing.Size(739, 18);
             this.panel1.TabIndex = 12;
             // 
-            // pictureBox2
+            // rjButton2
             // 
-            this.pictureBox2.BackgroundImage = global::AnnarComMICROSESV60.Properties.Resources.Imagen1;
-            this.pictureBox2.Location = new System.Drawing.Point(484, 64);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(189, 214);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
+            this.rjButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton2.BorderRadius = 20;
+            this.rjButton2.BorderSize = 0;
+            this.rjButton2.FlatAppearance.BorderSize = 0;
+            this.rjButton2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton2.Font = new System.Drawing.Font("Open Sans", 10F, System.Drawing.FontStyle.Bold);
+            this.rjButton2.FontSize = 10F;
+            this.rjButton2.ForeColor = System.Drawing.Color.White;
+            this.rjButton2.Location = new System.Drawing.Point(538, 292);
+            this.rjButton2.Name = "rjButton2";
+            this.rjButton2.Size = new System.Drawing.Size(83, 37);
+            this.rjButton2.TabIndex = 3;
+            this.rjButton2.Text = "Guardar";
+            this.rjButton2.TextColor = System.Drawing.Color.White;
+            this.rjButton2.UseVisualStyleBackColor = false;
+            // 
+            // rjToggleButton1
+            // 
+            this.rjToggleButton1.AutoSize = true;
+            this.rjToggleButton1.Location = new System.Drawing.Point(45, 301);
+            this.rjToggleButton1.MinimumSize = new System.Drawing.Size(45, 22);
+            this.rjToggleButton1.Name = "rjToggleButton1";
+            this.rjToggleButton1.OffBackColor = System.Drawing.Color.Gray;
+            this.rjToggleButton1.OffToggleColor = System.Drawing.Color.Gainsboro;
+            this.rjToggleButton1.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjToggleButton1.OnToggleColor = System.Drawing.Color.WhiteSmoke;
+            this.rjToggleButton1.Size = new System.Drawing.Size(45, 22);
+            this.rjToggleButton1.TabIndex = 4;
+            this.rjToggleButton1.UseVisualStyleBackColor = true;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
+            this.label12.Location = new System.Drawing.Point(96, 306);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(68, 17);
+            this.label12.TabIndex = 5;
+            this.label12.Text = "Log activo";
             // 
             // Config
             // 
@@ -802,6 +854,7 @@
             this.panelContenedor.ResumeLayout(false);
             this.panelParametrizacion2.ResumeLayout(false);
             this.panelParametrizacion2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panelConexion2.ResumeLayout(false);
             this.panelConexion2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -817,7 +870,6 @@
             this.panelRutaLog.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelRight.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -871,5 +923,8 @@
         private System.Windows.Forms.Label label11;
         private RJControls.RJTextBoxControl rjTextBoxControl11;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private CustomControls.RJControls.RJButton rjButton2;
+        private System.Windows.Forms.Label label12;
+        private CustomControls.RJControls.RJToggleButton rjToggleButton1;
     }
 }
