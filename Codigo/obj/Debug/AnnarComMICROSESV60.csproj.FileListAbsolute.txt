@@ -1,7 +1,6 @@
 D:\learning\estilos\PUBLICACION\AnnarComMICROSESV60.exe.config
 D:\learning\estilos\PUBLICACION\AnnarComMICROSESV60.exe.manifest
 D:\learning\estilos\PUBLICACION\AnnarComMICROSESV60.application
-D:\learning\estilos\PUBLICACION\AnnarComMICROSESV60.exe
 D:\learning\estilos\PUBLICACION\AnnarComMICROSESV60.pdb
 D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.csproj.AssemblyReference.cache
 D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.csproj.SuggestedBindingRedirects.cache

@@ -14,14 +14,14 @@
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="AnnarComMICROSESV60.exe.manifest" size="10568">
+    <dependentAssembly dependencyType="install" codebase="AnnarComMICROSESV60.exe.manifest" size="11226">
       <assemblyIdentity name="AnnarComMICROSESV60.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>rcXVaXsQIRt9+sJOD8+ElWdhpoh8S27olCpDEmqZo+U=</dsig:DigestValue>
+        <dsig:DigestValue>8F+OpSyYO55272djYWHt5zwBr3sN6z4u8fIYZfrK/nw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

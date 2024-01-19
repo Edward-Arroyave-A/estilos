@@ -30,21 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Config));
             this.panelContenedor = new System.Windows.Forms.Panel();
-            this.panelParametrizacion2 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.panelConexion2 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.panelRuta2 = new System.Windows.Forms.Panel();
             this.panelRutaArchivosERROR = new System.Windows.Forms.Panel();
             this.txtRutaArchivosERROR = new System.Windows.Forms.TextBox();
@@ -58,13 +43,27 @@
             this.panelRutaLog = new System.Windows.Forms.Panel();
             this.txtRutaLog = new System.Windows.Forms.TextBox();
             this.lblRutaLog = new System.Windows.Forms.Label();
-            this.btnRuta = new System.Windows.Forms.Button();
-            this.btnParametrizacion = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panelRight = new System.Windows.Forms.Panel();
-            this.btnConexion = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelParametrizacion2 = new System.Windows.Forms.Panel();
+            this.rjButton2 = new CustomControls.RJControls.RJButton();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.rjTextBoxControl11 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl10 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl9 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl8 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.panelConexion2 = new System.Windows.Forms.Panel();
             this.rjButton1 = new CustomControls.RJControls.RJButton();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.rjTextBoxControl2 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
             this.rjTextBoxControl7 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
             this.rjTextBoxControl6 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
@@ -72,22 +71,24 @@
             this.rjTextBoxControl4 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
             this.rjTextBoxControl3 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
             this.rjTextBoxControl1 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjButton2 = new CustomControls.RJControls.RJButton();
-            this.rjTextBoxControl11 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl10 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl9 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl8 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.btnRuta = new System.Windows.Forms.Button();
+            this.btnParametrizacion = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panelRight = new System.Windows.Forms.Panel();
             this.btnGuardar = new CustomControls.RJControls.RJButton();
+            this.btnConexion = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.rjToggleButton1 = new CustomControls.RJControls.RJToggleButton();
             this.panelContenedor.SuspendLayout();
-            this.panelParametrizacion2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panelConexion2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panelRuta2.SuspendLayout();
             this.panelRutaArchivosERROR.SuspendLayout();
             this.panelRutaArchivosOK.SuspendLayout();
             this.panelRutaArchivos.SuspendLayout();
             this.panelRutaLog.SuspendLayout();
+            this.panelParametrizacion2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panelConexion2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelRight.SuspendLayout();
             this.SuspendLayout();
@@ -95,203 +96,15 @@
             // panelContenedor
             // 
             this.panelContenedor.BackColor = System.Drawing.Color.White;
-            this.panelContenedor.Controls.Add(this.panelRuta2);
+            this.panelContenedor.Controls.Add(this.rjToggleButton1);
             this.panelContenedor.Controls.Add(this.panelParametrizacion2);
             this.panelContenedor.Controls.Add(this.panelConexion2);
+            this.panelContenedor.Controls.Add(this.panelRuta2);
             this.panelContenedor.Location = new System.Drawing.Point(26, 161);
             this.panelContenedor.Name = "panelContenedor";
             this.panelContenedor.Size = new System.Drawing.Size(759, 433);
             this.panelContenedor.TabIndex = 1;
             this.panelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContenedor_Paint);
-            // 
-            // panelParametrizacion2
-            // 
-            this.panelParametrizacion2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelParametrizacion2.BackColor = System.Drawing.Color.White;
-            this.panelParametrizacion2.Controls.Add(this.rjButton2);
-            this.panelParametrizacion2.Controls.Add(this.pictureBox2);
-            this.panelParametrizacion2.Controls.Add(this.label11);
-            this.panelParametrizacion2.Controls.Add(this.label10);
-            this.panelParametrizacion2.Controls.Add(this.label9);
-            this.panelParametrizacion2.Controls.Add(this.label8);
-            this.panelParametrizacion2.Controls.Add(this.rjTextBoxControl11);
-            this.panelParametrizacion2.Controls.Add(this.rjTextBoxControl10);
-            this.panelParametrizacion2.Controls.Add(this.rjTextBoxControl9);
-            this.panelParametrizacion2.Controls.Add(this.rjTextBoxControl8);
-            this.panelParametrizacion2.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold);
-            this.panelParametrizacion2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.panelParametrizacion2.Location = new System.Drawing.Point(8, 28);
-            this.panelParametrizacion2.Name = "panelParametrizacion2";
-            this.panelParametrizacion2.Size = new System.Drawing.Size(748, 354);
-            this.panelParametrizacion2.TabIndex = 7;
-            this.panelParametrizacion2.Visible = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::AnnarComMICROSESV60.Properties.Resources.Imagen1;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(484, 64);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(189, 214);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(65, 237);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(62, 17);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "Intervalo";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(65, 173);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(78, 17);
-            this.label10.TabIndex = 1;
-            this.label10.Text = "Nombre log";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(65, 117);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(107, 17);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Nombre interfaz";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(65, 53);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(102, 17);
-            this.label8.TabIndex = 1;
-            this.label8.Text = "Nombre equipo";
-            // 
-            // panelConexion2
-            // 
-            this.panelConexion2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelConexion2.BackColor = System.Drawing.Color.Transparent;
-            this.panelConexion2.Controls.Add(this.rjButton1);
-            this.panelConexion2.Controls.Add(this.pictureBox3);
-            this.panelConexion2.Controls.Add(this.label2);
-            this.panelConexion2.Controls.Add(this.label7);
-            this.panelConexion2.Controls.Add(this.label6);
-            this.panelConexion2.Controls.Add(this.label5);
-            this.panelConexion2.Controls.Add(this.label4);
-            this.panelConexion2.Controls.Add(this.label3);
-            this.panelConexion2.Controls.Add(this.label1);
-            this.panelConexion2.Controls.Add(this.rjTextBoxControl2);
-            this.panelConexion2.Controls.Add(this.rjTextBoxControl7);
-            this.panelConexion2.Controls.Add(this.rjTextBoxControl6);
-            this.panelConexion2.Controls.Add(this.rjTextBoxControl5);
-            this.panelConexion2.Controls.Add(this.rjTextBoxControl4);
-            this.panelConexion2.Controls.Add(this.rjTextBoxControl3);
-            this.panelConexion2.Controls.Add(this.rjTextBoxControl1);
-            this.panelConexion2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panelConexion2.Location = new System.Drawing.Point(4, 28);
-            this.panelConexion2.Name = "panelConexion2";
-            this.panelConexion2.Size = new System.Drawing.Size(1029, 354);
-            this.panelConexion2.TabIndex = 6;
-            this.panelConexion2.Visible = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(394, 173);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(165, 165);
-            this.pictureBox3.TabIndex = 7;
-            this.pictureBox3.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.label2.Location = new System.Drawing.Point(377, 39);
-            this.label2.Margin = new System.Windows.Forms.Padding(0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 17);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Dispositivo médico";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.label7.Location = new System.Drawing.Point(377, 105);
-            this.label7.Margin = new System.Windows.Forms.Padding(0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(59, 17);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Reactivo";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.label6.Location = new System.Drawing.Point(46, 292);
-            this.label6.Margin = new System.Windows.Forms.Padding(0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(71, 17);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "URL Token";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.label5.Location = new System.Drawing.Point(46, 223);
-            this.label5.Margin = new System.Windows.Forms.Padding(0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(101, 17);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "URL Resultados";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.label4.Location = new System.Drawing.Point(46, 159);
-            this.label4.Margin = new System.Windows.Forms.Padding(0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 17);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Contraseña";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.label3.Location = new System.Drawing.Point(46, 103);
-            this.label3.Margin = new System.Windows.Forms.Padding(0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 17);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Usuario";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(46, 39);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 17);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Cabecera";
             // 
             // panelRuta2
             // 
@@ -457,86 +270,189 @@
             this.lblRutaLog.TabIndex = 0;
             this.lblRutaLog.Text = "Ruta Log:";
             // 
-            // btnRuta
+            // panelParametrizacion2
             // 
-            this.btnRuta.BackColor = System.Drawing.Color.White;
-            this.btnRuta.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRuta.FlatAppearance.BorderSize = 0;
-            this.btnRuta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRuta.ForeColor = System.Drawing.Color.Gray;
-            this.btnRuta.Location = new System.Drawing.Point(352, 121);
-            this.btnRuta.Margin = new System.Windows.Forms.Padding(6);
-            this.btnRuta.Name = "btnRuta";
-            this.btnRuta.Size = new System.Drawing.Size(149, 42);
-            this.btnRuta.TabIndex = 0;
-            this.btnRuta.Text = "Ruta";
-            this.btnRuta.UseVisualStyleBackColor = false;
-            this.btnRuta.Click += new System.EventHandler(this.btnRuta_Click);
+            this.panelParametrizacion2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelParametrizacion2.BackColor = System.Drawing.Color.White;
+            this.panelParametrizacion2.Controls.Add(this.rjButton2);
+            this.panelParametrizacion2.Controls.Add(this.pictureBox2);
+            this.panelParametrizacion2.Controls.Add(this.label11);
+            this.panelParametrizacion2.Controls.Add(this.label10);
+            this.panelParametrizacion2.Controls.Add(this.label9);
+            this.panelParametrizacion2.Controls.Add(this.label8);
+            this.panelParametrizacion2.Controls.Add(this.rjTextBoxControl11);
+            this.panelParametrizacion2.Controls.Add(this.rjTextBoxControl10);
+            this.panelParametrizacion2.Controls.Add(this.rjTextBoxControl9);
+            this.panelParametrizacion2.Controls.Add(this.rjTextBoxControl8);
+            this.panelParametrizacion2.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold);
+            this.panelParametrizacion2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.panelParametrizacion2.Location = new System.Drawing.Point(8, 28);
+            this.panelParametrizacion2.Name = "panelParametrizacion2";
+            this.panelParametrizacion2.Size = new System.Drawing.Size(748, 354);
+            this.panelParametrizacion2.TabIndex = 7;
+            this.panelParametrizacion2.Visible = false;
             // 
-            // btnParametrizacion
+            // rjButton2
             // 
-            this.btnParametrizacion.BackColor = System.Drawing.Color.White;
-            this.btnParametrizacion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnParametrizacion.FlatAppearance.BorderSize = 0;
-            this.btnParametrizacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnParametrizacion.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnParametrizacion.ForeColor = System.Drawing.Color.Gray;
-            this.btnParametrizacion.Location = new System.Drawing.Point(190, 121);
-            this.btnParametrizacion.Margin = new System.Windows.Forms.Padding(6);
-            this.btnParametrizacion.Name = "btnParametrizacion";
-            this.btnParametrizacion.Size = new System.Drawing.Size(148, 42);
-            this.btnParametrizacion.TabIndex = 0;
-            this.btnParametrizacion.Text = "Parametrización";
-            this.btnParametrizacion.UseVisualStyleBackColor = false;
-            this.btnParametrizacion.Click += new System.EventHandler(this.btnParametrizacion_Click);
+            this.rjButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton2.BorderRadius = 20;
+            this.rjButton2.BorderSize = 0;
+            this.rjButton2.FlatAppearance.BorderSize = 0;
+            this.rjButton2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton2.Font = new System.Drawing.Font("Open Sans", 10F, System.Drawing.FontStyle.Bold);
+            this.rjButton2.FontSize = 10F;
+            this.rjButton2.ForeColor = System.Drawing.Color.White;
+            this.rjButton2.Location = new System.Drawing.Point(538, 292);
+            this.rjButton2.Name = "rjButton2";
+            this.rjButton2.Size = new System.Drawing.Size(83, 37);
+            this.rjButton2.TabIndex = 3;
+            this.rjButton2.Text = "Guardar";
+            this.rjButton2.TextColor = System.Drawing.Color.White;
+            this.rjButton2.UseVisualStyleBackColor = false;
             // 
-            // pictureBox1
+            // pictureBox2
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::AnnarComMICROSESV60.Properties.Resources.Imagen;
-            this.pictureBox1.Location = new System.Drawing.Point(8, 60);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(230, 189);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox2.BackgroundImage = global::AnnarComMICROSESV60.Properties.Resources.Imagen1;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(484, 64);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(189, 214);
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
             // 
-            // panelRight
+            // label11
             // 
-            this.panelRight.BackColor = System.Drawing.Color.White;
-            this.panelRight.Controls.Add(this.pictureBox1);
-            this.panelRight.Controls.Add(this.btnGuardar);
-            this.panelRight.Location = new System.Drawing.Point(510, 161);
-            this.panelRight.Name = "panelRight";
-            this.panelRight.Size = new System.Drawing.Size(262, 374);
-            this.panelRight.TabIndex = 11;
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(65, 237);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(62, 17);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "Intervalo";
             // 
-            // btnConexion
+            // label10
             // 
-            this.btnConexion.BackColor = System.Drawing.Color.White;
-            this.btnConexion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnConexion.FlatAppearance.BorderSize = 0;
-            this.btnConexion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConexion.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConexion.ForeColor = System.Drawing.Color.Gray;
-            this.btnConexion.Location = new System.Drawing.Point(34, 121);
-            this.btnConexion.Margin = new System.Windows.Forms.Padding(6);
-            this.btnConexion.Name = "btnConexion";
-            this.btnConexion.Size = new System.Drawing.Size(148, 42);
-            this.btnConexion.TabIndex = 13;
-            this.btnConexion.Text = "Conexión";
-            this.btnConexion.UseVisualStyleBackColor = false;
-            this.btnConexion.Click += new System.EventHandler(this.btnConexion_Click);
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(65, 173);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(78, 17);
+            this.label10.TabIndex = 1;
+            this.label10.Text = "Nombre log";
             // 
-            // panel1
+            // label9
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(33, 160);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(739, 18);
-            this.panel1.TabIndex = 12;
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(65, 117);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(107, 17);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "Nombre interfaz";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(65, 53);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(102, 17);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "Nombre equipo";
+            // 
+            // rjTextBoxControl11
+            // 
+            this.rjTextBoxControl11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl11.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl11.BorderRadius = 5;
+            this.rjTextBoxControl11.BorderSize = 2;
+            this.rjTextBoxControl11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl11.Location = new System.Drawing.Point(45, 244);
+            this.rjTextBoxControl11.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl11.Multiline = false;
+            this.rjTextBoxControl11.Name = "rjTextBoxControl11";
+            this.rjTextBoxControl11.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl11.Size = new System.Drawing.Size(400, 34);
+            this.rjTextBoxControl11.TabIndex = 0;
+            this.rjTextBoxControl11.Texts = "";
+            this.rjTextBoxControl11.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl10
+            // 
+            this.rjTextBoxControl10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl10.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl10.BorderRadius = 5;
+            this.rjTextBoxControl10.BorderSize = 2;
+            this.rjTextBoxControl10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl10.Location = new System.Drawing.Point(45, 180);
+            this.rjTextBoxControl10.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl10.Multiline = false;
+            this.rjTextBoxControl10.Name = "rjTextBoxControl10";
+            this.rjTextBoxControl10.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl10.Size = new System.Drawing.Size(400, 34);
+            this.rjTextBoxControl10.TabIndex = 0;
+            this.rjTextBoxControl10.Texts = "";
+            this.rjTextBoxControl10.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl9
+            // 
+            this.rjTextBoxControl9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl9.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl9.BorderRadius = 5;
+            this.rjTextBoxControl9.BorderSize = 2;
+            this.rjTextBoxControl9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl9.Location = new System.Drawing.Point(45, 124);
+            this.rjTextBoxControl9.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl9.Multiline = false;
+            this.rjTextBoxControl9.Name = "rjTextBoxControl9";
+            this.rjTextBoxControl9.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl9.Size = new System.Drawing.Size(400, 34);
+            this.rjTextBoxControl9.TabIndex = 0;
+            this.rjTextBoxControl9.Texts = "";
+            this.rjTextBoxControl9.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl8
+            // 
+            this.rjTextBoxControl8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl8.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl8.BorderRadius = 5;
+            this.rjTextBoxControl8.BorderSize = 2;
+            this.rjTextBoxControl8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl8.Location = new System.Drawing.Point(45, 60);
+            this.rjTextBoxControl8.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl8.Multiline = false;
+            this.rjTextBoxControl8.Name = "rjTextBoxControl8";
+            this.rjTextBoxControl8.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl8.Size = new System.Drawing.Size(400, 34);
+            this.rjTextBoxControl8.TabIndex = 0;
+            this.rjTextBoxControl8.Texts = "";
+            this.rjTextBoxControl8.UnderlinedStyle = false;
+            // 
+            // panelConexion2
+            // 
+            this.panelConexion2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelConexion2.BackColor = System.Drawing.Color.Transparent;
+            this.panelConexion2.Controls.Add(this.rjButton1);
+            this.panelConexion2.Controls.Add(this.pictureBox3);
+            this.panelConexion2.Controls.Add(this.label2);
+            this.panelConexion2.Controls.Add(this.label7);
+            this.panelConexion2.Controls.Add(this.label6);
+            this.panelConexion2.Controls.Add(this.label5);
+            this.panelConexion2.Controls.Add(this.label4);
+            this.panelConexion2.Controls.Add(this.label3);
+            this.panelConexion2.Controls.Add(this.label1);
+            this.panelConexion2.Controls.Add(this.rjTextBoxControl2);
+            this.panelConexion2.Controls.Add(this.rjTextBoxControl7);
+            this.panelConexion2.Controls.Add(this.rjTextBoxControl6);
+            this.panelConexion2.Controls.Add(this.rjTextBoxControl5);
+            this.panelConexion2.Controls.Add(this.rjTextBoxControl4);
+            this.panelConexion2.Controls.Add(this.rjTextBoxControl3);
+            this.panelConexion2.Controls.Add(this.rjTextBoxControl1);
+            this.panelConexion2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelConexion2.Location = new System.Drawing.Point(4, 28);
+            this.panelConexion2.Name = "panelConexion2";
+            this.panelConexion2.Size = new System.Drawing.Size(1029, 354);
+            this.panelConexion2.TabIndex = 6;
+            this.panelConexion2.Visible = false;
             // 
             // rjButton1
             // 
@@ -558,6 +474,100 @@
             this.rjButton1.Text = "Guardar";
             this.rjButton1.TextColor = System.Drawing.Color.White;
             this.rjButton1.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(394, 173);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(165, 165);
+            this.pictureBox3.TabIndex = 7;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.label2.Location = new System.Drawing.Point(377, 39);
+            this.label2.Margin = new System.Windows.Forms.Padding(0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(122, 17);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Dispositivo médico";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.label7.Location = new System.Drawing.Point(377, 105);
+            this.label7.Margin = new System.Windows.Forms.Padding(0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(59, 17);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Reactivo";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.label6.Location = new System.Drawing.Point(46, 292);
+            this.label6.Margin = new System.Windows.Forms.Padding(0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(71, 17);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "URL Token";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.label5.Location = new System.Drawing.Point(46, 223);
+            this.label5.Margin = new System.Windows.Forms.Padding(0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(101, 17);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "URL Resultados";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.label4.Location = new System.Drawing.Point(46, 159);
+            this.label4.Margin = new System.Windows.Forms.Padding(0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(76, 17);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Contraseña";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.label3.Location = new System.Drawing.Point(46, 103);
+            this.label3.Margin = new System.Windows.Forms.Padding(0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(54, 17);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Usuario";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.label1.Location = new System.Drawing.Point(46, 39);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(63, 17);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Cabecera";
             // 
             // rjTextBoxControl2
             // 
@@ -692,94 +702,61 @@
             this.rjTextBoxControl1.Texts = "";
             this.rjTextBoxControl1.UnderlinedStyle = false;
             // 
-            // rjButton2
+            // btnRuta
             // 
-            this.rjButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
-            this.rjButton2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
-            this.rjButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
-            this.rjButton2.BorderRadius = 20;
-            this.rjButton2.BorderSize = 0;
-            this.rjButton2.FlatAppearance.BorderSize = 0;
-            this.rjButton2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
-            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton2.Font = new System.Drawing.Font("Open Sans", 10F, System.Drawing.FontStyle.Bold);
-            this.rjButton2.FontSize = 10F;
-            this.rjButton2.ForeColor = System.Drawing.Color.White;
-            this.rjButton2.Location = new System.Drawing.Point(538, 292);
-            this.rjButton2.Name = "rjButton2";
-            this.rjButton2.Size = new System.Drawing.Size(83, 37);
-            this.rjButton2.TabIndex = 3;
-            this.rjButton2.Text = "Guardar";
-            this.rjButton2.TextColor = System.Drawing.Color.White;
-            this.rjButton2.UseVisualStyleBackColor = false;
+            this.btnRuta.BackColor = System.Drawing.Color.White;
+            this.btnRuta.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRuta.FlatAppearance.BorderSize = 0;
+            this.btnRuta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRuta.ForeColor = System.Drawing.Color.Gray;
+            this.btnRuta.Location = new System.Drawing.Point(352, 121);
+            this.btnRuta.Margin = new System.Windows.Forms.Padding(6);
+            this.btnRuta.Name = "btnRuta";
+            this.btnRuta.Size = new System.Drawing.Size(149, 42);
+            this.btnRuta.TabIndex = 0;
+            this.btnRuta.Text = "Ruta";
+            this.btnRuta.UseVisualStyleBackColor = false;
+            this.btnRuta.Click += new System.EventHandler(this.btnRuta_Click);
             // 
-            // rjTextBoxControl11
+            // btnParametrizacion
             // 
-            this.rjTextBoxControl11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl11.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl11.BorderRadius = 5;
-            this.rjTextBoxControl11.BorderSize = 2;
-            this.rjTextBoxControl11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl11.Location = new System.Drawing.Point(45, 244);
-            this.rjTextBoxControl11.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl11.Multiline = false;
-            this.rjTextBoxControl11.Name = "rjTextBoxControl11";
-            this.rjTextBoxControl11.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl11.Size = new System.Drawing.Size(400, 34);
-            this.rjTextBoxControl11.TabIndex = 0;
-            this.rjTextBoxControl11.Texts = "";
-            this.rjTextBoxControl11.UnderlinedStyle = false;
+            this.btnParametrizacion.BackColor = System.Drawing.Color.White;
+            this.btnParametrizacion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnParametrizacion.FlatAppearance.BorderSize = 0;
+            this.btnParametrizacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnParametrizacion.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnParametrizacion.ForeColor = System.Drawing.Color.Gray;
+            this.btnParametrizacion.Location = new System.Drawing.Point(190, 121);
+            this.btnParametrizacion.Margin = new System.Windows.Forms.Padding(6);
+            this.btnParametrizacion.Name = "btnParametrizacion";
+            this.btnParametrizacion.Size = new System.Drawing.Size(148, 42);
+            this.btnParametrizacion.TabIndex = 0;
+            this.btnParametrizacion.Text = "Parametrización";
+            this.btnParametrizacion.UseVisualStyleBackColor = false;
+            this.btnParametrizacion.Click += new System.EventHandler(this.btnParametrizacion_Click);
             // 
-            // rjTextBoxControl10
+            // pictureBox1
             // 
-            this.rjTextBoxControl10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl10.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl10.BorderRadius = 5;
-            this.rjTextBoxControl10.BorderSize = 2;
-            this.rjTextBoxControl10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl10.Location = new System.Drawing.Point(45, 180);
-            this.rjTextBoxControl10.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl10.Multiline = false;
-            this.rjTextBoxControl10.Name = "rjTextBoxControl10";
-            this.rjTextBoxControl10.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl10.Size = new System.Drawing.Size(400, 34);
-            this.rjTextBoxControl10.TabIndex = 0;
-            this.rjTextBoxControl10.Texts = "";
-            this.rjTextBoxControl10.UnderlinedStyle = false;
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::AnnarComMICROSESV60.Properties.Resources.Imagen;
+            this.pictureBox1.Location = new System.Drawing.Point(8, 60);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(230, 189);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
             // 
-            // rjTextBoxControl9
+            // panelRight
             // 
-            this.rjTextBoxControl9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl9.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl9.BorderRadius = 5;
-            this.rjTextBoxControl9.BorderSize = 2;
-            this.rjTextBoxControl9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl9.Location = new System.Drawing.Point(45, 124);
-            this.rjTextBoxControl9.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl9.Multiline = false;
-            this.rjTextBoxControl9.Name = "rjTextBoxControl9";
-            this.rjTextBoxControl9.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl9.Size = new System.Drawing.Size(400, 34);
-            this.rjTextBoxControl9.TabIndex = 0;
-            this.rjTextBoxControl9.Texts = "";
-            this.rjTextBoxControl9.UnderlinedStyle = false;
-            // 
-            // rjTextBoxControl8
-            // 
-            this.rjTextBoxControl8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl8.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl8.BorderRadius = 5;
-            this.rjTextBoxControl8.BorderSize = 2;
-            this.rjTextBoxControl8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl8.Location = new System.Drawing.Point(45, 60);
-            this.rjTextBoxControl8.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl8.Multiline = false;
-            this.rjTextBoxControl8.Name = "rjTextBoxControl8";
-            this.rjTextBoxControl8.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl8.Size = new System.Drawing.Size(400, 34);
-            this.rjTextBoxControl8.TabIndex = 0;
-            this.rjTextBoxControl8.Texts = "";
-            this.rjTextBoxControl8.UnderlinedStyle = false;
+            this.panelRight.BackColor = System.Drawing.Color.White;
+            this.panelRight.Controls.Add(this.pictureBox1);
+            this.panelRight.Controls.Add(this.btnGuardar);
+            this.panelRight.Location = new System.Drawing.Point(510, 161);
+            this.panelRight.Name = "panelRight";
+            this.panelRight.Size = new System.Drawing.Size(262, 374);
+            this.panelRight.TabIndex = 11;
             // 
             // btnGuardar
             // 
@@ -804,6 +781,45 @@
             this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
+            // btnConexion
+            // 
+            this.btnConexion.BackColor = System.Drawing.Color.White;
+            this.btnConexion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConexion.FlatAppearance.BorderSize = 0;
+            this.btnConexion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConexion.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConexion.ForeColor = System.Drawing.Color.Gray;
+            this.btnConexion.Location = new System.Drawing.Point(34, 121);
+            this.btnConexion.Margin = new System.Windows.Forms.Padding(6);
+            this.btnConexion.Name = "btnConexion";
+            this.btnConexion.Size = new System.Drawing.Size(148, 42);
+            this.btnConexion.TabIndex = 13;
+            this.btnConexion.Text = "Conexión";
+            this.btnConexion.UseVisualStyleBackColor = false;
+            this.btnConexion.Click += new System.EventHandler(this.btnConexion_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Location = new System.Drawing.Point(33, 160);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(739, 18);
+            this.panel1.TabIndex = 12;
+            // 
+            // rjToggleButton1
+            // 
+            this.rjToggleButton1.AutoSize = true;
+            this.rjToggleButton1.Location = new System.Drawing.Point(53, 389);
+            this.rjToggleButton1.MinimumSize = new System.Drawing.Size(45, 22);
+            this.rjToggleButton1.Name = "rjToggleButton1";
+            this.rjToggleButton1.OffBackColor = System.Drawing.Color.Gray;
+            this.rjToggleButton1.OffToggleColor = System.Drawing.Color.Gainsboro;
+            this.rjToggleButton1.OnBackColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjToggleButton1.OnToggleColor = System.Drawing.Color.WhiteSmoke;
+            this.rjToggleButton1.Size = new System.Drawing.Size(45, 22);
+            this.rjToggleButton1.TabIndex = 9;
+            this.rjToggleButton1.UseVisualStyleBackColor = true;
+            // 
             // Config
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -824,12 +840,7 @@
             this.Text = "Config";
             this.Load += new System.EventHandler(this.Config_Load);
             this.panelContenedor.ResumeLayout(false);
-            this.panelParametrizacion2.ResumeLayout(false);
-            this.panelParametrizacion2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panelConexion2.ResumeLayout(false);
-            this.panelConexion2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panelContenedor.PerformLayout();
             this.panelRuta2.ResumeLayout(false);
             this.panelRuta2.PerformLayout();
             this.panelRutaArchivosERROR.ResumeLayout(false);
@@ -840,6 +851,12 @@
             this.panelRutaArchivos.PerformLayout();
             this.panelRutaLog.ResumeLayout(false);
             this.panelRutaLog.PerformLayout();
+            this.panelParametrizacion2.ResumeLayout(false);
+            this.panelParametrizacion2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panelConexion2.ResumeLayout(false);
+            this.panelConexion2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelRight.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -896,5 +913,6 @@
         private RJControls.RJTextBoxControl rjTextBoxControl11;
         private System.Windows.Forms.PictureBox pictureBox2;
         private CustomControls.RJControls.RJButton rjButton2;
+        private CustomControls.RJControls.RJToggleButton rjToggleButton1;
     }
 }
