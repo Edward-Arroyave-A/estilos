@@ -5,6 +5,7 @@ D:\learning\estilos\PUBLICACION\AnnarComMICROSESV60.exe
 D:\learning\estilos\PUBLICACION\AnnarComMICROSESV60.pdb
 D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.csproj.AssemblyReference.cache
 D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.csproj.SuggestedBindingRedirects.cache
+D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.RJControls.RJTextBoxControl.resources
 D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.Forms.Config.resources
 D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.Forms.Dashboard.resources
 D:\learning\estilos\Codigo\obj\Debug\AnnarComMICROSESV60.Forms.FormMessageBox.resources

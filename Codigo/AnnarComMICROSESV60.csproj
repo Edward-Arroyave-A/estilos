@@ -126,6 +126,12 @@
     <Compile Include="RJControls\RJButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="RJControls\RJTextBoxControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RJControls\RJTextBoxControl.Designer.cs">
+      <DependentUpon>RJTextBoxControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="RJControls\RJToggleButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -134,6 +140,9 @@
     <Compile Include="Utilities\InterfaceConfig.cs" />
     <Compile Include="Utilities\RegistroLog.cs" />
     <Compile Include="Utilities\VariablesGlobal.cs" />
+    <EmbeddedResource Include="RJControls\RJTextBoxControl.resx">
+      <DependentUpon>RJTextBoxControl.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Resources\Captura de pantalla 2024-01-17 134355.png" />
     <None Include="Resources\Captura de pantalla 2024-01-17 133654.png" />
     <None Include="Resources\Captura de pantalla 2024-01-17 132932.png" />
