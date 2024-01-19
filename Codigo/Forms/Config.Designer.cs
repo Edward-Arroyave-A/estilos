@@ -36,12 +36,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.rjTextBoxControl11 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl10 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl9 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl8 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
             this.panelConexion2 = new System.Windows.Forms.Panel();
-            this.rjButton1 = new CustomControls.RJControls.RJButton();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -50,13 +45,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.rjTextBoxControl2 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl7 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl6 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl5 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl4 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl3 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.rjTextBoxControl1 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
             this.panelRuta2 = new System.Windows.Forms.Panel();
             this.panelRutaArchivosERROR = new System.Windows.Forms.Panel();
             this.txtRutaArchivosERROR = new System.Windows.Forms.TextBox();
@@ -67,19 +55,28 @@
             this.panelRutaArchivos = new System.Windows.Forms.Panel();
             this.txtRutaArchivos = new System.Windows.Forms.TextBox();
             this.lblRutaArchivos = new System.Windows.Forms.Label();
-            this.panelRutaLog = new System.Windows.Forms.Panel();
-            this.txtRutaLog = new System.Windows.Forms.TextBox();
-            this.lblRutaLog = new System.Windows.Forms.Label();
             this.btnRuta = new System.Windows.Forms.Button();
             this.btnParametrizacion = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelRight = new System.Windows.Forms.Panel();
-            this.btnGuardar = new CustomControls.RJControls.RJButton();
             this.btnConexion = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.rjButton2 = new CustomControls.RJControls.RJButton();
-            this.rjToggleButton1 = new CustomControls.RJControls.RJToggleButton();
             this.label12 = new System.Windows.Forms.Label();
+            this.rjToggleButton1 = new CustomControls.RJControls.RJToggleButton();
+            this.rjButton2 = new CustomControls.RJControls.RJButton();
+            this.rjTextBoxControl11 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl10 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl9 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl8 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjButton1 = new CustomControls.RJControls.RJButton();
+            this.rjTextBoxControl2 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl7 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl6 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl5 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl4 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl3 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.rjTextBoxControl1 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.btnGuardar = new CustomControls.RJControls.RJButton();
             this.panelContenedor.SuspendLayout();
             this.panelParametrizacion2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -89,7 +86,6 @@
             this.panelRutaArchivosERROR.SuspendLayout();
             this.panelRutaArchivosOK.SuspendLayout();
             this.panelRutaArchivos.SuspendLayout();
-            this.panelRutaLog.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelRight.SuspendLayout();
             this.SuspendLayout();
@@ -176,74 +172,6 @@
             this.label8.TabIndex = 1;
             this.label8.Text = "Nombre equipo";
             // 
-            // rjTextBoxControl11
-            // 
-            this.rjTextBoxControl11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl11.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl11.BorderRadius = 5;
-            this.rjTextBoxControl11.BorderSize = 2;
-            this.rjTextBoxControl11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl11.Location = new System.Drawing.Point(45, 244);
-            this.rjTextBoxControl11.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl11.Multiline = false;
-            this.rjTextBoxControl11.Name = "rjTextBoxControl11";
-            this.rjTextBoxControl11.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl11.Size = new System.Drawing.Size(400, 34);
-            this.rjTextBoxControl11.TabIndex = 0;
-            this.rjTextBoxControl11.Texts = "";
-            this.rjTextBoxControl11.UnderlinedStyle = false;
-            // 
-            // rjTextBoxControl10
-            // 
-            this.rjTextBoxControl10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl10.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl10.BorderRadius = 5;
-            this.rjTextBoxControl10.BorderSize = 2;
-            this.rjTextBoxControl10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl10.Location = new System.Drawing.Point(45, 180);
-            this.rjTextBoxControl10.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl10.Multiline = false;
-            this.rjTextBoxControl10.Name = "rjTextBoxControl10";
-            this.rjTextBoxControl10.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl10.Size = new System.Drawing.Size(400, 34);
-            this.rjTextBoxControl10.TabIndex = 0;
-            this.rjTextBoxControl10.Texts = "";
-            this.rjTextBoxControl10.UnderlinedStyle = false;
-            // 
-            // rjTextBoxControl9
-            // 
-            this.rjTextBoxControl9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl9.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl9.BorderRadius = 5;
-            this.rjTextBoxControl9.BorderSize = 2;
-            this.rjTextBoxControl9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl9.Location = new System.Drawing.Point(45, 124);
-            this.rjTextBoxControl9.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl9.Multiline = false;
-            this.rjTextBoxControl9.Name = "rjTextBoxControl9";
-            this.rjTextBoxControl9.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl9.Size = new System.Drawing.Size(400, 34);
-            this.rjTextBoxControl9.TabIndex = 0;
-            this.rjTextBoxControl9.Texts = "";
-            this.rjTextBoxControl9.UnderlinedStyle = false;
-            // 
-            // rjTextBoxControl8
-            // 
-            this.rjTextBoxControl8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl8.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl8.BorderRadius = 5;
-            this.rjTextBoxControl8.BorderSize = 2;
-            this.rjTextBoxControl8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl8.Location = new System.Drawing.Point(45, 60);
-            this.rjTextBoxControl8.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl8.Multiline = false;
-            this.rjTextBoxControl8.Name = "rjTextBoxControl8";
-            this.rjTextBoxControl8.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl8.Size = new System.Drawing.Size(400, 34);
-            this.rjTextBoxControl8.TabIndex = 0;
-            this.rjTextBoxControl8.Texts = "";
-            this.rjTextBoxControl8.UnderlinedStyle = false;
-            // 
             // panelConexion2
             // 
             this.panelConexion2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -270,27 +198,6 @@
             this.panelConexion2.Size = new System.Drawing.Size(1029, 402);
             this.panelConexion2.TabIndex = 6;
             this.panelConexion2.Visible = false;
-            // 
-            // rjButton1
-            // 
-            this.rjButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
-            this.rjButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
-            this.rjButton1.BorderColor = System.Drawing.Color.Transparent;
-            this.rjButton1.BorderRadius = 20;
-            this.rjButton1.BorderSize = 0;
-            this.rjButton1.FlatAppearance.BorderSize = 0;
-            this.rjButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
-            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
-            this.rjButton1.FontSize = 10F;
-            this.rjButton1.ForeColor = System.Drawing.Color.White;
-            this.rjButton1.Location = new System.Drawing.Point(621, 300);
-            this.rjButton1.Name = "rjButton1";
-            this.rjButton1.Size = new System.Drawing.Size(83, 37);
-            this.rjButton1.TabIndex = 8;
-            this.rjButton1.Text = "Guardar";
-            this.rjButton1.TextColor = System.Drawing.Color.White;
-            this.rjButton1.UseVisualStyleBackColor = false;
             // 
             // pictureBox3
             // 
@@ -385,6 +292,348 @@
             this.label1.Size = new System.Drawing.Size(63, 17);
             this.label1.TabIndex = 6;
             this.label1.Text = "Cabecera";
+            // 
+            // panelRuta2
+            // 
+            this.panelRuta2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelRuta2.BackColor = System.Drawing.Color.Transparent;
+            this.panelRuta2.Controls.Add(this.panelRutaArchivosERROR);
+            this.panelRuta2.Controls.Add(this.lblRutaArchivosERROR);
+            this.panelRuta2.Controls.Add(this.panelRutaArchivosOK);
+            this.panelRuta2.Controls.Add(this.lblRutaArchivosOK);
+            this.panelRuta2.Controls.Add(this.panelRutaArchivos);
+            this.panelRuta2.Controls.Add(this.lblRutaArchivos);
+            this.panelRuta2.Location = new System.Drawing.Point(11, 28);
+            this.panelRuta2.Name = "panelRuta2";
+            this.panelRuta2.Size = new System.Drawing.Size(740, 354);
+            this.panelRuta2.TabIndex = 8;
+            this.panelRuta2.Visible = false;
+            // 
+            // panelRutaArchivosERROR
+            // 
+            this.panelRutaArchivosERROR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelRutaArchivosERROR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(134)))), ((int)(((byte)(189)))));
+            this.panelRutaArchivosERROR.Controls.Add(this.txtRutaArchivosERROR);
+            this.panelRutaArchivosERROR.Location = new System.Drawing.Point(15, 211);
+            this.panelRutaArchivosERROR.Name = "panelRutaArchivosERROR";
+            this.panelRutaArchivosERROR.Size = new System.Drawing.Size(684, 21);
+            this.panelRutaArchivosERROR.TabIndex = 4;
+            this.panelRutaArchivosERROR.Visible = false;
+            // 
+            // txtRutaArchivosERROR
+            // 
+            this.txtRutaArchivosERROR.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtRutaArchivosERROR.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtRutaArchivosERROR.Location = new System.Drawing.Point(2, 2);
+            this.txtRutaArchivosERROR.Multiline = true;
+            this.txtRutaArchivosERROR.Name = "txtRutaArchivosERROR";
+            this.txtRutaArchivosERROR.Size = new System.Drawing.Size(680, 17);
+            this.txtRutaArchivosERROR.TabIndex = 1;
+            // 
+            // lblRutaArchivosERROR
+            // 
+            this.lblRutaArchivosERROR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblRutaArchivosERROR.AutoSize = true;
+            this.lblRutaArchivosERROR.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(75)))), ((int)(((byte)(139)))));
+            this.lblRutaArchivosERROR.Location = new System.Drawing.Point(12, 193);
+            this.lblRutaArchivosERROR.Name = "lblRutaArchivosERROR";
+            this.lblRutaArchivosERROR.Size = new System.Drawing.Size(120, 15);
+            this.lblRutaArchivosERROR.TabIndex = 3;
+            this.lblRutaArchivosERROR.Text = "Ruta ArchivosERROR:";
+            this.lblRutaArchivosERROR.Visible = false;
+            // 
+            // panelRutaArchivosOK
+            // 
+            this.panelRutaArchivosOK.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelRutaArchivosOK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(134)))), ((int)(((byte)(189)))));
+            this.panelRutaArchivosOK.Controls.Add(this.txtRutaArchivosOK);
+            this.panelRutaArchivosOK.Location = new System.Drawing.Point(15, 150);
+            this.panelRutaArchivosOK.Name = "panelRutaArchivosOK";
+            this.panelRutaArchivosOK.Size = new System.Drawing.Size(684, 21);
+            this.panelRutaArchivosOK.TabIndex = 4;
+            this.panelRutaArchivosOK.Visible = false;
+            // 
+            // txtRutaArchivosOK
+            // 
+            this.txtRutaArchivosOK.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtRutaArchivosOK.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtRutaArchivosOK.Location = new System.Drawing.Point(2, 2);
+            this.txtRutaArchivosOK.Multiline = true;
+            this.txtRutaArchivosOK.Name = "txtRutaArchivosOK";
+            this.txtRutaArchivosOK.Size = new System.Drawing.Size(680, 17);
+            this.txtRutaArchivosOK.TabIndex = 1;
+            // 
+            // lblRutaArchivosOK
+            // 
+            this.lblRutaArchivosOK.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblRutaArchivosOK.AutoSize = true;
+            this.lblRutaArchivosOK.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(75)))), ((int)(((byte)(139)))));
+            this.lblRutaArchivosOK.Location = new System.Drawing.Point(12, 132);
+            this.lblRutaArchivosOK.Name = "lblRutaArchivosOK";
+            this.lblRutaArchivosOK.Size = new System.Drawing.Size(100, 15);
+            this.lblRutaArchivosOK.TabIndex = 3;
+            this.lblRutaArchivosOK.Text = "Ruta ArchivosOK:";
+            this.lblRutaArchivosOK.Visible = false;
+            // 
+            // panelRutaArchivos
+            // 
+            this.panelRutaArchivos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelRutaArchivos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(134)))), ((int)(((byte)(189)))));
+            this.panelRutaArchivos.Controls.Add(this.txtRutaArchivos);
+            this.panelRutaArchivos.Location = new System.Drawing.Point(15, 93);
+            this.panelRutaArchivos.Name = "panelRutaArchivos";
+            this.panelRutaArchivos.Size = new System.Drawing.Size(686, 21);
+            this.panelRutaArchivos.TabIndex = 4;
+            this.panelRutaArchivos.Visible = false;
+            // 
+            // txtRutaArchivos
+            // 
+            this.txtRutaArchivos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtRutaArchivos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtRutaArchivos.Location = new System.Drawing.Point(2, 2);
+            this.txtRutaArchivos.Multiline = true;
+            this.txtRutaArchivos.Name = "txtRutaArchivos";
+            this.txtRutaArchivos.Size = new System.Drawing.Size(682, 17);
+            this.txtRutaArchivos.TabIndex = 1;
+            // 
+            // lblRutaArchivos
+            // 
+            this.lblRutaArchivos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblRutaArchivos.AutoSize = true;
+            this.lblRutaArchivos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(75)))), ((int)(((byte)(139)))));
+            this.lblRutaArchivos.Location = new System.Drawing.Point(12, 75);
+            this.lblRutaArchivos.Name = "lblRutaArchivos";
+            this.lblRutaArchivos.Size = new System.Drawing.Size(84, 15);
+            this.lblRutaArchivos.TabIndex = 3;
+            this.lblRutaArchivos.Text = "Ruta Archivos:";
+            this.lblRutaArchivos.Visible = false;
+            // 
+            // btnRuta
+            // 
+            this.btnRuta.BackColor = System.Drawing.Color.White;
+            this.btnRuta.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRuta.FlatAppearance.BorderSize = 0;
+            this.btnRuta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRuta.ForeColor = System.Drawing.Color.Gray;
+            this.btnRuta.Location = new System.Drawing.Point(352, 121);
+            this.btnRuta.Margin = new System.Windows.Forms.Padding(6);
+            this.btnRuta.Name = "btnRuta";
+            this.btnRuta.Size = new System.Drawing.Size(149, 42);
+            this.btnRuta.TabIndex = 0;
+            this.btnRuta.Text = "Ruta";
+            this.btnRuta.UseVisualStyleBackColor = false;
+            this.btnRuta.Click += new System.EventHandler(this.btnRuta_Click);
+            // 
+            // btnParametrizacion
+            // 
+            this.btnParametrizacion.BackColor = System.Drawing.Color.White;
+            this.btnParametrizacion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnParametrizacion.FlatAppearance.BorderSize = 0;
+            this.btnParametrizacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnParametrizacion.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnParametrizacion.ForeColor = System.Drawing.Color.Gray;
+            this.btnParametrizacion.Location = new System.Drawing.Point(190, 121);
+            this.btnParametrizacion.Margin = new System.Windows.Forms.Padding(6);
+            this.btnParametrizacion.Name = "btnParametrizacion";
+            this.btnParametrizacion.Size = new System.Drawing.Size(148, 42);
+            this.btnParametrizacion.TabIndex = 0;
+            this.btnParametrizacion.Text = "Parametrización";
+            this.btnParametrizacion.UseVisualStyleBackColor = false;
+            this.btnParametrizacion.Click += new System.EventHandler(this.btnParametrizacion_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::AnnarComMICROSESV60.Properties.Resources.Imagen;
+            this.pictureBox1.Location = new System.Drawing.Point(8, 60);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(230, 189);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panelRight
+            // 
+            this.panelRight.BackColor = System.Drawing.Color.White;
+            this.panelRight.Controls.Add(this.pictureBox1);
+            this.panelRight.Controls.Add(this.btnGuardar);
+            this.panelRight.Location = new System.Drawing.Point(510, 161);
+            this.panelRight.Name = "panelRight";
+            this.panelRight.Size = new System.Drawing.Size(262, 374);
+            this.panelRight.TabIndex = 11;
+            // 
+            // btnConexion
+            // 
+            this.btnConexion.BackColor = System.Drawing.Color.White;
+            this.btnConexion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConexion.FlatAppearance.BorderSize = 0;
+            this.btnConexion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConexion.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConexion.ForeColor = System.Drawing.Color.Gray;
+            this.btnConexion.Location = new System.Drawing.Point(34, 121);
+            this.btnConexion.Margin = new System.Windows.Forms.Padding(6);
+            this.btnConexion.Name = "btnConexion";
+            this.btnConexion.Size = new System.Drawing.Size(148, 42);
+            this.btnConexion.TabIndex = 13;
+            this.btnConexion.Text = "Conexión";
+            this.btnConexion.UseVisualStyleBackColor = false;
+            this.btnConexion.Click += new System.EventHandler(this.btnConexion_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Location = new System.Drawing.Point(33, 160);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(739, 18);
+            this.panel1.TabIndex = 12;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
+            this.label12.Location = new System.Drawing.Point(96, 306);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(68, 17);
+            this.label12.TabIndex = 5;
+            this.label12.Text = "Log activo";
+            // 
+            // rjToggleButton1
+            // 
+            this.rjToggleButton1.AutoSize = true;
+            this.rjToggleButton1.Location = new System.Drawing.Point(45, 301);
+            this.rjToggleButton1.MinimumSize = new System.Drawing.Size(45, 22);
+            this.rjToggleButton1.Name = "rjToggleButton1";
+            this.rjToggleButton1.OffBackColor = System.Drawing.Color.Gray;
+            this.rjToggleButton1.OffToggleColor = System.Drawing.Color.Gainsboro;
+            this.rjToggleButton1.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjToggleButton1.OnToggleColor = System.Drawing.Color.WhiteSmoke;
+            this.rjToggleButton1.Size = new System.Drawing.Size(45, 22);
+            this.rjToggleButton1.TabIndex = 4;
+            this.rjToggleButton1.UseVisualStyleBackColor = true;
+            // 
+            // rjButton2
+            // 
+            this.rjButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton2.BorderRadius = 20;
+            this.rjButton2.BorderSize = 0;
+            this.rjButton2.FlatAppearance.BorderSize = 0;
+            this.rjButton2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton2.Font = new System.Drawing.Font("Open Sans", 10F, System.Drawing.FontStyle.Bold);
+            this.rjButton2.FontSize = 10F;
+            this.rjButton2.ForeColor = System.Drawing.Color.White;
+            this.rjButton2.Location = new System.Drawing.Point(538, 292);
+            this.rjButton2.Name = "rjButton2";
+            this.rjButton2.Size = new System.Drawing.Size(83, 37);
+            this.rjButton2.TabIndex = 3;
+            this.rjButton2.Text = "Guardar";
+            this.rjButton2.TextColor = System.Drawing.Color.White;
+            this.rjButton2.UseVisualStyleBackColor = false;
+            // 
+            // rjTextBoxControl11
+            // 
+            this.rjTextBoxControl11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl11.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl11.BorderRadius = 5;
+            this.rjTextBoxControl11.BorderSize = 2;
+            this.rjTextBoxControl11.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl11.Location = new System.Drawing.Point(45, 244);
+            this.rjTextBoxControl11.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl11.Multiline = false;
+            this.rjTextBoxControl11.Name = "rjTextBoxControl11";
+            this.rjTextBoxControl11.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl11.Size = new System.Drawing.Size(400, 37);
+            this.rjTextBoxControl11.TabIndex = 0;
+            this.rjTextBoxControl11.Texts = "";
+            this.rjTextBoxControl11.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl10
+            // 
+            this.rjTextBoxControl10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl10.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl10.BorderRadius = 5;
+            this.rjTextBoxControl10.BorderSize = 2;
+            this.rjTextBoxControl10.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl10.Location = new System.Drawing.Point(45, 180);
+            this.rjTextBoxControl10.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl10.Multiline = false;
+            this.rjTextBoxControl10.Name = "rjTextBoxControl10";
+            this.rjTextBoxControl10.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl10.Size = new System.Drawing.Size(400, 37);
+            this.rjTextBoxControl10.TabIndex = 0;
+            this.rjTextBoxControl10.Texts = "";
+            this.rjTextBoxControl10.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl9
+            // 
+            this.rjTextBoxControl9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl9.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl9.BorderRadius = 5;
+            this.rjTextBoxControl9.BorderSize = 2;
+            this.rjTextBoxControl9.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl9.Location = new System.Drawing.Point(45, 124);
+            this.rjTextBoxControl9.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl9.Multiline = false;
+            this.rjTextBoxControl9.Name = "rjTextBoxControl9";
+            this.rjTextBoxControl9.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl9.Size = new System.Drawing.Size(400, 37);
+            this.rjTextBoxControl9.TabIndex = 0;
+            this.rjTextBoxControl9.Texts = "";
+            this.rjTextBoxControl9.UnderlinedStyle = false;
+            // 
+            // rjTextBoxControl8
+            // 
+            this.rjTextBoxControl8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl8.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl8.BorderRadius = 5;
+            this.rjTextBoxControl8.BorderSize = 2;
+            this.rjTextBoxControl8.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl8.Location = new System.Drawing.Point(45, 60);
+            this.rjTextBoxControl8.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl8.Multiline = false;
+            this.rjTextBoxControl8.Name = "rjTextBoxControl8";
+            this.rjTextBoxControl8.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl8.Size = new System.Drawing.Size(400, 37);
+            this.rjTextBoxControl8.TabIndex = 0;
+            this.rjTextBoxControl8.Texts = "";
+            this.rjTextBoxControl8.UnderlinedStyle = false;
+            // 
+            // rjButton1
+            // 
+            this.rjButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton1.BorderColor = System.Drawing.Color.Transparent;
+            this.rjButton1.BorderRadius = 20;
+            this.rjButton1.BorderSize = 0;
+            this.rjButton1.FlatAppearance.BorderSize = 0;
+            this.rjButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
+            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
+            this.rjButton1.FontSize = 10F;
+            this.rjButton1.ForeColor = System.Drawing.Color.White;
+            this.rjButton1.Location = new System.Drawing.Point(621, 300);
+            this.rjButton1.Name = "rjButton1";
+            this.rjButton1.Size = new System.Drawing.Size(83, 37);
+            this.rjButton1.TabIndex = 8;
+            this.rjButton1.Text = "Guardar";
+            this.rjButton1.TextColor = System.Drawing.Color.White;
+            this.rjButton1.UseVisualStyleBackColor = false;
             // 
             // rjTextBoxControl2
             // 
@@ -519,226 +768,6 @@
             this.rjTextBoxControl1.Texts = "";
             this.rjTextBoxControl1.UnderlinedStyle = false;
             // 
-            // panelRuta2
-            // 
-            this.panelRuta2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelRuta2.BackColor = System.Drawing.Color.Transparent;
-            this.panelRuta2.Controls.Add(this.panelRutaArchivosERROR);
-            this.panelRuta2.Controls.Add(this.lblRutaArchivosERROR);
-            this.panelRuta2.Controls.Add(this.panelRutaArchivosOK);
-            this.panelRuta2.Controls.Add(this.lblRutaArchivosOK);
-            this.panelRuta2.Controls.Add(this.panelRutaArchivos);
-            this.panelRuta2.Controls.Add(this.lblRutaArchivos);
-            this.panelRuta2.Controls.Add(this.panelRutaLog);
-            this.panelRuta2.Controls.Add(this.lblRutaLog);
-            this.panelRuta2.Location = new System.Drawing.Point(324, 28);
-            this.panelRuta2.Name = "panelRuta2";
-            this.panelRuta2.Size = new System.Drawing.Size(427, 354);
-            this.panelRuta2.TabIndex = 8;
-            this.panelRuta2.Visible = false;
-            // 
-            // panelRutaArchivosERROR
-            // 
-            this.panelRutaArchivosERROR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelRutaArchivosERROR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(134)))), ((int)(((byte)(189)))));
-            this.panelRutaArchivosERROR.Controls.Add(this.txtRutaArchivosERROR);
-            this.panelRutaArchivosERROR.Location = new System.Drawing.Point(15, 211);
-            this.panelRutaArchivosERROR.Name = "panelRutaArchivosERROR";
-            this.panelRutaArchivosERROR.Size = new System.Drawing.Size(371, 21);
-            this.panelRutaArchivosERROR.TabIndex = 4;
-            this.panelRutaArchivosERROR.Visible = false;
-            // 
-            // txtRutaArchivosERROR
-            // 
-            this.txtRutaArchivosERROR.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtRutaArchivosERROR.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtRutaArchivosERROR.Location = new System.Drawing.Point(2, 2);
-            this.txtRutaArchivosERROR.Multiline = true;
-            this.txtRutaArchivosERROR.Name = "txtRutaArchivosERROR";
-            this.txtRutaArchivosERROR.Size = new System.Drawing.Size(367, 17);
-            this.txtRutaArchivosERROR.TabIndex = 1;
-            // 
-            // lblRutaArchivosERROR
-            // 
-            this.lblRutaArchivosERROR.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblRutaArchivosERROR.AutoSize = true;
-            this.lblRutaArchivosERROR.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(75)))), ((int)(((byte)(139)))));
-            this.lblRutaArchivosERROR.Location = new System.Drawing.Point(12, 193);
-            this.lblRutaArchivosERROR.Name = "lblRutaArchivosERROR";
-            this.lblRutaArchivosERROR.Size = new System.Drawing.Size(120, 15);
-            this.lblRutaArchivosERROR.TabIndex = 3;
-            this.lblRutaArchivosERROR.Text = "Ruta ArchivosERROR:";
-            this.lblRutaArchivosERROR.Visible = false;
-            // 
-            // panelRutaArchivosOK
-            // 
-            this.panelRutaArchivosOK.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelRutaArchivosOK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(134)))), ((int)(((byte)(189)))));
-            this.panelRutaArchivosOK.Controls.Add(this.txtRutaArchivosOK);
-            this.panelRutaArchivosOK.Location = new System.Drawing.Point(15, 150);
-            this.panelRutaArchivosOK.Name = "panelRutaArchivosOK";
-            this.panelRutaArchivosOK.Size = new System.Drawing.Size(371, 21);
-            this.panelRutaArchivosOK.TabIndex = 4;
-            this.panelRutaArchivosOK.Visible = false;
-            // 
-            // txtRutaArchivosOK
-            // 
-            this.txtRutaArchivosOK.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtRutaArchivosOK.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtRutaArchivosOK.Location = new System.Drawing.Point(2, 2);
-            this.txtRutaArchivosOK.Multiline = true;
-            this.txtRutaArchivosOK.Name = "txtRutaArchivosOK";
-            this.txtRutaArchivosOK.Size = new System.Drawing.Size(367, 17);
-            this.txtRutaArchivosOK.TabIndex = 1;
-            // 
-            // lblRutaArchivosOK
-            // 
-            this.lblRutaArchivosOK.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblRutaArchivosOK.AutoSize = true;
-            this.lblRutaArchivosOK.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(75)))), ((int)(((byte)(139)))));
-            this.lblRutaArchivosOK.Location = new System.Drawing.Point(12, 132);
-            this.lblRutaArchivosOK.Name = "lblRutaArchivosOK";
-            this.lblRutaArchivosOK.Size = new System.Drawing.Size(100, 15);
-            this.lblRutaArchivosOK.TabIndex = 3;
-            this.lblRutaArchivosOK.Text = "Ruta ArchivosOK:";
-            this.lblRutaArchivosOK.Visible = false;
-            // 
-            // panelRutaArchivos
-            // 
-            this.panelRutaArchivos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelRutaArchivos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(134)))), ((int)(((byte)(189)))));
-            this.panelRutaArchivos.Controls.Add(this.txtRutaArchivos);
-            this.panelRutaArchivos.Location = new System.Drawing.Point(15, 93);
-            this.panelRutaArchivos.Name = "panelRutaArchivos";
-            this.panelRutaArchivos.Size = new System.Drawing.Size(373, 21);
-            this.panelRutaArchivos.TabIndex = 4;
-            this.panelRutaArchivos.Visible = false;
-            // 
-            // txtRutaArchivos
-            // 
-            this.txtRutaArchivos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtRutaArchivos.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtRutaArchivos.Location = new System.Drawing.Point(2, 2);
-            this.txtRutaArchivos.Multiline = true;
-            this.txtRutaArchivos.Name = "txtRutaArchivos";
-            this.txtRutaArchivos.Size = new System.Drawing.Size(369, 17);
-            this.txtRutaArchivos.TabIndex = 1;
-            // 
-            // lblRutaArchivos
-            // 
-            this.lblRutaArchivos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblRutaArchivos.AutoSize = true;
-            this.lblRutaArchivos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(75)))), ((int)(((byte)(139)))));
-            this.lblRutaArchivos.Location = new System.Drawing.Point(12, 75);
-            this.lblRutaArchivos.Name = "lblRutaArchivos";
-            this.lblRutaArchivos.Size = new System.Drawing.Size(84, 15);
-            this.lblRutaArchivos.TabIndex = 3;
-            this.lblRutaArchivos.Text = "Ruta Archivos:";
-            this.lblRutaArchivos.Visible = false;
-            // 
-            // panelRutaLog
-            // 
-            this.panelRutaLog.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelRutaLog.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panelRutaLog.Controls.Add(this.txtRutaLog);
-            this.panelRutaLog.Location = new System.Drawing.Point(15, 39);
-            this.panelRutaLog.Name = "panelRutaLog";
-            this.panelRutaLog.Size = new System.Drawing.Size(373, 21);
-            this.panelRutaLog.TabIndex = 2;
-            // 
-            // txtRutaLog
-            // 
-            this.txtRutaLog.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtRutaLog.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtRutaLog.Location = new System.Drawing.Point(2, 2);
-            this.txtRutaLog.Multiline = true;
-            this.txtRutaLog.Name = "txtRutaLog";
-            this.txtRutaLog.Size = new System.Drawing.Size(369, 17);
-            this.txtRutaLog.TabIndex = 1;
-            // 
-            // lblRutaLog
-            // 
-            this.lblRutaLog.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblRutaLog.AutoSize = true;
-            this.lblRutaLog.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblRutaLog.Location = new System.Drawing.Point(12, 21);
-            this.lblRutaLog.Name = "lblRutaLog";
-            this.lblRutaLog.Size = new System.Drawing.Size(56, 15);
-            this.lblRutaLog.TabIndex = 0;
-            this.lblRutaLog.Text = "Ruta Log:";
-            // 
-            // btnRuta
-            // 
-            this.btnRuta.BackColor = System.Drawing.Color.White;
-            this.btnRuta.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRuta.FlatAppearance.BorderSize = 0;
-            this.btnRuta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRuta.ForeColor = System.Drawing.Color.Gray;
-            this.btnRuta.Location = new System.Drawing.Point(352, 121);
-            this.btnRuta.Margin = new System.Windows.Forms.Padding(6);
-            this.btnRuta.Name = "btnRuta";
-            this.btnRuta.Size = new System.Drawing.Size(149, 42);
-            this.btnRuta.TabIndex = 0;
-            this.btnRuta.Text = "Ruta";
-            this.btnRuta.UseVisualStyleBackColor = false;
-            this.btnRuta.Click += new System.EventHandler(this.btnRuta_Click);
-            // 
-            // btnParametrizacion
-            // 
-            this.btnParametrizacion.BackColor = System.Drawing.Color.White;
-            this.btnParametrizacion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnParametrizacion.FlatAppearance.BorderSize = 0;
-            this.btnParametrizacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnParametrizacion.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnParametrizacion.ForeColor = System.Drawing.Color.Gray;
-            this.btnParametrizacion.Location = new System.Drawing.Point(190, 121);
-            this.btnParametrizacion.Margin = new System.Windows.Forms.Padding(6);
-            this.btnParametrizacion.Name = "btnParametrizacion";
-            this.btnParametrizacion.Size = new System.Drawing.Size(148, 42);
-            this.btnParametrizacion.TabIndex = 0;
-            this.btnParametrizacion.Text = "Parametrización";
-            this.btnParametrizacion.UseVisualStyleBackColor = false;
-            this.btnParametrizacion.Click += new System.EventHandler(this.btnParametrizacion_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::AnnarComMICROSESV60.Properties.Resources.Imagen;
-            this.pictureBox1.Location = new System.Drawing.Point(8, 60);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(230, 189);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
-            // 
-            // panelRight
-            // 
-            this.panelRight.BackColor = System.Drawing.Color.White;
-            this.panelRight.Controls.Add(this.pictureBox1);
-            this.panelRight.Controls.Add(this.btnGuardar);
-            this.panelRight.Location = new System.Drawing.Point(510, 161);
-            this.panelRight.Name = "panelRight";
-            this.panelRight.Size = new System.Drawing.Size(262, 374);
-            this.panelRight.TabIndex = 11;
-            // 
             // btnGuardar
             // 
             this.btnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
@@ -761,76 +790,6 @@
             this.btnGuardar.TextColor = System.Drawing.Color.White;
             this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
-            // 
-            // btnConexion
-            // 
-            this.btnConexion.BackColor = System.Drawing.Color.White;
-            this.btnConexion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnConexion.FlatAppearance.BorderSize = 0;
-            this.btnConexion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConexion.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConexion.ForeColor = System.Drawing.Color.Gray;
-            this.btnConexion.Location = new System.Drawing.Point(34, 121);
-            this.btnConexion.Margin = new System.Windows.Forms.Padding(6);
-            this.btnConexion.Name = "btnConexion";
-            this.btnConexion.Size = new System.Drawing.Size(148, 42);
-            this.btnConexion.TabIndex = 13;
-            this.btnConexion.Text = "Conexión";
-            this.btnConexion.UseVisualStyleBackColor = false;
-            this.btnConexion.Click += new System.EventHandler(this.btnConexion_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(33, 160);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(739, 18);
-            this.panel1.TabIndex = 12;
-            // 
-            // rjButton2
-            // 
-            this.rjButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
-            this.rjButton2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
-            this.rjButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
-            this.rjButton2.BorderRadius = 20;
-            this.rjButton2.BorderSize = 0;
-            this.rjButton2.FlatAppearance.BorderSize = 0;
-            this.rjButton2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
-            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton2.Font = new System.Drawing.Font("Open Sans", 10F, System.Drawing.FontStyle.Bold);
-            this.rjButton2.FontSize = 10F;
-            this.rjButton2.ForeColor = System.Drawing.Color.White;
-            this.rjButton2.Location = new System.Drawing.Point(538, 292);
-            this.rjButton2.Name = "rjButton2";
-            this.rjButton2.Size = new System.Drawing.Size(83, 37);
-            this.rjButton2.TabIndex = 3;
-            this.rjButton2.Text = "Guardar";
-            this.rjButton2.TextColor = System.Drawing.Color.White;
-            this.rjButton2.UseVisualStyleBackColor = false;
-            // 
-            // rjToggleButton1
-            // 
-            this.rjToggleButton1.AutoSize = true;
-            this.rjToggleButton1.Location = new System.Drawing.Point(45, 301);
-            this.rjToggleButton1.MinimumSize = new System.Drawing.Size(45, 22);
-            this.rjToggleButton1.Name = "rjToggleButton1";
-            this.rjToggleButton1.OffBackColor = System.Drawing.Color.Gray;
-            this.rjToggleButton1.OffToggleColor = System.Drawing.Color.Gainsboro;
-            this.rjToggleButton1.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(183)))), ((int)(((byte)(175)))));
-            this.rjToggleButton1.OnToggleColor = System.Drawing.Color.WhiteSmoke;
-            this.rjToggleButton1.Size = new System.Drawing.Size(45, 22);
-            this.rjToggleButton1.TabIndex = 4;
-            this.rjToggleButton1.UseVisualStyleBackColor = true;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
-            this.label12.Location = new System.Drawing.Point(96, 306);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(68, 17);
-            this.label12.TabIndex = 5;
-            this.label12.Text = "Log activo";
             // 
             // Config
             // 
@@ -866,8 +825,6 @@
             this.panelRutaArchivosOK.PerformLayout();
             this.panelRutaArchivos.ResumeLayout(false);
             this.panelRutaArchivos.PerformLayout();
-            this.panelRutaLog.ResumeLayout(false);
-            this.panelRutaLog.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelRight.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -889,9 +846,6 @@
         private System.Windows.Forms.Panel panelRutaArchivos;
         private System.Windows.Forms.TextBox txtRutaArchivos;
         private System.Windows.Forms.Label lblRutaArchivos;
-        private System.Windows.Forms.Panel panelRutaLog;
-        private System.Windows.Forms.TextBox txtRutaLog;
-        private System.Windows.Forms.Label lblRutaLog;
         private System.Windows.Forms.Panel panelParametrizacion2;
         private CustomControls.RJControls.RJButton btnGuardar;
         private System.Windows.Forms.Panel panelRight;
