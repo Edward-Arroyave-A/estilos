@@ -89,6 +89,8 @@
             this.lblDireccionIP = new System.Windows.Forms.Label();
             this.panelDireccionIP = new System.Windows.Forms.Panel();
             this.txtDireccionIP = new System.Windows.Forms.TextBox();
+            this.rjTextBoxControl2 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.label2 = new System.Windows.Forms.Label();
             this.panelContenedor.SuspendLayout();
             this.panelConexion2.SuspendLayout();
             this.panelIntentosReCo.SuspendLayout();
@@ -129,7 +131,9 @@
             // 
             this.panelConexion2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panelConexion2.BackColor = System.Drawing.Color.Transparent;
+            this.panelConexion2.Controls.Add(this.label2);
             this.panelConexion2.Controls.Add(this.label1);
+            this.panelConexion2.Controls.Add(this.rjTextBoxControl2);
             this.panelConexion2.Controls.Add(this.rjTextBoxControl1);
             this.panelConexion2.Controls.Add(this.panelIntentosReCo);
             this.panelConexion2.Controls.Add(this.lblIntentosReCo);
@@ -171,7 +175,7 @@
             this.rjTextBoxControl1.Multiline = false;
             this.rjTextBoxControl1.Name = "rjTextBoxControl1";
             this.rjTextBoxControl1.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
-            this.rjTextBoxControl1.Size = new System.Drawing.Size(300, 31);
+            this.rjTextBoxControl1.Size = new System.Drawing.Size(300, 34);
             this.rjTextBoxControl1.TabIndex = 5;
             this.rjTextBoxControl1.Texts = "";
             this.rjTextBoxControl1.UnderlinedStyle = false;
@@ -888,6 +892,35 @@
             this.txtDireccionIP.TabIndex = 1;
             this.txtDireccionIP.Visible = false;
             // 
+            // rjTextBoxControl2
+            // 
+            this.rjTextBoxControl2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl2.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl2.BorderRadius = 5;
+            this.rjTextBoxControl2.BorderSize = 2;
+            this.rjTextBoxControl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl2.Location = new System.Drawing.Point(356, 29);
+            this.rjTextBoxControl2.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl2.Multiline = false;
+            this.rjTextBoxControl2.Name = "rjTextBoxControl2";
+            this.rjTextBoxControl2.Padding = new System.Windows.Forms.Padding(18, 10, 18, 7);
+            this.rjTextBoxControl2.Size = new System.Drawing.Size(300, 34);
+            this.rjTextBoxControl2.TabIndex = 5;
+            this.rjTextBoxControl2.Texts = "";
+            this.rjTextBoxControl2.UnderlinedStyle = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.label2.Location = new System.Drawing.Point(377, 20);
+            this.label2.Margin = new System.Windows.Forms.Padding(0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(122, 17);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Dispositivo médico";
+            // 
             // Config
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -1015,5 +1048,7 @@
         private System.Windows.Forms.Label lblDireccionIP;
         private System.Windows.Forms.Panel panelDireccionIP;
         private System.Windows.Forms.TextBox txtDireccionIP;
+        private System.Windows.Forms.Label label2;
+        private RJControls.RJTextBoxControl rjTextBoxControl2;
     }
 }
