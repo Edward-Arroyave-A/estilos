@@ -426,6 +426,29 @@ namespace AnnarComMICROSESV60.Forms
             panelRuta2.Visible = false;
         }
 
-        
+        private void rjButton1_MouseHover(object sender, EventArgs e)
+        {
+            rjButton1.BackColor = Color.FromArgb(25, 183, 175);
+        }
+
+        //private void rjButton1_MouseUp(object sender, MouseEventArgs e)
+        //{
+        //    rjButton1.BackColor = Color.FromArgb(25, 183, 175);
+        //}
+
+        private void rjButton1_MouseMove(object sender, MouseEventArgs e)
+        {
+            rjButton1.BackColor = Color.FromArgb(25, 183, 175);
+        }
+
+        private void rjButton1_MouseEnter(object sender, EventArgs e)
+        {
+            rjButton1.BackColor = Color.FromArgb(25, 183, 175);
+        }
+
+        private void rjButton1_MouseDown(object sender, MouseEventArgs e)
+        {
+            rjButton1.BackColor = Color.FromArgb(25, 183, 175);
+        }
     }
 }

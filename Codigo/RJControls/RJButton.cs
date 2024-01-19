@@ -85,7 +85,7 @@ namespace CustomControls.RJControls
         {
             this.FlatStyle = FlatStyle.Flat;
             this.FlatAppearance.BorderSize = 0;
-            this.FlatAppearance.MouseOverBackColor = Color.FromArgb(46, 189, 255);
+            this.FlatAppearance.MouseOverBackColor = Color.FromArgb(25, 183, 175);
             this.Size = new Size(150, 40);
             this.BackColor = Color.MediumSlateBlue;
             this.ForeColor = Color.White;
