@@ -636,6 +636,7 @@
             this.rjTextBoxControl2.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
             this.rjTextBoxControl2.BorderRadius = 5;
             this.rjTextBoxControl2.BorderSize = 2;
+            this.rjTextBoxControl2.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjTextBoxControl2.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBoxControl2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
             this.rjTextBoxControl2.Location = new System.Drawing.Point(356, 29);
@@ -654,6 +655,7 @@
             this.rjTextBoxControl7.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
             this.rjTextBoxControl7.BorderRadius = 5;
             this.rjTextBoxControl7.BorderSize = 2;
+            this.rjTextBoxControl7.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjTextBoxControl7.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBoxControl7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
             this.rjTextBoxControl7.Location = new System.Drawing.Point(356, 95);
@@ -672,6 +674,7 @@
             this.rjTextBoxControl6.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
             this.rjTextBoxControl6.BorderRadius = 5;
             this.rjTextBoxControl6.BorderSize = 2;
+            this.rjTextBoxControl6.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjTextBoxControl6.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBoxControl6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
             this.rjTextBoxControl6.Location = new System.Drawing.Point(20, 282);
@@ -690,6 +693,7 @@
             this.rjTextBoxControl5.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
             this.rjTextBoxControl5.BorderRadius = 5;
             this.rjTextBoxControl5.BorderSize = 2;
+            this.rjTextBoxControl5.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjTextBoxControl5.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBoxControl5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
             this.rjTextBoxControl5.Location = new System.Drawing.Point(20, 213);
@@ -708,6 +712,7 @@
             this.rjTextBoxControl4.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
             this.rjTextBoxControl4.BorderRadius = 5;
             this.rjTextBoxControl4.BorderSize = 2;
+            this.rjTextBoxControl4.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjTextBoxControl4.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBoxControl4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
             this.rjTextBoxControl4.Location = new System.Drawing.Point(20, 149);
@@ -726,6 +731,7 @@
             this.rjTextBoxControl3.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
             this.rjTextBoxControl3.BorderRadius = 5;
             this.rjTextBoxControl3.BorderSize = 2;
+            this.rjTextBoxControl3.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjTextBoxControl3.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBoxControl3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
             this.rjTextBoxControl3.Location = new System.Drawing.Point(20, 93);
@@ -744,6 +750,7 @@
             this.rjTextBoxControl1.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
             this.rjTextBoxControl1.BorderRadius = 5;
             this.rjTextBoxControl1.BorderSize = 2;
+            this.rjTextBoxControl1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjTextBoxControl1.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBoxControl1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(62)))), ((int)(((byte)(62)))));
             this.rjTextBoxControl1.Location = new System.Drawing.Point(20, 29);
