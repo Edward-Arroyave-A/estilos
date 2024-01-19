@@ -30,6 +30,24 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Config));
             this.panelContenedor = new System.Windows.Forms.Panel();
+            this.panelConexion2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.rjTextBoxControl1 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
+            this.panelIntentosReCo = new System.Windows.Forms.Panel();
+            this.txtIntentosReCo = new System.Windows.Forms.TextBox();
+            this.lblIntentosReCo = new System.Windows.Forms.Label();
+            this.panelPass = new System.Windows.Forms.Panel();
+            this.txtPass = new System.Windows.Forms.TextBox();
+            this.lblPass = new System.Windows.Forms.Label();
+            this.panelUsuario = new System.Windows.Forms.Panel();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.lblUsuario = new System.Windows.Forms.Label();
+            this.panelNombreDB = new System.Windows.Forms.Panel();
+            this.txtNombreDB = new System.Windows.Forms.TextBox();
+            this.lblNombreDB = new System.Windows.Forms.Label();
+            this.panelPuerto = new System.Windows.Forms.Panel();
+            this.txtPuerto = new System.Windows.Forms.TextBox();
+            this.lblPuerto = new System.Windows.Forms.Label();
             this.panelRuta2 = new System.Windows.Forms.Panel();
             this.panelRutaArchivosERROR = new System.Windows.Forms.Panel();
             this.txtRutaArchivosERROR = new System.Windows.Forms.TextBox();
@@ -57,24 +75,6 @@
             this.panelNombreEquipo = new System.Windows.Forms.Panel();
             this.txtNombreEquipo = new System.Windows.Forms.TextBox();
             this.lblNombreEquipo = new System.Windows.Forms.Label();
-            this.panelConexion2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.rjTextBoxControl1 = new AnnarComMICROSESV60.RJControls.RJTextBoxControl();
-            this.panelIntentosReCo = new System.Windows.Forms.Panel();
-            this.txtIntentosReCo = new System.Windows.Forms.TextBox();
-            this.lblIntentosReCo = new System.Windows.Forms.Label();
-            this.panelPass = new System.Windows.Forms.Panel();
-            this.txtPass = new System.Windows.Forms.TextBox();
-            this.lblPass = new System.Windows.Forms.Label();
-            this.panelUsuario = new System.Windows.Forms.Panel();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.lblUsuario = new System.Windows.Forms.Label();
-            this.panelNombreDB = new System.Windows.Forms.Panel();
-            this.txtNombreDB = new System.Windows.Forms.TextBox();
-            this.lblNombreDB = new System.Windows.Forms.Label();
-            this.panelPuerto = new System.Windows.Forms.Panel();
-            this.txtPuerto = new System.Windows.Forms.TextBox();
-            this.lblPuerto = new System.Windows.Forms.Label();
             this.btnRuta = new System.Windows.Forms.Button();
             this.btnParametrizacion = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -90,6 +90,12 @@
             this.panelDireccionIP = new System.Windows.Forms.Panel();
             this.txtDireccionIP = new System.Windows.Forms.TextBox();
             this.panelContenedor.SuspendLayout();
+            this.panelConexion2.SuspendLayout();
+            this.panelIntentosReCo.SuspendLayout();
+            this.panelPass.SuspendLayout();
+            this.panelUsuario.SuspendLayout();
+            this.panelNombreDB.SuspendLayout();
+            this.panelPuerto.SuspendLayout();
             this.panelRuta2.SuspendLayout();
             this.panelRutaArchivosERROR.SuspendLayout();
             this.panelRutaArchivosOK.SuspendLayout();
@@ -99,12 +105,6 @@
             this.panelNombreLog.SuspendLayout();
             this.panelIntervalo.SuspendLayout();
             this.panelNombreEquipo.SuspendLayout();
-            this.panelConexion2.SuspendLayout();
-            this.panelIntentosReCo.SuspendLayout();
-            this.panelPass.SuspendLayout();
-            this.panelUsuario.SuspendLayout();
-            this.panelNombreDB.SuspendLayout();
-            this.panelPuerto.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tlpTopCOnfig.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -121,9 +121,234 @@
             this.panelContenedor.Controls.Add(this.panelParametrizacion2);
             this.panelContenedor.Location = new System.Drawing.Point(26, 161);
             this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(485, 374);
+            this.panelContenedor.Size = new System.Drawing.Size(743, 374);
             this.panelContenedor.TabIndex = 1;
             this.panelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContenedor_Paint);
+            // 
+            // panelConexion2
+            // 
+            this.panelConexion2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelConexion2.BackColor = System.Drawing.Color.Transparent;
+            this.panelConexion2.Controls.Add(this.label1);
+            this.panelConexion2.Controls.Add(this.rjTextBoxControl1);
+            this.panelConexion2.Controls.Add(this.panelIntentosReCo);
+            this.panelConexion2.Controls.Add(this.lblIntentosReCo);
+            this.panelConexion2.Controls.Add(this.panelPass);
+            this.panelConexion2.Controls.Add(this.lblPass);
+            this.panelConexion2.Controls.Add(this.panelUsuario);
+            this.panelConexion2.Controls.Add(this.lblUsuario);
+            this.panelConexion2.Controls.Add(this.panelNombreDB);
+            this.panelConexion2.Controls.Add(this.lblNombreDB);
+            this.panelConexion2.Controls.Add(this.panelPuerto);
+            this.panelConexion2.Controls.Add(this.lblPuerto);
+            this.panelConexion2.Location = new System.Drawing.Point(4, -1);
+            this.panelConexion2.Name = "panelConexion2";
+            this.panelConexion2.Size = new System.Drawing.Size(1013, 354);
+            this.panelConexion2.TabIndex = 6;
+            this.panelConexion2.Visible = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.label1.Location = new System.Drawing.Point(34, 21);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(63, 17);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Cabecera";
+            // 
+            // rjTextBoxControl1
+            // 
+            this.rjTextBoxControl1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.rjTextBoxControl1.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
+            this.rjTextBoxControl1.BorderRadius = 5;
+            this.rjTextBoxControl1.BorderSize = 2;
+            this.rjTextBoxControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBoxControl1.Location = new System.Drawing.Point(20, 29);
+            this.rjTextBoxControl1.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBoxControl1.Multiline = false;
+            this.rjTextBoxControl1.Name = "rjTextBoxControl1";
+            this.rjTextBoxControl1.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.rjTextBoxControl1.Size = new System.Drawing.Size(300, 31);
+            this.rjTextBoxControl1.TabIndex = 5;
+            this.rjTextBoxControl1.Texts = "";
+            this.rjTextBoxControl1.UnderlinedStyle = false;
+            // 
+            // panelIntentosReCo
+            // 
+            this.panelIntentosReCo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelIntentosReCo.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panelIntentosReCo.Controls.Add(this.txtIntentosReCo);
+            this.panelIntentosReCo.Location = new System.Drawing.Point(18, 326);
+            this.panelIntentosReCo.Name = "panelIntentosReCo";
+            this.panelIntentosReCo.Size = new System.Drawing.Size(960, 21);
+            this.panelIntentosReCo.TabIndex = 4;
+            // 
+            // txtIntentosReCo
+            // 
+            this.txtIntentosReCo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtIntentosReCo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtIntentosReCo.Location = new System.Drawing.Point(2, 2);
+            this.txtIntentosReCo.Multiline = true;
+            this.txtIntentosReCo.Name = "txtIntentosReCo";
+            this.txtIntentosReCo.Size = new System.Drawing.Size(956, 17);
+            this.txtIntentosReCo.TabIndex = 1;
+            // 
+            // lblIntentosReCo
+            // 
+            this.lblIntentosReCo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblIntentosReCo.AutoSize = true;
+            this.lblIntentosReCo.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lblIntentosReCo.Location = new System.Drawing.Point(15, 308);
+            this.lblIntentosReCo.Name = "lblIntentosReCo";
+            this.lblIntentosReCo.Size = new System.Drawing.Size(119, 15);
+            this.lblIntentosReCo.TabIndex = 3;
+            this.lblIntentosReCo.Text = "Intentos Reconexión:";
+            // 
+            // panelPass
+            // 
+            this.panelPass.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelPass.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panelPass.Controls.Add(this.txtPass);
+            this.panelPass.Location = new System.Drawing.Point(18, 269);
+            this.panelPass.Name = "panelPass";
+            this.panelPass.Size = new System.Drawing.Size(960, 21);
+            this.panelPass.TabIndex = 4;
+            // 
+            // txtPass
+            // 
+            this.txtPass.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPass.Location = new System.Drawing.Point(2, 2);
+            this.txtPass.Multiline = true;
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(956, 17);
+            this.txtPass.TabIndex = 1;
+            // 
+            // lblPass
+            // 
+            this.lblPass.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblPass.AutoSize = true;
+            this.lblPass.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lblPass.Location = new System.Drawing.Point(15, 251);
+            this.lblPass.Name = "lblPass";
+            this.lblPass.Size = new System.Drawing.Size(72, 15);
+            this.lblPass.TabIndex = 3;
+            this.lblPass.Text = "Contraseña:";
+            // 
+            // panelUsuario
+            // 
+            this.panelUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelUsuario.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panelUsuario.Controls.Add(this.txtUsuario);
+            this.panelUsuario.Location = new System.Drawing.Point(18, 211);
+            this.panelUsuario.Name = "panelUsuario";
+            this.panelUsuario.Size = new System.Drawing.Size(960, 21);
+            this.panelUsuario.TabIndex = 4;
+            // 
+            // txtUsuario
+            // 
+            this.txtUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUsuario.Location = new System.Drawing.Point(2, 2);
+            this.txtUsuario.Multiline = true;
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(956, 17);
+            this.txtUsuario.TabIndex = 1;
+            // 
+            // lblUsuario
+            // 
+            this.lblUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lblUsuario.Location = new System.Drawing.Point(15, 193);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(50, 15);
+            this.lblUsuario.TabIndex = 3;
+            this.lblUsuario.Text = "Usuario:";
+            // 
+            // panelNombreDB
+            // 
+            this.panelNombreDB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelNombreDB.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panelNombreDB.Controls.Add(this.txtNombreDB);
+            this.panelNombreDB.Location = new System.Drawing.Point(18, 150);
+            this.panelNombreDB.Name = "panelNombreDB";
+            this.panelNombreDB.Size = new System.Drawing.Size(960, 21);
+            this.panelNombreDB.TabIndex = 4;
+            // 
+            // txtNombreDB
+            // 
+            this.txtNombreDB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtNombreDB.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombreDB.Location = new System.Drawing.Point(2, 2);
+            this.txtNombreDB.Multiline = true;
+            this.txtNombreDB.Name = "txtNombreDB";
+            this.txtNombreDB.Size = new System.Drawing.Size(956, 17);
+            this.txtNombreDB.TabIndex = 1;
+            // 
+            // lblNombreDB
+            // 
+            this.lblNombreDB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblNombreDB.AutoSize = true;
+            this.lblNombreDB.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lblNombreDB.Location = new System.Drawing.Point(15, 132);
+            this.lblNombreDB.Name = "lblNombreDB";
+            this.lblNombreDB.Size = new System.Drawing.Size(71, 15);
+            this.lblNombreDB.TabIndex = 3;
+            this.lblNombreDB.Text = "Nombre DB:";
+            // 
+            // panelPuerto
+            // 
+            this.panelPuerto.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelPuerto.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panelPuerto.Controls.Add(this.txtPuerto);
+            this.panelPuerto.Location = new System.Drawing.Point(18, 93);
+            this.panelPuerto.Name = "panelPuerto";
+            this.panelPuerto.Size = new System.Drawing.Size(960, 21);
+            this.panelPuerto.TabIndex = 4;
+            // 
+            // txtPuerto
+            // 
+            this.txtPuerto.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtPuerto.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPuerto.Location = new System.Drawing.Point(2, 2);
+            this.txtPuerto.Multiline = true;
+            this.txtPuerto.Name = "txtPuerto";
+            this.txtPuerto.Size = new System.Drawing.Size(956, 17);
+            this.txtPuerto.TabIndex = 1;
+            // 
+            // lblPuerto
+            // 
+            this.lblPuerto.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblPuerto.AutoSize = true;
+            this.lblPuerto.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lblPuerto.Location = new System.Drawing.Point(15, 75);
+            this.lblPuerto.Name = "lblPuerto";
+            this.lblPuerto.Size = new System.Drawing.Size(45, 15);
+            this.lblPuerto.TabIndex = 3;
+            this.lblPuerto.Text = "Puerto:";
             // 
             // panelRuta2
             // 
@@ -139,7 +364,7 @@
             this.panelRuta2.Controls.Add(this.lblRutaLog);
             this.panelRuta2.Location = new System.Drawing.Point(324, -1);
             this.panelRuta2.Name = "panelRuta2";
-            this.panelRuta2.Size = new System.Drawing.Size(153, 354);
+            this.panelRuta2.Size = new System.Drawing.Size(411, 354);
             this.panelRuta2.TabIndex = 8;
             this.panelRuta2.Visible = false;
             // 
@@ -151,7 +376,7 @@
             this.panelRutaArchivosERROR.Controls.Add(this.txtRutaArchivosERROR);
             this.panelRutaArchivosERROR.Location = new System.Drawing.Point(15, 211);
             this.panelRutaArchivosERROR.Name = "panelRutaArchivosERROR";
-            this.panelRutaArchivosERROR.Size = new System.Drawing.Size(97, 21);
+            this.panelRutaArchivosERROR.Size = new System.Drawing.Size(355, 21);
             this.panelRutaArchivosERROR.TabIndex = 4;
             this.panelRutaArchivosERROR.Visible = false;
             // 
@@ -164,7 +389,7 @@
             this.txtRutaArchivosERROR.Location = new System.Drawing.Point(2, 2);
             this.txtRutaArchivosERROR.Multiline = true;
             this.txtRutaArchivosERROR.Name = "txtRutaArchivosERROR";
-            this.txtRutaArchivosERROR.Size = new System.Drawing.Size(93, 17);
+            this.txtRutaArchivosERROR.Size = new System.Drawing.Size(351, 17);
             this.txtRutaArchivosERROR.TabIndex = 1;
             // 
             // lblRutaArchivosERROR
@@ -188,7 +413,7 @@
             this.panelRutaArchivosOK.Controls.Add(this.txtRutaArchivosOK);
             this.panelRutaArchivosOK.Location = new System.Drawing.Point(15, 150);
             this.panelRutaArchivosOK.Name = "panelRutaArchivosOK";
-            this.panelRutaArchivosOK.Size = new System.Drawing.Size(97, 21);
+            this.panelRutaArchivosOK.Size = new System.Drawing.Size(355, 21);
             this.panelRutaArchivosOK.TabIndex = 4;
             this.panelRutaArchivosOK.Visible = false;
             // 
@@ -201,7 +426,7 @@
             this.txtRutaArchivosOK.Location = new System.Drawing.Point(2, 2);
             this.txtRutaArchivosOK.Multiline = true;
             this.txtRutaArchivosOK.Name = "txtRutaArchivosOK";
-            this.txtRutaArchivosOK.Size = new System.Drawing.Size(93, 17);
+            this.txtRutaArchivosOK.Size = new System.Drawing.Size(351, 17);
             this.txtRutaArchivosOK.TabIndex = 1;
             // 
             // lblRutaArchivosOK
@@ -225,7 +450,7 @@
             this.panelRutaArchivos.Controls.Add(this.txtRutaArchivos);
             this.panelRutaArchivos.Location = new System.Drawing.Point(15, 93);
             this.panelRutaArchivos.Name = "panelRutaArchivos";
-            this.panelRutaArchivos.Size = new System.Drawing.Size(99, 21);
+            this.panelRutaArchivos.Size = new System.Drawing.Size(357, 21);
             this.panelRutaArchivos.TabIndex = 4;
             this.panelRutaArchivos.Visible = false;
             // 
@@ -238,7 +463,7 @@
             this.txtRutaArchivos.Location = new System.Drawing.Point(2, 2);
             this.txtRutaArchivos.Multiline = true;
             this.txtRutaArchivos.Name = "txtRutaArchivos";
-            this.txtRutaArchivos.Size = new System.Drawing.Size(95, 17);
+            this.txtRutaArchivos.Size = new System.Drawing.Size(353, 17);
             this.txtRutaArchivos.TabIndex = 1;
             // 
             // lblRutaArchivos
@@ -262,7 +487,7 @@
             this.panelRutaLog.Controls.Add(this.txtRutaLog);
             this.panelRutaLog.Location = new System.Drawing.Point(15, 39);
             this.panelRutaLog.Name = "panelRutaLog";
-            this.panelRutaLog.Size = new System.Drawing.Size(99, 21);
+            this.panelRutaLog.Size = new System.Drawing.Size(357, 21);
             this.panelRutaLog.TabIndex = 2;
             // 
             // txtRutaLog
@@ -274,7 +499,7 @@
             this.txtRutaLog.Location = new System.Drawing.Point(2, 2);
             this.txtRutaLog.Multiline = true;
             this.txtRutaLog.Name = "txtRutaLog";
-            this.txtRutaLog.Size = new System.Drawing.Size(95, 17);
+            this.txtRutaLog.Size = new System.Drawing.Size(353, 17);
             this.txtRutaLog.TabIndex = 1;
             // 
             // lblRutaLog
@@ -305,7 +530,7 @@
             this.panelParametrizacion2.Controls.Add(this.lblNombreEquipo);
             this.panelParametrizacion2.Location = new System.Drawing.Point(244, -1);
             this.panelParametrizacion2.Name = "panelParametrizacion2";
-            this.panelParametrizacion2.Size = new System.Drawing.Size(72, 354);
+            this.panelParametrizacion2.Size = new System.Drawing.Size(330, 354);
             this.panelParametrizacion2.TabIndex = 7;
             this.panelParametrizacion2.Visible = false;
             this.panelParametrizacion2.Paint += new System.Windows.Forms.PaintEventHandler(this.panelParametrizacion2_Paint);
@@ -370,7 +595,7 @@
             this.panelNombreLog.Controls.Add(this.txtNombreLog);
             this.panelNombreLog.Location = new System.Drawing.Point(20, 93);
             this.panelNombreLog.Name = "panelNombreLog";
-            this.panelNombreLog.Size = new System.Drawing.Size(19, 21);
+            this.panelNombreLog.Size = new System.Drawing.Size(277, 21);
             this.panelNombreLog.TabIndex = 4;
             // 
             // txtNombreLog
@@ -382,7 +607,7 @@
             this.txtNombreLog.Location = new System.Drawing.Point(2, 2);
             this.txtNombreLog.Multiline = true;
             this.txtNombreLog.Name = "txtNombreLog";
-            this.txtNombreLog.Size = new System.Drawing.Size(15, 17);
+            this.txtNombreLog.Size = new System.Drawing.Size(273, 17);
             this.txtNombreLog.TabIndex = 1;
             // 
             // panelIntervalo
@@ -393,7 +618,7 @@
             this.panelIntervalo.Controls.Add(this.txtIntervalo);
             this.panelIntervalo.Location = new System.Drawing.Point(6, 326);
             this.panelIntervalo.Name = "panelIntervalo";
-            this.panelIntervalo.Size = new System.Drawing.Size(39, 21);
+            this.panelIntervalo.Size = new System.Drawing.Size(297, 21);
             this.panelIntervalo.TabIndex = 4;
             this.panelIntervalo.Visible = false;
             this.panelIntervalo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelIntervalo_Paint);
@@ -407,7 +632,7 @@
             this.txtIntervalo.Location = new System.Drawing.Point(2, 2);
             this.txtIntervalo.Multiline = true;
             this.txtIntervalo.Name = "txtIntervalo";
-            this.txtIntervalo.Size = new System.Drawing.Size(35, 17);
+            this.txtIntervalo.Size = new System.Drawing.Size(293, 17);
             this.txtIntervalo.TabIndex = 1;
             // 
             // lblIntervalo
@@ -444,7 +669,7 @@
             this.panelNombreEquipo.Controls.Add(this.txtNombreEquipo);
             this.panelNombreEquipo.Location = new System.Drawing.Point(20, 39);
             this.panelNombreEquipo.Name = "panelNombreEquipo";
-            this.panelNombreEquipo.Size = new System.Drawing.Size(19, 21);
+            this.panelNombreEquipo.Size = new System.Drawing.Size(277, 21);
             this.panelNombreEquipo.TabIndex = 2;
             // 
             // txtNombreEquipo
@@ -456,7 +681,7 @@
             this.txtNombreEquipo.Location = new System.Drawing.Point(2, 2);
             this.txtNombreEquipo.Multiline = true;
             this.txtNombreEquipo.Name = "txtNombreEquipo";
-            this.txtNombreEquipo.Size = new System.Drawing.Size(15, 17);
+            this.txtNombreEquipo.Size = new System.Drawing.Size(273, 17);
             this.txtNombreEquipo.TabIndex = 1;
             this.txtNombreEquipo.TextChanged += new System.EventHandler(this.txtNombreEquipo_TextChanged);
             // 
@@ -471,231 +696,6 @@
             this.lblNombreEquipo.Size = new System.Drawing.Size(93, 15);
             this.lblNombreEquipo.TabIndex = 0;
             this.lblNombreEquipo.Text = "Nombre Equipo:";
-            // 
-            // panelConexion2
-            // 
-            this.panelConexion2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelConexion2.BackColor = System.Drawing.Color.Transparent;
-            this.panelConexion2.Controls.Add(this.label1);
-            this.panelConexion2.Controls.Add(this.rjTextBoxControl1);
-            this.panelConexion2.Controls.Add(this.panelIntentosReCo);
-            this.panelConexion2.Controls.Add(this.lblIntentosReCo);
-            this.panelConexion2.Controls.Add(this.panelPass);
-            this.panelConexion2.Controls.Add(this.lblPass);
-            this.panelConexion2.Controls.Add(this.panelUsuario);
-            this.panelConexion2.Controls.Add(this.lblUsuario);
-            this.panelConexion2.Controls.Add(this.panelNombreDB);
-            this.panelConexion2.Controls.Add(this.lblNombreDB);
-            this.panelConexion2.Controls.Add(this.panelPuerto);
-            this.panelConexion2.Controls.Add(this.lblPuerto);
-            this.panelConexion2.Location = new System.Drawing.Point(4, -1);
-            this.panelConexion2.Name = "panelConexion2";
-            this.panelConexion2.Size = new System.Drawing.Size(755, 354);
-            this.panelConexion2.TabIndex = 6;
-            this.panelConexion2.Visible = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(34, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 17);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Cabecera";
-            // 
-            // rjTextBoxControl1
-            // 
-            this.rjTextBoxControl1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.rjTextBoxControl1.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(206)))), ((int)(((byte)(247)))));
-            this.rjTextBoxControl1.BorderRadius = 5;
-            this.rjTextBoxControl1.BorderSize = 2;
-            this.rjTextBoxControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBoxControl1.Location = new System.Drawing.Point(20, 29);
-            this.rjTextBoxControl1.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBoxControl1.Multiline = false;
-            this.rjTextBoxControl1.Name = "rjTextBoxControl1";
-            this.rjTextBoxControl1.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.rjTextBoxControl1.Size = new System.Drawing.Size(300, 31);
-            this.rjTextBoxControl1.TabIndex = 5;
-            this.rjTextBoxControl1.Texts = "";
-            this.rjTextBoxControl1.UnderlinedStyle = false;
-            // 
-            // panelIntentosReCo
-            // 
-            this.panelIntentosReCo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelIntentosReCo.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panelIntentosReCo.Controls.Add(this.txtIntentosReCo);
-            this.panelIntentosReCo.Location = new System.Drawing.Point(18, 326);
-            this.panelIntentosReCo.Name = "panelIntentosReCo";
-            this.panelIntentosReCo.Size = new System.Drawing.Size(702, 21);
-            this.panelIntentosReCo.TabIndex = 4;
-            // 
-            // txtIntentosReCo
-            // 
-            this.txtIntentosReCo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtIntentosReCo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtIntentosReCo.Location = new System.Drawing.Point(2, 2);
-            this.txtIntentosReCo.Multiline = true;
-            this.txtIntentosReCo.Name = "txtIntentosReCo";
-            this.txtIntentosReCo.Size = new System.Drawing.Size(698, 17);
-            this.txtIntentosReCo.TabIndex = 1;
-            // 
-            // lblIntentosReCo
-            // 
-            this.lblIntentosReCo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblIntentosReCo.AutoSize = true;
-            this.lblIntentosReCo.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblIntentosReCo.Location = new System.Drawing.Point(15, 308);
-            this.lblIntentosReCo.Name = "lblIntentosReCo";
-            this.lblIntentosReCo.Size = new System.Drawing.Size(119, 15);
-            this.lblIntentosReCo.TabIndex = 3;
-            this.lblIntentosReCo.Text = "Intentos Reconexión:";
-            // 
-            // panelPass
-            // 
-            this.panelPass.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelPass.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panelPass.Controls.Add(this.txtPass);
-            this.panelPass.Location = new System.Drawing.Point(18, 269);
-            this.panelPass.Name = "panelPass";
-            this.panelPass.Size = new System.Drawing.Size(702, 21);
-            this.panelPass.TabIndex = 4;
-            // 
-            // txtPass
-            // 
-            this.txtPass.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPass.Location = new System.Drawing.Point(2, 2);
-            this.txtPass.Multiline = true;
-            this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(698, 17);
-            this.txtPass.TabIndex = 1;
-            // 
-            // lblPass
-            // 
-            this.lblPass.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblPass.AutoSize = true;
-            this.lblPass.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblPass.Location = new System.Drawing.Point(15, 251);
-            this.lblPass.Name = "lblPass";
-            this.lblPass.Size = new System.Drawing.Size(72, 15);
-            this.lblPass.TabIndex = 3;
-            this.lblPass.Text = "Contraseña:";
-            // 
-            // panelUsuario
-            // 
-            this.panelUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelUsuario.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panelUsuario.Controls.Add(this.txtUsuario);
-            this.panelUsuario.Location = new System.Drawing.Point(18, 211);
-            this.panelUsuario.Name = "panelUsuario";
-            this.panelUsuario.Size = new System.Drawing.Size(702, 21);
-            this.panelUsuario.TabIndex = 4;
-            // 
-            // txtUsuario
-            // 
-            this.txtUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtUsuario.Location = new System.Drawing.Point(2, 2);
-            this.txtUsuario.Multiline = true;
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(698, 17);
-            this.txtUsuario.TabIndex = 1;
-            // 
-            // lblUsuario
-            // 
-            this.lblUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblUsuario.AutoSize = true;
-            this.lblUsuario.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblUsuario.Location = new System.Drawing.Point(15, 193);
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(50, 15);
-            this.lblUsuario.TabIndex = 3;
-            this.lblUsuario.Text = "Usuario:";
-            // 
-            // panelNombreDB
-            // 
-            this.panelNombreDB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelNombreDB.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panelNombreDB.Controls.Add(this.txtNombreDB);
-            this.panelNombreDB.Location = new System.Drawing.Point(18, 150);
-            this.panelNombreDB.Name = "panelNombreDB";
-            this.panelNombreDB.Size = new System.Drawing.Size(702, 21);
-            this.panelNombreDB.TabIndex = 4;
-            // 
-            // txtNombreDB
-            // 
-            this.txtNombreDB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNombreDB.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNombreDB.Location = new System.Drawing.Point(2, 2);
-            this.txtNombreDB.Multiline = true;
-            this.txtNombreDB.Name = "txtNombreDB";
-            this.txtNombreDB.Size = new System.Drawing.Size(698, 17);
-            this.txtNombreDB.TabIndex = 1;
-            // 
-            // lblNombreDB
-            // 
-            this.lblNombreDB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblNombreDB.AutoSize = true;
-            this.lblNombreDB.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblNombreDB.Location = new System.Drawing.Point(15, 132);
-            this.lblNombreDB.Name = "lblNombreDB";
-            this.lblNombreDB.Size = new System.Drawing.Size(71, 15);
-            this.lblNombreDB.TabIndex = 3;
-            this.lblNombreDB.Text = "Nombre DB:";
-            // 
-            // panelPuerto
-            // 
-            this.panelPuerto.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelPuerto.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panelPuerto.Controls.Add(this.txtPuerto);
-            this.panelPuerto.Location = new System.Drawing.Point(18, 93);
-            this.panelPuerto.Name = "panelPuerto";
-            this.panelPuerto.Size = new System.Drawing.Size(702, 21);
-            this.panelPuerto.TabIndex = 4;
-            // 
-            // txtPuerto
-            // 
-            this.txtPuerto.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPuerto.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPuerto.Location = new System.Drawing.Point(2, 2);
-            this.txtPuerto.Multiline = true;
-            this.txtPuerto.Name = "txtPuerto";
-            this.txtPuerto.Size = new System.Drawing.Size(698, 17);
-            this.txtPuerto.TabIndex = 1;
-            // 
-            // lblPuerto
-            // 
-            this.lblPuerto.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblPuerto.AutoSize = true;
-            this.lblPuerto.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblPuerto.Location = new System.Drawing.Point(15, 75);
-            this.lblPuerto.Name = "lblPuerto";
-            this.lblPuerto.Size = new System.Drawing.Size(45, 15);
-            this.lblPuerto.TabIndex = 3;
-            this.lblPuerto.Text = "Puerto:";
             // 
             // btnRuta
             // 
@@ -910,6 +910,18 @@
             this.Text = "Config";
             this.Load += new System.EventHandler(this.Config_Load);
             this.panelContenedor.ResumeLayout(false);
+            this.panelConexion2.ResumeLayout(false);
+            this.panelConexion2.PerformLayout();
+            this.panelIntentosReCo.ResumeLayout(false);
+            this.panelIntentosReCo.PerformLayout();
+            this.panelPass.ResumeLayout(false);
+            this.panelPass.PerformLayout();
+            this.panelUsuario.ResumeLayout(false);
+            this.panelUsuario.PerformLayout();
+            this.panelNombreDB.ResumeLayout(false);
+            this.panelNombreDB.PerformLayout();
+            this.panelPuerto.ResumeLayout(false);
+            this.panelPuerto.PerformLayout();
             this.panelRuta2.ResumeLayout(false);
             this.panelRuta2.PerformLayout();
             this.panelRutaArchivosERROR.ResumeLayout(false);
@@ -928,18 +940,6 @@
             this.panelIntervalo.PerformLayout();
             this.panelNombreEquipo.ResumeLayout(false);
             this.panelNombreEquipo.PerformLayout();
-            this.panelConexion2.ResumeLayout(false);
-            this.panelConexion2.PerformLayout();
-            this.panelIntentosReCo.ResumeLayout(false);
-            this.panelIntentosReCo.PerformLayout();
-            this.panelPass.ResumeLayout(false);
-            this.panelPass.PerformLayout();
-            this.panelUsuario.ResumeLayout(false);
-            this.panelUsuario.PerformLayout();
-            this.panelNombreDB.ResumeLayout(false);
-            this.panelNombreDB.PerformLayout();
-            this.panelPuerto.ResumeLayout(false);
-            this.panelPuerto.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tlpTopCOnfig.ResumeLayout(false);
             this.tlpTopCOnfig.PerformLayout();
