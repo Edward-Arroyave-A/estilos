@@ -33,17 +33,17 @@ namespace AnnarComMICROSESV60.Forms
             //txtPass.Text = datosConexion[4].Split('=')[1].ToString();
             //txtIntentosReCo.Text = InterfaceConfig.intentosReconexionDB.ToString();
 
-            //Parametrización
-            txtNombreEquipo.Text = InterfaceConfig.nombreEquipo.ToString();
-            //txtIntervalo.Text = InterfaceConfig.intervalo.ToString();
-            txtNombreLog.Text = InterfaceConfig.nombreLog.ToString();
+            ////Parametrización
+            //txtNombreEquipo.Text = InterfaceConfig.nombreEquipo.ToString();
+            ////txtIntervalo.Text = InterfaceConfig.intervalo.ToString();
+            //txtNombreLog.Text = InterfaceConfig.nombreLog.ToString();
 
-            List<String> valores1 = new List<String> { "SI", "NO" };
-            List<String> valores2 = new List<String> { "SI", "NO" };
-            //cbActivarLog.DataSource = valores1;
-            //cbImpQuerys.DataSource = valores2;
-            cbActivarLog.Checked = InterfaceConfig.logActivo == "S" ? true : false;
-            cbImpQuerys.Checked = InterfaceConfig.imprimirQueriesDBLog == "S" ? true : false;
+            //List<String> valores1 = new List<String> { "SI", "NO" };
+            //List<String> valores2 = new List<String> { "SI", "NO" };
+            ////cbActivarLog.DataSource = valores1;
+            ////cbImpQuerys.DataSource = valores2;
+            //cbActivarLog.Checked = InterfaceConfig.logActivo == "S" ? true : false;
+            //cbImpQuerys.Checked = InterfaceConfig.imprimirQueriesDBLog == "S" ? true : false;
 
             //Rutas
             //txtRutaArchivos.Text = InterfaceConfig.rutaArchivos.ToString();
@@ -390,10 +390,7 @@ namespace AnnarComMICROSESV60.Forms
 
         }
 
-        private void panelParametrizacion2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+       
 
         private void txtNombreEquipo_TextChanged(object sender, EventArgs e)
         {
@@ -450,5 +447,6 @@ namespace AnnarComMICROSESV60.Forms
         {
             rjButton1.BackColor = Color.FromArgb(25, 183, 175);
         }
+
     }
 }

@@ -140,6 +140,7 @@
     <Compile Include="Utilities\InterfaceConfig.cs" />
     <Compile Include="Utilities\RegistroLog.cs" />
     <Compile Include="Utilities\VariablesGlobal.cs" />
+    <None Include="Resources\Imagen.png" />
     <EmbeddedResource Include="RJControls\RJTextBoxControl.resx">
       <DependentUpon>RJTextBoxControl.cs</DependentUpon>
     </EmbeddedResource>
